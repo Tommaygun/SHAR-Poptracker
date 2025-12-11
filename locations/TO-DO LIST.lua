@@ -1,2 +1,6 @@
 //"Place location checks in correct spots"
 //"Logic for specific settings"
+//"Wasp logic for vehicles"
+//"Add forward item to tracker"
+//"Forward logic"
+//"Mission logic for randomized vehicles"
