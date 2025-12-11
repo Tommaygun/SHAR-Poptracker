@@ -1,4 +1,5 @@
 ## Installation
 
-Just download the latest build or source and place it in your packs folder (packed or unpacked, up to you).
+Download the latest release and place it in your `poptracker/packs` folder.
 
+My current progress is in `location/TO_DO LIST.lua`.
