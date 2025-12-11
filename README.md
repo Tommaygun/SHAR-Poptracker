@@ -4,11 +4,11 @@ Just download the latest build or source and place it in your packs folder (pack
 
 
 
-//CREDITS
-Map PNGs made by Lymerence/cha0seight, Cropped down by Tommygun
-Jump/Attack/E-brake/RaceFlag/Donut icons by Caesius
-Player icon HD by LiquidWifi
-Vehicle photos by Solar Dragon (Missing vehicle photos by Tommygun)
+//CREDITS  
+Map PNGs made by Lymerence/cha0seight, Cropped down by Tommygun  
+Jump/Attack/E-brake/RaceFlag/Donut icons by Caesius  
+Player icon HD by LiquidWifi  
+Vehicle photos by Solar Dragon (Missing vehicle photos by Tommygun)  
 
 
 
