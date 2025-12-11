@@ -1,0 +1,128 @@
+{
+    "vehicle_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_size": 80,
+                        "rows": [
+                            [
+                                "36stutzbearcat",
+                                "70ssportscar",
+                                "ambulance",
+                                "armoredtruck",
+                                "atv",
+                                "auditt",
+                                "bandit",
+                                "bonestormtruck",
+                                "bookburningvan"
+                            ],
+                            [
+                                "burnsarmoredtruck",
+                                "canyonero",
+                                "carbuiltforhomer",
+                                "cellphonecar",
+                                "chasesedan",
+                                "clowncar",
+                                "coffincar",
+                                "colatruck",
+                                "compactcar"
+                            ],
+                            [
+                                "cubevan",
+                                "curator",
+                                "donuttruck",
+                                "dufftruck",
+                                "elcarroloco",
+                                "electaurus",
+                                "familysedan",
+                                "ferrini-black",
+                                "ferrini-red"
+                            ],
+                            [
+                                "firetruck",
+                                "fishvan",
+                                "garbagetruck",
+                                "ghostship",
+                                "glasstruck",
+                                "globexsupervillaincar",
+                                "hallohearse",
+                                "hearse",
+                                "honorroller"
+                            ],
+                            [
+                                "hoverbike",
+                                "hovercar",
+                                "icecreamtruck",
+                                "itchyandscratchymovietruck",
+                                "knightboat",
+                                "kremlin",
+                                "krustyslimo",
+                                "limo",
+                                "longhorn"
+                            ],
+                            [
+                                "malibustacycar",
+                                "milktruck",
+                                "minischoolbus",
+                                "minivan",
+                                "moessedan",
+                                "monorailcar",
+                                "mr.burnslimo",
+                                "mr.plow",
+                                "nerdcar"
+                            ],
+                            [
+                                "nonupletsminivan",
+                                "nuclearwastetruck",
+                                "obliteratatronbigwheeltruck",
+                                "openwheelracecar",
+                                "pickup",
+                                "pickuptruck",
+                                "pizzavan",
+                                "planethype50scar",
+                                "plowking"
+                            ],
+                            [
+                                "policecar",
+                                "r/cbuggy",
+                                "schoolbus",
+                                "sedana",
+                                "sedanb",
+                                "skinnerssedan",
+                                "speedrocket",
+                                "sportscara",
+                                "sportscarb"
+                            ],
+                            [
+                                "stationwagon",
+                                "surveillancevan",
+                                "suv",
+                                "taxi",
+                                "tractor",
+                                "votequimbytruck",
+                                "witchsbroom",
+                                "wwiivehicle",
+                                "wwiivehiclew/rocket"
+                            ],
+                            [
+                                "zombiecar"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

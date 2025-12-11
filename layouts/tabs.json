@@ -1,0 +1,79 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Homer 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level1"
+                    ]
+                }
+            },
+            {
+                "title": "Bart 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level2"
+                    ]
+                }
+            },
+            {
+                "title": "Lisa",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level3"
+                    ]
+                }
+            },
+            {
+                "title": "Marge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level4"
+                    ]
+                }
+            },
+            {
+                "title": "Apu",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level5"
+                    ]
+                }
+            },
+            {
+                "title": "Bart 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level6"
+                    ]
+                }
+            },
+            {
+                "title": "Homer 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "level7"
+                    ]
+                }
+            },
+            {
+                "title": "Vehicles",
+                "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "vehicle_grid"
+                }
+            }
+        ]
+    }
+}

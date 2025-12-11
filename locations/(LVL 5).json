@@ -1,0 +1,777 @@
+[
+    {
+        "name": "(LVL 5)",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "name": "MISSION",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level5"
+                ],
+                "sections": [
+                    {
+                        "name": "Incriminating Caffeine",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "...and Baby Makes 8",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eight is Too Much",
+                        "access_rules": ["carbuiltforhomer"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "This Little Piggy",
+                        "access_rules": ["apu-american"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Never Trust a Snake",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kwik Cash",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Curious Curator",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonus - Kinky Frinky",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level5",
+                        "x": 100,
+                        "y": 100,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "WASP",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "apuattack","apufrink-o-maticwaspbumper"
+                ],
+                "sections": [
+                    {
+                        "name": "Front of Hospital",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gazebo Between Museum & Court House",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steps of Town Hall",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Museum Steps",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rooftop Next to Moes",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Legitimate Businessmans Rooftop 1",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Legitimate Businessmans Rooftop 2",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trainyard Stairs",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Other Side of Moving Train",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Watertower 1",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Watertower 2",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Police Station Steps",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monorail Stairs",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monorail",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Otherside of Monorail 1",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Otherside of Monorail 2",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Under Giant Purple Beams 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Under Giant Purple Beams 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alleyway Rooftop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fountain Near Stadium",
+                        "access_rules": ["adj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level5",
+                        "x": 100,
+                        "y": 200,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "GAG",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "apugagfinder"
+                ],
+                "sections": [
+                    {
+                        "name": "Pickled Egg in Moes",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Slot Machine in Moes",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Love Tester in Moes",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blind Hans Moleman at the DMV",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dumpster Behind Behind Krusty Burger (Near Police Station)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Light Up Drinks in Moes",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level5",
+                        "x": 100,
+                        "y": 300,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "CARD",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Construction Crane Platforming",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Construction Crane Platforming"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Legitimate Businessmans Social Club",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/The Legitimate Businessmans Social Club"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moes Roof",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Moes Roof"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "On Top of Train Across Water Tower",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/On Top of Train Across Water Tower"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Closed Highway Jump",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Closed Highway Jump"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown Billboard Platforming",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Downtown Billboard Platforming"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monorail Track",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Monorail Track"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Courthouse Light Pole",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Courthouse Light Pole"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Museum Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Behind Museum Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lion Statue",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Lion Statue"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Park Fountain near Hospital",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Park Fountain near Hospital"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hospital Doors",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Hospital Doors"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Near Hospital Parking Lot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Street Near Hospital Parking Lot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Town Hall (Stadium Side)",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Town Hall (Stadium Side)"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stadium Behind Duff Mascot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Stadium Behind Duff Mascot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stadium Ledge Bench",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Stadium Ledge Bench"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tunnel Pillar Near Stadium",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Tunnel Pillar Near Stadium"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tunnel Pillar Near Downtown",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Tunnel Pillar Near Downtown"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stadium Billboard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Stadium Billboard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire Truck Jump",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Fire Truck Jump"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tree By Krusty Burger Downtown",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Tree By Krusty Burger Downtown"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sit N Rotate",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Sit N Rotate"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown Bank",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Downtown Bank"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monorail",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Monorail"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corner of Monorail Station",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Corner of Monorail Station"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Near Downtown Krusty Float",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Street Near Downtown Krusty Float"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ramp Behind Downtown Krusty Burger",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Ramp Behind Downtown Krusty Burger"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deli Near Monorail",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Deli Near Monorail"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Downtown Highway Exit",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Downtown Highway Exit"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Closed Highway",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Closed Highway"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Main Highway",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Main Highway"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "East Side Highway Exit",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/East Side Highway Exit"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Try N Save Parking Lot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Try N Save Parking Lot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Hermans Military Antiques",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Behind Hermans Military Antiques"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Near Helter Shelter",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Street Near Helter Shelter"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DMV Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/DMV Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "DMV Light Pole",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/DMV Light Pole"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside DMV",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Inside DMV"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Between DMV and Trainyard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Street Between DMV and Trainyard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Between Trains",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Between Trains"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Train Crossing",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Train Crossing"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Moving Train",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Behind Moving Train"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Train Stairs",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Train Stairs"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Near Grease Recycling Plant",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Near Grease Recycling Plant"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Outside Trainyard Parking Spot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Outside Trainyard Parking Spot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Near Car Wash",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Above Street Near Car Wash"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "On Top of Gas Station at Car Wash",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/On Top of Gas Station at Car Wash"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside Trainyard Parking Spot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Inside Trainyard Parking Spot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lexicon Bookstore Roof",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Lexicon Bookstore Roof"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "King Toots Music Store Roof",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/King Toots Music Store Roof"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alley Behind King Toots Music Store",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Alley Behind King Toots Music Store"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Legitimate Businessmans Roof 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Legitimate Businessmans Roof 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glens Grocery Roof",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Glens Grocery Roof"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stop Sign Across From Moes",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Stop Sign Across From Moes"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platform Behind Lard Lads",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Platform Behind Lard Lads"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Street Near Construction",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Street Near Construction"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Under Construction Building Between Krusty Burger and Lard Lads",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Under Construction Building Between Krusty Burger and Lard Lads"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krusty Burger Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Krusty Burger Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Near Concrete Mixer",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Near Concrete Mixer"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gazebo Between Museum & Court House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Gazebo Between Museum & Court House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monkey Box",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Monkey Box"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hospital Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Hospital Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magnifying Glass Parking Lot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Magnifying Glass Parking Lot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Police Station",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Police Station"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tree Outside Police Station",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Tree Outside Police Station"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "50% Off Sign Near Monorail",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/50% Off Sign Near Monorail"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wooden Tower",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Wooden Tower"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Town Hall Front",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Town Hall Front"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Coming Soon Construction",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 5)/CARD/Coming Soon Construction"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level5",
+                        "x": 100,
+                        "y": 400,
+                        "size": 20
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Checkpoint Race",
+                "access_rules": ["apucheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Circuit Race",
+                "access_rules": ["apucheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Time Trial Race",
+                "access_rules": ["apucheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 1",
+                "access_rules": ["progressivewalletupgrade:4"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 2",
+                "access_rules": ["progressivewalletupgrade:4"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 3",
+                "access_rules": ["progressivewalletupgrade:4"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 4",
+                "access_rules": ["progressivewalletupgrade:4"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 5",
+                "access_rules": ["progressivewalletupgrade:4"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 6",
+                "access_rules": ["progressivewalletupgrade:4"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Talk to Homer",
+                "access_rules": ["level5"],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "level5",
+                "x": 100,
+                "y": 500,
+                "size": 20
+            }
+        ]
+    }
+]

@@ -1,0 +1,1002 @@
+[
+    {
+        "name": "36 Stutz Bearcat",
+        "type": "toggle",
+        "img": "images/vehicles/36stutzbearcat.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "36stutzbearcat"
+    },
+    {
+        "name": "70s Sports Car",
+        "type": "toggle",
+        "img": "images/vehicles/70ssportscar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "70ssportscar"
+    },
+    {
+        "name": "Ambulance",
+        "type": "toggle",
+        "img": "images/vehicles/ambulance.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ambulance"
+    },
+    {
+        "name": "Armored Truck",
+        "type": "toggle",
+        "img": "images/vehicles/armoredtruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "armoredtruck"
+    },
+    {
+        "name": "Family Sedan",
+        "type": "toggle",
+        "img": "images/vehicles/familysedan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "familysedan"
+    },
+    {
+        "name": "Honor Roller",
+        "type": "toggle",
+        "img": "images/vehicles/honorroller.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "honorroller"
+    },
+    {
+        "name": "Malibu Stacy Car",
+        "type": "toggle",
+        "img": "images/vehicles/malibustacycar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "malibustacycar"
+    },
+    {
+        "name": "Canyonero",
+        "type": "toggle",
+        "img": "images/vehicles/canyonero.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "canyonero"
+    },
+    {
+        "name": "Longhorn",
+        "type": "toggle",
+        "img": "images/vehicles/longhorn.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "longhorn"
+    },
+    {
+        "name": "Ferrini - Red",
+        "type": "toggle",
+        "img": "images/vehicles/ferrini-red.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ferrini-red"
+    },
+    {
+        "name": "Plow King",
+        "type": "toggle",
+        "img": "images/vehicles/plowking.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "plowking"
+    },
+    {
+        "name": "Mr. Plow",
+        "type": "toggle",
+        "img": "images/vehicles/mr.plow.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mr.plow"
+    },
+    {
+        "name": "School Bus",
+        "type": "toggle",
+        "img": "images/vehicles/schoolbus.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "schoolbus"
+    },
+    {
+        "name": "Car Built For Homer",
+        "type": "toggle",
+        "img": "images/vehicles/carbuiltforhomer.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "carbuiltforhomer"
+    },
+    {
+        "name": "Globex Super Villain Car",
+        "type": "toggle",
+        "img": "images/vehicles/globexsupervillaincar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "globexsupervillaincar"
+    },
+    {
+        "name": "Zombie Car",
+        "type": "toggle",
+        "img": "images/vehicles/zombiecar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "zombiecar"
+    },
+    {
+        "name": "Mini School Bus",
+        "type": "toggle",
+        "img": "images/vehicles/minischoolbus.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minischoolbus"
+    },
+    {
+        "name": "Surveillance Van",
+        "type": "toggle",
+        "img": "images/vehicles/surveillancevan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "surveillancevan"
+    },
+    {
+        "name": "Clown Car",
+        "type": "toggle",
+        "img": "images/vehicles/clowncar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "clowncar"
+    },
+    {
+        "name": "Ghost Ship",
+        "type": "toggle",
+        "img": "images/vehicles/ghostship.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ghostship"
+    },
+    {
+        "name": "Cube Van",
+        "type": "toggle",
+        "img": "images/vehicles/cubevan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cubevan"
+    },
+    {
+        "name": "Fire Truck",
+        "type": "toggle",
+        "img": "images/vehicles/firetruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "firetruck"
+    },
+    {
+        "name": "R/C Buggy",
+        "type": "toggle",
+        "img": "images/vehicles/rcbuggy.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "r/cbuggy"
+    },
+    {
+        "name": "Station Wagon",
+        "type": "toggle",
+        "img": "images/vehicles/stationwagon.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stationwagon"
+    },
+    {
+        "name": "Sports Car B",
+        "type": "toggle",
+        "img": "images/vehicles/sportscarb.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sportscarb"
+    },
+    {
+        "name": "Burns Armored Truck",
+        "type": "toggle",
+        "img": "images/vehicles/burnsarmoredtruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "burnsarmoredtruck"
+    },
+    {
+        "name": "El Carro Loco",
+        "type": "toggle",
+        "img": "images/vehicles/elcarroloco.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "elcarroloco"
+    },
+    {
+        "name": "Hover Car",
+        "type": "toggle",
+        "img": "images/vehicles/hovercar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hovercar"
+    },
+    {
+        "name": "Cell Phone Car",
+        "type": "toggle",
+        "img": "images/vehicles/cellphonecar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cellphonecar"
+    },
+    {
+        "name": "WWII Vehicle W/ Rocket",
+        "type": "toggle",
+        "img": "images/vehicles/wwiivehiclerocket.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wwiivehiclew/rocket"
+    },
+    {
+        "name": "ATV",
+        "type": "toggle",
+        "img": "images/vehicles/atv.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "atv"
+    },
+    {
+        "name": "Itchy and Scratchy Movie Truck",
+        "type": "toggle",
+        "img": "images/vehicles/itchyandscratchymovietruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "itchyandscratchymovietruck"
+    },
+    {
+        "name": "Audi TT",
+        "type": "toggle",
+        "img": "images/vehicles/auditt.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "auditt"
+    },
+    {
+        "name": "WWII Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/wwiivehicle.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wwiivehicle"
+    },
+    {
+        "name": "Minivan",
+        "type": "toggle",
+        "img": "images/vehicles/minivan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minivan"
+    },
+    {
+        "name": "Pickup",
+        "type": "toggle",
+        "img": "images/vehicles/pickup.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pickup"
+    },
+    {
+        "name": "Pizza Van",
+        "type": "toggle",
+        "img": "images/vehicles/pizzavan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pizzavan"
+    },
+    {
+        "name": "Hover Bike",
+        "type": "toggle",
+        "img": "images/vehicles/hoverbike.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hoverbike"
+    },
+    {
+        "name": "Milk Truck",
+        "type": "toggle",
+        "img": "images/vehicles/milktruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "milktruck"
+    },
+    {
+        "name": "Skinners Sedan",
+        "type": "toggle",
+        "img": "images/vehicles/skinnerssedan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "skinnerssedan"
+    },
+    {
+        "name": "Sports Car A",
+        "type": "toggle",
+        "img": "images/vehicles/sportscara.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sportscara"
+    },
+    {
+        "name": "Witchs Broom",
+        "type": "toggle",
+        "img": "images/vehicles/witchsbroom.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "witchsbroom"
+    },
+    {
+        "name": "Duff Truck",
+        "type": "toggle",
+        "img": "images/vehicles/dufftruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dufftruck"
+    },
+    {
+        "name": "Moes Sedan",
+        "type": "toggle",
+        "img": "images/vehicles/moessedan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "moessedan"
+    },
+    {
+        "name": "Kremlin",
+        "type": "toggle",
+        "img": "images/vehicles/kremlin.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kremlin"
+    },
+    {
+        "name": "Glass Truck",
+        "type": "toggle",
+        "img": "images/vehicles/glasstruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "glasstruck"
+    },
+    {
+        "name": "Book Burning Van",
+        "type": "toggle",
+        "img": "images/vehicles/bookburningvan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bookburningvan"
+    },
+    {
+        "name": "Sedan A",
+        "type": "toggle",
+        "img": "images/vehicles/sedana.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sedana"
+    },
+    {
+        "name": "Planet Hype 50s Car",
+        "type": "toggle",
+        "img": "images/vehicles/planethype50scar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "planethype50scar"
+    },
+    {
+        "name": "Knight Boat",
+        "type": "toggle",
+        "img": "images/vehicles/knightboat.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "knightboat"
+    },
+    {
+        "name": "Bandit",
+        "type": "toggle",
+        "img": "images/vehicles/bandit.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bandit"
+    },
+    {
+        "name": "SUV",
+        "type": "toggle",
+        "img": "images/vehicles/suv.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "suv"
+    },
+    {
+        "name": "Ice Cream Truck",
+        "type": "toggle",
+        "img": "images/vehicles/icecreamtruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "icecreamtruck"
+    },
+    {
+        "name": "Police Car",
+        "type": "toggle",
+        "img": "images/vehicles/policecar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "policecar"
+    },
+    {
+        "name": "Cola Truck",
+        "type": "toggle",
+        "img": "images/vehicles/colatruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "colatruck"
+    },
+    {
+        "name": "Chase Sedan",
+        "type": "toggle",
+        "img": "images/vehicles/chasesedan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chasesedan"
+    },
+    {
+        "name": "Obliteratatron Big Wheel Truck",
+        "type": "toggle",
+        "img": "images/vehicles/obliteratatronbigwheeltruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "obliteratatronbigwheeltruck"
+    },
+    {
+        "name": "Nonuplets Minivan",
+        "type": "toggle",
+        "img": "images/vehicles/nonupletsminivan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nonupletsminivan"
+    },
+    {
+        "name": "Hallo Hearse",
+        "type": "toggle",
+        "img": "images/vehicles/hallohearse.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hallohearse"
+    },
+    {
+        "name": "Donut Truck",
+        "type": "toggle",
+        "img": "images/vehicles/donuttruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "donuttruck"
+    },
+    {
+        "name": "Ferrini - Black",
+        "type": "toggle",
+        "img": "images/vehicles/ferrini-black.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ferrini-black"
+    },
+    {
+        "name": "Limo",
+        "type": "toggle",
+        "img": "images/vehicles/limo.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "limo"
+    },
+    {
+        "name": "Pickup Truck",
+        "type": "toggle",
+        "img": "images/vehicles/pickuptruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pickuptruck"
+    },
+    {
+        "name": "Open Wheel Race Car",
+        "type": "toggle",
+        "img": "images/vehicles/openwheelracecar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "openwheelracecar"
+    },
+    {
+        "name": "Coffin Car",
+        "type": "toggle",
+        "img": "images/vehicles/coffincar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coffincar"
+    },
+    {
+        "name": "Speed Rocket",
+        "type": "toggle",
+        "img": "images/vehicles/speedrocket.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "speedrocket"
+    },
+    {
+        "name": "Curator",
+        "type": "toggle",
+        "img": "images/vehicles/curator.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "curator"
+    },
+    {
+        "name": "Hearse",
+        "type": "toggle",
+        "img": "images/vehicles/hearse.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hearse"
+    },
+    {
+        "name": "Mr. Burns Limo",
+        "type": "toggle",
+        "img": "images/vehicles/mr.burnslimo.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mr.burnslimo"
+    },
+    {
+        "name": "Electaurus",
+        "type": "toggle",
+        "img": "images/vehicles/electaurus.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "electaurus"
+    },
+    {
+        "name": "Nerd Car",
+        "type": "toggle",
+        "img": "images/vehicles/nerdcar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nerdcar"
+    },
+    {
+        "name": "Compact Car",
+        "type": "toggle",
+        "img": "images/vehicles/compactcar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "compactcar"
+    },
+    {
+        "name": "Tractor",
+        "type": "toggle",
+        "img": "images/vehicles/tractor.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tractor"
+    },
+    {
+        "name": "Bonestorm Truck",
+        "type": "toggle",
+        "img": "images/vehicles/bonestormtruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bonestormtruck"
+    },
+    {
+        "name": "Vote Quimby Truck",
+        "type": "toggle",
+        "img": "images/vehicles/votequimbytruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "votequimbytruck"
+    },
+    {
+        "name": "Krustys Limo",
+        "type": "toggle",
+        "img": "images/vehicles/krustyslimo.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "krustyslimo"
+    },
+    {
+        "name": "Monorail Car",
+        "type": "toggle",
+        "img": "images/vehicles/monorailcar.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "monorailcar"
+    },
+    {
+        "name": "Taxi",
+        "type": "toggle",
+        "img": "images/vehicles/taxi.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "taxi"
+    },
+    {
+        "name": "Sedan B",
+        "type": "toggle",
+        "img": "images/vehicles/sedanb.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sedanb"
+    },
+    {
+        "name": "Fish Van",
+        "type": "toggle",
+        "img": "images/vehicles/fishvan.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fishvan"
+    },
+    {
+        "name": "Garbage Truck",
+        "type": "toggle",
+        "img": "images/vehicles/garbagetruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "garbagetruck"
+    },
+    {
+        "name": "Nuclear Waste Truck",
+        "type": "toggle",
+        "img": "images/vehicles/nuclearwastetruck.png",
+        "img_mods": "",
+        "disabled_img": "images/destroyed.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nuclearwastetruck"
+    },
+    {
+        "name": "Bart - Bartman",
+        "type": "toggle",
+        "img": "images/clothes/bart-bartman.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bart-bartman"
+    },
+    {
+        "name": "Bart - Tall",
+        "type": "toggle",
+        "img": "images/clothes/bart-tall.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bart-tall"
+    },
+    {
+        "name": "Marge - Classy",
+        "type": "toggle",
+        "img": "images/clothes/marge-classy.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marge-classy"
+    },
+    {
+        "name": "Apu - B-sharps",
+        "type": "toggle",
+        "img": "images/clothes/apu-b-sharps.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apu-b-sharps"
+    },
+    {
+        "name": "Homer - Donut",
+        "type": "toggle",
+        "img": "images/clothes/homer-donut.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homer-donut"
+    },
+    {
+        "name": "Homer - Chosen One",
+        "type": "toggle",
+        "img": "images/clothes/homer-chosenone.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homer-chosenone"
+    },
+    {
+        "name": "Homer - Dirty",
+        "type": "toggle",
+        "img": "images/clothes/homer-dirty.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homer-dirty"
+    },
+    {
+        "name": "Bart - Ninja",
+        "type": "toggle",
+        "img": "images/clothes/bart-ninja.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bart-ninja"
+    },
+    {
+        "name": "Bart - Hugo",
+        "type": "toggle",
+        "img": "images/clothes/bart-hugo.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bart-hugo"
+    },
+    {
+        "name": "Homer - Muumuu",
+        "type": "toggle",
+        "img": "images/clothes/homer-muumuu.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homer-muumuu"
+    },
+    {
+        "name": "Bart - Cadet",
+        "type": "toggle",
+        "img": "images/clothes/bart-cadet.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bart-cadet"
+    },
+    {
+        "name": "Homer - Casual",
+        "type": "toggle",
+        "img": "images/clothes/homer-casual.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homer-casual"
+    },
+    {
+        "name": "Bart - Football",
+        "type": "toggle",
+        "img": "images/clothes/bart-football.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bart-football"
+    },
+    {
+        "name": "Lisa - Hockey",
+        "type": "toggle",
+        "img": "images/clothes/lisa-hockey.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisa-hockey"
+    },
+    {
+        "name": "Apu - Army",
+        "type": "toggle",
+        "img": "images/clothes/apu-army.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apu-army"
+    },
+    {
+        "name": "Homer - Evil",
+        "type": "toggle",
+        "img": "images/clothes/homer-evil.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homer-evil"
+    },
+    {
+        "name": "Lisa - Floreda",
+        "type": "toggle",
+        "img": "images/clothes/lisa-floreda.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisa-floreda"
+    },
+    {
+        "name": "Update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

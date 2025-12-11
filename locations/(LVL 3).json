@@ -1,0 +1,795 @@
+[
+    {
+        "name": "(LVL 3)",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "name": "MISSION",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level3"
+                ],
+                "sections": [
+                    {
+                        "name": "Nerd Race Queen",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Clueless",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonfire of the Manatees",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Operation Hellfish",
+                        "access_rules": ["schoolbus"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Slithery Sleuthing",
+                        "access_rules": ["lisa-cool"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fishy Deals",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Old Pirate of the Sea",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonus - Princi-Pal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level3",
+                        "x": 100,
+                        "y": 100,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "WASP",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lisaattack","lisafrink-o-maticwaspbumper"
+                ],
+                "sections": [
+                    {
+                        "name": "Observatory",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Broken Railing Below Dam",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Broken Railing Above Dam (Exit)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kamp Krusty Near Stage",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kamp Krusty Well",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Exit of Kamp Krustys Well",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motel Complex",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Duff Brewery Behind Krusty Glass",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Duff Blimp 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Duff Blimp 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krusty Studio Left",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krusty Studio Right",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Globex Ship Front End",
+                        "access_rules": ["ldj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Globex Ship Next to the Crane",
+                        "access_rules": ["ldj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Globex Ship Stairs",
+                        "access_rules": ["ldj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "LightHouse",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Planet Hype",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beach",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bowling Rooftop",
+                        "access_rules": ["ldj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Comic Book Guy Rooftop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level3",
+                        "x": 100,
+                        "y": 200,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "GAG",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "lisagagfinder"
+                ],
+                "sections": [
+                    {
+                        "name": "Comic Book Guy Robot",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Comic Book Guy Radioactive Man",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yellow Dumpster Across Krusty Burger",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kid Drowning in Ball Pit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crane on Ship",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Observatory Alarm",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Perpetual Motion Machine at Observatory",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monkey at Observatory",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Telescope at Observatory",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kamp Krusty Flag",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boars Head at Kamp Krusty",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level3",
+                        "x": 100,
+                        "y": 300,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "CARD",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Comic Book Guys Rooftop",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Comic Book Guys Rooftop"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Bowling",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Above Bowling"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Atop Lighthouse",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Atop Lighthouse"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Edge of Globex Ship",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Edge of Globex Ship"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balcony of Krusty Studio",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Balcony of Krusty Studio"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platforming Below Dam Railing",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Platforming Below Dam Railing"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beside Broken Bridge",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Beside Broken Bridge"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Lighthouse",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Behind Lighthouse"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pelican Behind Planet Hype 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Pelican Behind Planet Hype 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pelican Behind Planet Hype 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Pelican Behind Planet Hype 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Planet Hype Outdoor Seating",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Planet Hype Outdoor Seating"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pelican in Front of Planet Hype 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Pelican in Front of Planet Hype 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pelican in Front of Planet Hype 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Pelican in Front of Planet Hype 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pelican Near Squidport Arch",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Pelican Near Squidport Arch"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Little Boats on Beach",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Little Boats on Beach"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Boat on Beach",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Big Boat on Beach"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deck by Squidport Pedestrian Entrance 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Deck by Squidport Pedestrian Entrance 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deck by Squidport Pedestrian Entrance 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Deck by Squidport Pedestrian Entrance 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Casino Bushes Near Squidport",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Casino Bushes Near Squidport"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lower Casino Entrance",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Lower Casino Entrance"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk Near Casino Ramp 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Sidewalk Near Casino Ramp 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Casino Ramp",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Behind Casino Ramp"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidewalk Near Casino Ramp 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Sidewalk Near Casino Ramp 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Houses Near Bowl-a-Rama",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Houses Near Bowl-a-Rama"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jazz Hole",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Jazz Hole"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krusty Burger Parking Lot",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Krusty Burger Parking Lot"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gated Houses Near Aztec Theater",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Gated Houses Near Aztec Theater"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boulevard Near Krusty and Friends Billboard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Boulevard Near Krusty and Friends Billboard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stairs Near Krusty and Friends Billboard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Stairs Near Krusty and Friends Billboard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Short Wall Down the Street from Gas Station",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Short Wall Down the Street from Gas Station"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Concrete Mixer at Gas Station",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Concrete Mixer at Gas Station"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Building Across From Principal Skinner",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Green Building Across From Principal Skinner"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lumber King Billboard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Lumber King Billboard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Park Across From Androids Dungeon",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Park Across From Androids Dungeon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Krusty Burger Across From Androids Dungeon",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Behind Krusty Burger Across From Androids Dungeon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wall E Weasels Roof",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Wall E Weasels Roof"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spaghetti Laboratory",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Spaghetti Laboratory"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Malaria Zone",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Malaria Zone"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barrels Near Gil",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Barrels Near Gil"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Box Near Gil",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Box Near Gil"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Squidport Undercover Police Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Squidport Undercover Police Dumpster"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Davey Jones Hamper",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Davey Jones Hamper"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rail Near Globex Ship",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Rail Near Globex Ship"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hidden Behind Globex Ship Cargo Containers 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Hidden Behind Globex Ship Cargo Containers 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Globex Ship Crane",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Globex Ship Crane"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hidden Behind Globex Ship Cargo Containers 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Hidden Behind Globex Ship Cargo Containers 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Globex Ship Inside Cargo Container",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Globex Ship Inside Cargo Container"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Globex Ship Upstairs Rail",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Globex Ship Upstairs Rail"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taffy Shop",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Taffy Shop"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Across From Taffy Shop",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Across From Taffy Shop"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "KrustyLu Studios Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/KrustyLu Studios Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind KrustyLu Studios Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Behind KrustyLu Studios Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "News Studio",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/News Studio"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bridge Near Giant SPRINGFIELD Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Bridge Near Giant SPRINGFIELD Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motel Balcony",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Motel Balcony"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motel Awning",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Motel Awning"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Observatory 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Observatory 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Observatory 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Observatory 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kamp Krusty Weight Loss Center",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Kamp Krusty Weight Loss Center"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boars Head at Kamp Krusty",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Boars Head at Kamp Krusty"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dam",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Dam"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Parking Spot Across From Androids Dungeon",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Parking Spot Across From Androids Dungeon"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Road Near Drain Pipe",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Above Road Near Drain Pipe"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Truck",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Behind Truck"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Duff Brewery Landing Pad",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Duff Brewery Landing Pad"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Captain Chum N Stuff",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Captain Chum N Stuff"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Upper Casino Entrance",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 3)/CARD/Upper Casino Entrance"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level3",
+                        "x": 100,
+                        "y": 400,
+                        "size": 20
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Time Trial Race",
+                "access_rules": ["lisacheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Circuit Race",
+                "access_rules": ["lisacheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Checkpoint Race",
+                "access_rules": ["lisacheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 1",
+                "access_rules": ["progressivewalletupgrade:2"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 2",
+                "access_rules": ["progressivewalletupgrade:2"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 3",
+                "access_rules": ["progressivewalletupgrade:2"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 4",
+                "access_rules": ["progressivewalletupgrade:2"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 5",
+                "access_rules": ["progressivewalletupgrade:2"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 6",
+                "access_rules": ["progressivewalletupgrade:2"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Talk to Otto",
+                "access_rules": ["level3"],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "level3",
+                "x": 100,
+                "y": 500,
+                "size": 20
+            }
+        ]
+    }
+]

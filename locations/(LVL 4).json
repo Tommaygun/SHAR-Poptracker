@@ -1,0 +1,795 @@
+[
+    {
+        "name": "(LVL 4)",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "name": "MISSION",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level4"
+                ],
+                "sections": [
+                    {
+                        "name": "For a Few Donuts More",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Redneck Roundup",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ketchup Logic",
+                        "access_rules": ["marge-inmate"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Return of the Nearly-Dead",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wolves Stole My Pills",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Cola Wars",
+                        "access_rules": ["marge-police,mdj"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "From Outer Space",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonus - Beached Love",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level4",
+                        "x": 100,
+                        "y": 100,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "WASP",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "margeattack","margefrink-o-maticwaspbumper"
+                ],
+                "sections": [
+                    {
+                        "name": "Blue House Before Krusty Glass 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue House Before Krusty Glass 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flanders Backyard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wiggums Backyard 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wiggums Backyard 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kwik-E-Mart Rooftop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gas Station Rooftop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Atop Gasoline Pump",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mr. Burns Giant ChessBoard 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mr. Burns Giant ChessBoard 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mr. Burns StairCase",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mr. Burns Library",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Outside of Homers Workstation",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Atop Trailer Park",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "In Trailer Park",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Barn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind School Steps",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "School Rooftop 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "School Rooftop 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Atop Tower Before Broken Bridge",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level4",
+                        "x": 100,
+                        "y": 200,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "GAG",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "margegagfinder"
+                ],
+                "sections": [
+                    {
+                        "name": "Simpson TV",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Simpsons Swings",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Simpsons Grill",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Simpsons Fire Breathing Tiki",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krusty Lamp (Barts Room)",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flanders Bomb Shelter",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tank Outside Power Plant",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Homers Workstation Meltdown",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "School Fire Extinguisher ",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "School Fire Alarm",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frozen man in Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silent Alarm in Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "ATM in Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Arcade Cabinet in Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Squishee Machine in Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level4",
+                        "x": 100,
+                        "y": 300,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "CARD",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Gas Station Roof 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Gas Station Roof 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Burns Mansion Secret",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Burns Mansion Secret"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Bridge",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Big Bridge"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Atop Tower Before Broken Bridge",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Atop Tower Before Broken Bridge"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Roof of House Across From Gold Mansion",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Roof of House Across From Gold Mansion"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Simpsons Tree House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Simpsons Tree House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "End of Trailer Park",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/End of Trailer Park"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Neighbors Carport",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Neighbors Carport"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Behind Flanders Tree",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Behind Flanders Tree"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jump Past Neighbors Playground",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Jump Past Neighbors Playground"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Kwik-E-Mart"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kwik-E-Marts Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Kwik-E-Marts Dumpster"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Krusty Burger Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Krusty Burger Dumpster"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gas Station Roof 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Gas Station Roof 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Between Simpsons House and Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Street Between Simpsons House and Kwik-E-Mart"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Evergreen Terrace Horseshoe Road",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Evergreen Terrace Horseshoe Road"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Top of Krusty Burger Near Kwik-E-Mart",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Top of Krusty Burger Near Kwik-E-Mart"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Retirement Castle",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Retirement Castle"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Casa Nova",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Casa Nova"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shortcut Between Church and Lard Lad",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Shortcut Between Church and Lard Lad"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Church Sign",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Church Sign"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Church Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Church Dumpster"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dumpster Behind Krusty Burger Near School",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Dumpster Behind Krusty Burger Near School"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deli Near School",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Deli Near School"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back of School Roof",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Back of School Roof"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Willies Shack",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Willies Shack"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grocery Store Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Grocery Store Dumpster"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lard Lad Doorbell",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Lard Lad Doorbell"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House Across From Simpsons House 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/House Across From Simpsons House 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House Across From Simpsons House 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/House Across From Simpsons House 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Wiggums",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Wiggums"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House on Corner Near Graveyard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/House on Corner Near Graveyard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House Next to Krusty Burger Near Graveyard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/House Next to Krusty Burger Near Graveyard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cletus House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Cletus House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Bridge 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Big Bridge 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flanders House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Flanders House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moes House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Moes House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nelsons House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Nelsons House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tire Fire",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Tire Fire"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Plant",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Power Plant"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Across From Gil",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Across From Gil"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Back of Cletus Shack",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Back of Cletus Shack"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tree on Corner Near Graveyard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Tree on Corner Near Graveyard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Trailer Park",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Trailer Park"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Near Barn",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Street Near Barn"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corner of Tomacco Field",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Corner of Tomacco Field"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beside School",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Beside School"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Plant Parking Lot 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Power Plant Parking Lot 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Plant Parking Lot 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Power Plant Parking Lot 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Street Near Simpsons House",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Street Near Simpsons House"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Plant Platforming 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Power Plant Platforming 1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Power Plant Platforming 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Power Plant Platforming 2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Homers Workstation",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Homers Workstation"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Above Nuclear Waste Bridge",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Above Nuclear Waste Bridge"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Outside Stonecutter Tunnel",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Outside Stonecutter Tunnel"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rich Side Gas Stations Dumpster",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Rich Side Gas Stations Dumpster"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Roof Across of House Across From Gold Mansion",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Roof Across of House Across From Gold Mansion"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Outside Burns Mansion Gate",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Outside Burns Mansion Gate"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Broken Bridge",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Broken Bridge"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rocket Car",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Rocket Car"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Burns Mansion Backyard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Burns Mansion Backyard"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Burns Mansion",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Burns Mansion"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chessboard",
+                        "access_rules": [],
+                        "visibility_rules": ["$locationEnabled|@(LVL 4)/CARD/Chessboard"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "level4",
+                        "x": 100,
+                        "y": 400,
+                        "size": 20
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Checkpoint Race",
+                "access_rules": ["margecheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Circuit Race",
+                "access_rules": ["margecheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Time Trial Race",
+                "access_rules": ["margecheckeredflag"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 1",
+                "access_rules": ["progressivewalletupgrade:3"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 2",
+                "access_rules": ["progressivewalletupgrade:3"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 3",
+                "access_rules": ["progressivewalletupgrade:3"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 4",
+                "access_rules": ["progressivewalletupgrade:3"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 5",
+                "access_rules": ["progressivewalletupgrade:3"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shop Check 6",
+                "access_rules": ["progressivewalletupgrade:3"],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Talk to Willie",
+                "access_rules": ["level4"],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "level4",
+                "x": 100,
+                "y": 500,
+                "size": 20
+            }
+        ]
+    }
+]

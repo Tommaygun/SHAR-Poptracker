@@ -1,0 +1,3393 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "(LVL 1)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - SMRT",
+                        "ref": "(LVL 1)/MISSION/SMRT"
+                    },
+                    {
+                        "name": "MISSION - Petty Theft Homer",
+                        "ref": "(LVL 1)/MISSION/Petty Theft Homer"
+                    },
+                    {
+                        "name": "MISSION - Office Spaced",
+                        "ref": "(LVL 1)/MISSION/Office Spaced"
+                    },
+                    {
+                        "name": "MISSION - Blind Big Brother",
+                        "ref": "(LVL 1)/MISSION/Blind Big Brother"
+                    },
+                    {
+                        "name": "MISSION - Flowers By Irene",
+                        "ref": "(LVL 1)/MISSION/Flowers By Irene"
+                    },
+                    {
+                        "name": "MISSION - BoneStorm Storm",
+                        "ref": "(LVL 1)/MISSION/BoneStorm Storm"
+                    },
+                    {
+                        "name": "MISSION - The Fat and the Furious",
+                        "ref": "(LVL 1)/MISSION/The Fat and the Furious"
+                    },
+                    {
+                        "name": "BMISSION - This Old Shanty",
+                        "ref": "(LVL 1)/BMISSION/This Old Shanty"
+                    },
+                    {
+                        "name": "WASP - Small Park Next to Simpsons House",
+                        "ref": "(LVL 1)/WASP/Small Park Next to Simpsons House"
+                    },
+                    {
+                        "name": "WASP - Next to the Blue House Besides Simpsons House",
+                        "ref": "(LVL 1)/WASP/Next to the Blue House Besides Simpsons House"
+                    },
+                    {
+                        "name": "WASP - Flanders Backyard",
+                        "ref": "(LVL 1)/WASP/Flanders Backyard"
+                    },
+                    {
+                        "name": "WASP - Wiggums Backyard",
+                        "ref": "(LVL 1)/WASP/Wiggums Backyard"
+                    },
+                    {
+                        "name": "WASP - Kwik-E-Mart Roof",
+                        "ref": "(LVL 1)/WASP/Kwik-E-Mart Roof"
+                    },
+                    {
+                        "name": "WASP - Gas Pump Roof",
+                        "ref": "(LVL 1)/WASP/Gas Pump Roof"
+                    },
+                    {
+                        "name": "WASP - Lard Lads Roof",
+                        "ref": "(LVL 1)/WASP/Lard Lads Roof"
+                    },
+                    {
+                        "name": "WASP - School Yard Bus",
+                        "ref": "(LVL 1)/WASP/School Yard Bus"
+                    },
+                    {
+                        "name": "WASP - Back Door of School",
+                        "ref": "(LVL 1)/WASP/Back Door of School"
+                    },
+                    {
+                        "name": "WASP - School Roof 1",
+                        "ref": "(LVL 1)/WASP/School Roof 1"
+                    },
+                    {
+                        "name": "WASP - School Roof 2",
+                        "ref": "(LVL 1)/WASP/School Roof 2"
+                    },
+                    {
+                        "name": "WASP - Top of Tower Before Broken Bridge",
+                        "ref": "(LVL 1)/WASP/Top of Tower Before Broken Bridge"
+                    },
+                    {
+                        "name": "WASP - Rocket Car",
+                        "ref": "(LVL 1)/WASP/Rocket Car"
+                    },
+                    {
+                        "name": "WASP - StoneCutters Table 1",
+                        "ref": "(LVL 1)/WASP/StoneCutters Table 1"
+                    },
+                    {
+                        "name": "WASP - StoneCutters Table 2",
+                        "ref": "(LVL 1)/WASP/StoneCutters Table 2"
+                    },
+                    {
+                        "name": "WASP - Barn Haystack",
+                        "ref": "(LVL 1)/WASP/Barn Haystack"
+                    },
+                    {
+                        "name": "WASP - Trailer Park 1",
+                        "ref": "(LVL 1)/WASP/Trailer Park 1"
+                    },
+                    {
+                        "name": "WASP - Trailer Park 2",
+                        "ref": "(LVL 1)/WASP/Trailer Park 2"
+                    },
+                    {
+                        "name": "WASP - Atop of Bridge Framework 1",
+                        "ref": "(LVL 1)/WASP/Atop of Bridge Framework 1"
+                    },
+                    {
+                        "name": "WASP - Atop of Bridge Framework 2",
+                        "ref": "(LVL 1)/WASP/Atop of Bridge Framework 2"
+                    },
+                    {
+                        "name": "GAG - Simpsons TV",
+                        "ref": "(LVL 1)/GAG/Simpsons TV"
+                    },
+                    {
+                        "name": "GAG - Swings Besides Blue House",
+                        "ref": "(LVL 1)/GAG/Swings Besides Blue House"
+                    },
+                    {
+                        "name": "GAG - Simpsons Grill",
+                        "ref": "(LVL 1)/GAG/Simpsons Grill"
+                    },
+                    {
+                        "name": "GAG - Simpsons Swing",
+                        "ref": "(LVL 1)/GAG/Simpsons Swing"
+                    },
+                    {
+                        "name": "GAG - Simpsons FireBreathing Tiki",
+                        "ref": "(LVL 1)/GAG/Simpsons FireBreathing Tiki"
+                    },
+                    {
+                        "name": "GAG - Flanders Bomb Shelter",
+                        "ref": "(LVL 1)/GAG/Flanders Bomb Shelter"
+                    },
+                    {
+                        "name": "GAG - Tank in Front of Power Plant",
+                        "ref": "(LVL 1)/GAG/Tank in Front of Power Plant"
+                    },
+                    {
+                        "name": "GAG - Homers Workstation Meltdown",
+                        "ref": "(LVL 1)/GAG/Homers Workstation Meltdown"
+                    },
+                    {
+                        "name": "GAG - School Fire Extinguisher",
+                        "ref": "(LVL 1)/GAG/School Fire Extinguisher"
+                    },
+                    {
+                        "name": "GAG - School Fire Alarm",
+                        "ref": "(LVL 1)/GAG/School Fire Alarm"
+                    },
+                    {
+                        "name": "GAG - Man in Freezer at Kwik-E-Mart",
+                        "ref": "(LVL 1)/GAG/Man in Freezer at Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Silent Alarm in Kwik-E-Mart",
+                        "ref": "(LVL 1)/GAG/Silent Alarm in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Arcade Cabinet in Kwik-E-Mart",
+                        "ref": "(LVL 1)/GAG/Arcade Cabinet in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Squishee Machine in Kwik-E-Mart",
+                        "ref": "(LVL 1)/GAG/Squishee Machine in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - ATM in Kwik-E-Mart",
+                        "ref": "(LVL 1)/GAG/ATM in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Simpsons Backyard",
+                        "ref": "(LVL 1)/CARD/Simpsons Backyard"
+                    },
+                    {
+                        "name": "CARD - Kwik-E-Mart Roof",
+                        "ref": "(LVL 1)/CARD/Kwik-E-Mart Roof"
+                    },
+                    {
+                        "name": "CARD - Wiggums Backyard",
+                        "ref": "(LVL 1)/CARD/Wiggums Backyard"
+                    },
+                    {
+                        "name": "CARD - Corner Outside Near StoneCutter Entrance",
+                        "ref": "(LVL 1)/CARD/Corner Outside Near StoneCutter Entrance"
+                    },
+                    {
+                        "name": "CARD - Above StoneCutters Table",
+                        "ref": "(LVL 1)/CARD/Above StoneCutters Table"
+                    },
+                    {
+                        "name": "CARD - Highest Platform in Power Plant",
+                        "ref": "(LVL 1)/CARD/Highest Platform in Power Plant"
+                    },
+                    {
+                        "name": "CARD - Trailer Park",
+                        "ref": "(LVL 1)/CARD/Trailer Park"
+                    },
+                    {
+                        "name": "CARD - Neighbors Carport",
+                        "ref": "(LVL 1)/CARD/Neighbors Carport"
+                    },
+                    {
+                        "name": "CARD - Behind Flanders Tree",
+                        "ref": "(LVL 1)/CARD/Behind Flanders Tree"
+                    },
+                    {
+                        "name": "CARD - Jump Past Neighbors Playground",
+                        "ref": "(LVL 1)/CARD/Jump Past Neighbors Playground"
+                    },
+                    {
+                        "name": "CARD - Above Kwik-E-Mart",
+                        "ref": "(LVL 1)/CARD/Above Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Kwik-E-Marts Dumpster",
+                        "ref": "(LVL 1)/CARD/Kwik-E-Marts Dumpster"
+                    },
+                    {
+                        "name": "CARD - Krusty Burgers Dumpster",
+                        "ref": "(LVL 1)/CARD/Krusty Burgers Dumpster"
+                    },
+                    {
+                        "name": "CARD - Gas Station Roof",
+                        "ref": "(LVL 1)/CARD/Gas Station Roof"
+                    },
+                    {
+                        "name": "CARD - Above Street Between Simpsons House and Kwik-E-Mart",
+                        "ref": "(LVL 1)/CARD/Above Street Between Simpsons House and Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - House Between Simpsons House and Kwik-E-Mart",
+                        "ref": "(LVL 1)/CARD/House Between Simpsons House and Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Top of Krusty Burger Near Kwik-E-Mart",
+                        "ref": "(LVL 1)/CARD/Top of Krusty Burger Near Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Retirement Castle",
+                        "ref": "(LVL 1)/CARD/Retirement Castle"
+                    },
+                    {
+                        "name": "CARD - Casa Nova",
+                        "ref": "(LVL 1)/CARD/Casa Nova"
+                    },
+                    {
+                        "name": "CARD - Shortcut Between Church and Lard Lad",
+                        "ref": "(LVL 1)/CARD/Shortcut Between Church and Lard Lad"
+                    },
+                    {
+                        "name": "CARD - Church Sign",
+                        "ref": "(LVL 1)/CARD/Church Sign"
+                    },
+                    {
+                        "name": "CARD - Church Dumpster",
+                        "ref": "(LVL 1)/CARD/Church Dumpster"
+                    },
+                    {
+                        "name": "CARD - Dumpster Behind Krusty Burger Near School",
+                        "ref": "(LVL 1)/CARD/Dumpster Behind Krusty Burger Near School"
+                    },
+                    {
+                        "name": "CARD - Deli Near School",
+                        "ref": "(LVL 1)/CARD/Deli Near School"
+                    },
+                    {
+                        "name": "CARD - Back of School Roof",
+                        "ref": "(LVL 1)/CARD/Back of School Roof"
+                    },
+                    {
+                        "name": "CARD - Willies Shack",
+                        "ref": "(LVL 1)/CARD/Willies Shack"
+                    },
+                    {
+                        "name": "CARD - Grocery Stores Dumpster",
+                        "ref": "(LVL 1)/CARD/Grocery Stores Dumpster"
+                    },
+                    {
+                        "name": "CARD - Lard Lad Doorbell",
+                        "ref": "(LVL 1)/CARD/Lard Lad Doorbell"
+                    },
+                    {
+                        "name": "CARD - House Across From Simpsons House 1",
+                        "ref": "(LVL 1)/CARD/House Across From Simpsons House 1"
+                    },
+                    {
+                        "name": "CARD - House Across From Simpsons House 2",
+                        "ref": "(LVL 1)/CARD/House Across From Simpsons House 2"
+                    },
+                    {
+                        "name": "CARD - Above Wiggums",
+                        "ref": "(LVL 1)/CARD/Above Wiggums"
+                    },
+                    {
+                        "name": "CARD - House on Corner Near Graveyard",
+                        "ref": "(LVL 1)/CARD/House on Corner Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - House Next to Krusty Burger Near Graveyard",
+                        "ref": "(LVL 1)/CARD/House Next to Krusty Burger Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - Cletus House",
+                        "ref": "(LVL 1)/CARD/Cletus House"
+                    },
+                    {
+                        "name": "CARD - Big Bridge",
+                        "ref": "(LVL 1)/CARD/Big Bridge"
+                    },
+                    {
+                        "name": "CARD - Flanders House",
+                        "ref": "(LVL 1)/CARD/Flanders House"
+                    },
+                    {
+                        "name": "CARD - Moes House",
+                        "ref": "(LVL 1)/CARD/Moes House"
+                    },
+                    {
+                        "name": "CARD - Nelsons House",
+                        "ref": "(LVL 1)/CARD/Nelsons House"
+                    },
+                    {
+                        "name": "CARD - Tire Fire",
+                        "ref": "(LVL 1)/CARD/Tire Fire"
+                    },
+                    {
+                        "name": "CARD - Power Plant",
+                        "ref": "(LVL 1)/CARD/Power Plant"
+                    },
+                    {
+                        "name": "CARD - Across From Gil",
+                        "ref": "(LVL 1)/CARD/Across From Gil"
+                    },
+                    {
+                        "name": "CARD - Back of Cletus Shack",
+                        "ref": "(LVL 1)/CARD/Back of Cletus Shack"
+                    },
+                    {
+                        "name": "CARD - Tree on Corner Near Graveyard",
+                        "ref": "(LVL 1)/CARD/Tree on Corner Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - Above Trailer Park",
+                        "ref": "(LVL 1)/CARD/Above Trailer Park"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Barn",
+                        "ref": "(LVL 1)/CARD/Above Street Near Barn"
+                    },
+                    {
+                        "name": "CARD - Corner of Tomacco Field",
+                        "ref": "(LVL 1)/CARD/Corner of Tomacco Field"
+                    },
+                    {
+                        "name": "CARD - Beside School",
+                        "ref": "(LVL 1)/CARD/Beside School"
+                    },
+                    {
+                        "name": "CARD - Power Plant Parking Lot 1",
+                        "ref": "(LVL 1)/CARD/Power Plant Parking Lot 1"
+                    },
+                    {
+                        "name": "CARD - Power Plant Parking Lot 2",
+                        "ref": "(LVL 1)/CARD/Power Plant Parking Lot 2"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Simpsons House",
+                        "ref": "(LVL 1)/CARD/Above Street Near Simpsons House"
+                    },
+                    {
+                        "name": "CARD - Power Plant Platforming 1",
+                        "ref": "(LVL 1)/CARD/Power Plant Platforming 1"
+                    },
+                    {
+                        "name": "CARD - Power Plant Platforming 2",
+                        "ref": "(LVL 1)/CARD/Power Plant Platforming 2"
+                    },
+                    {
+                        "name": "CARD - Homers Workstation",
+                        "ref": "(LVL 1)/CARD/Homers Workstation"
+                    },
+                    {
+                        "name": "CARD - Above Nuclear Waste Bridge",
+                        "ref": "(LVL 1)/CARD/Above Nuclear Waste Bridge"
+                    },
+                    {
+                        "name": "CARD - Outside Stonecutter Tunnel",
+                        "ref": "(LVL 1)/CARD/Outside Stonecutter Tunnel"
+                    },
+                    {
+                        "name": "CARD - Rich Side Gas Stations Dumpster",
+                        "ref": "(LVL 1)/CARD/Rich Side Gas Stations Dumpster"
+                    },
+                    {
+                        "name": "CARD - Roof Across of House Across From Gold Mansion",
+                        "ref": "(LVL 1)/CARD/Roof Across of House Across From Gold Mansion"
+                    },
+                    {
+                        "name": "CARD - Outside Burns Mansion Gate",
+                        "ref": "(LVL 1)/CARD/Outside Burns Mansion Gate"
+                    },
+                    {
+                        "name": "CARD - Broken Bridge",
+                        "ref": "(LVL 1)/CARD/Broken Bridge"
+                    },
+                    {
+                        "name": "CARD - Rocket Car",
+                        "ref": "(LVL 1)/CARD/Rocket Car"
+                    },
+                    {
+                        "name": "(LVL 1) - Time Trial Race",
+                        "ref": "(LVL 1)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 1) - Circuit Race",
+                        "ref": "(LVL 1)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 1) - Checkpoint Race",
+                        "ref": "(LVL 1)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 1) - Shop Check 1",
+                        "ref": "(LVL 1)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 1) - Shop Check 2",
+                        "ref": "(LVL 1)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 1) - Shop Check 3",
+                        "ref": "(LVL 1)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 1) - Shop Check 4",
+                        "ref": "(LVL 1)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 1) - Shop Check 5",
+                        "ref": "(LVL 1)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 1) - Shop Check 6",
+                        "ref": "(LVL 1)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 1) - Talk to Barney",
+                        "ref": "(LVL 1)/Talk to Barney"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 288,
+                        "y": 1647,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "(LVL 2)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - Detention Deficit Disorder",
+                        "ref": "(LVL 2)/MISSION/Detention Deficit Disorder"
+                    },
+                    {
+                        "name": "MISSION - Weapons of Mass Delinquency",
+                        "ref": "(LVL 2)/MISSION/Weapons of Mass Delinquency"
+                    },
+                    {
+                        "name": "MISSION - Vox Nerduli",
+                        "ref": "(LVL 2)/MISSION/Vox Nerduli"
+                    },
+                    {
+                        "name": "MISSION - Bart n Frink",
+                        "ref": "(LVL 2)/MISSION/Bart n Frink"
+                    },
+                    {
+                        "name": "MISSION - Better Than Beef",
+                        "ref": "(LVL 2)/MISSION/Better Than Beef"
+                    },
+                    {
+                        "name": "MISSION - Monkey See Monkey Doh",
+                        "ref": "(LVL 2)/MISSION/Monkey See Monkey Doh"
+                    },
+                    {
+                        "name": "MISSION - Cell-Outs",
+                        "ref": "(LVL 2)/MISSION/Cell-Outs"
+                    },
+                    {
+                        "name": "BMISSION - Dial B for Blood",
+                        "ref": "(LVL 2)/BMISSION/Dial B for Blood"
+                    },
+                    {
+                        "name": "WASP - CourtHouse Steps",
+                        "ref": "(LVL 2)/WASP/CourtHouse Steps"
+                    },
+                    {
+                        "name": "WASP - Gazebo Between Museum and Courthouse",
+                        "ref": "(LVL 2)/WASP/Gazebo Between Museum and Courthouse"
+                    },
+                    {
+                        "name": "WASP - Museum Steps",
+                        "ref": "(LVL 2)/WASP/Museum Steps"
+                    },
+                    {
+                        "name": "WASP - Hospital Front Yard",
+                        "ref": "(LVL 2)/WASP/Hospital Front Yard"
+                    },
+                    {
+                        "name": "WASP - Roof Across Monkey Building",
+                        "ref": "(LVL 2)/WASP/Roof Across Monkey Building"
+                    },
+                    {
+                        "name": "WASP - Town Hall (Front)",
+                        "ref": "(LVL 2)/WASP/Town Hall (Front)"
+                    },
+                    {
+                        "name": "WASP - Town Hall (Back)",
+                        "ref": "(LVL 2)/WASP/Town Hall (Back)"
+                    },
+                    {
+                        "name": "WASP - Behind Downtown Krusty Burger",
+                        "ref": "(LVL 2)/WASP/Behind Downtown Krusty Burger"
+                    },
+                    {
+                        "name": "WASP - Monorail Stairs",
+                        "ref": "(LVL 2)/WASP/Monorail Stairs"
+                    },
+                    {
+                        "name": "WASP - Upstair Beside Monorail",
+                        "ref": "(LVL 2)/WASP/Upstair Beside Monorail"
+                    },
+                    {
+                        "name": "WASP - Roof Across Monorail",
+                        "ref": "(LVL 2)/WASP/Roof Across Monorail"
+                    },
+                    {
+                        "name": "WASP - Stairs Leading atop Trains",
+                        "ref": "(LVL 2)/WASP/Stairs Leading atop Trains"
+                    },
+                    {
+                        "name": "WASP - Across Moving Train",
+                        "ref": "(LVL 2)/WASP/Across Moving Train"
+                    },
+                    {
+                        "name": "WASP - On Train Past Water Tank",
+                        "ref": "(LVL 2)/WASP/On Train Past Water Tank"
+                    },
+                    {
+                        "name": "WASP - Inside Trainyard Parking Spot",
+                        "ref": "(LVL 2)/WASP/Inside Trainyard Parking Spot"
+                    },
+                    {
+                        "name": "WASP - Car Wash",
+                        "ref": "(LVL 2)/WASP/Car Wash"
+                    },
+                    {
+                        "name": "WASP - Legitimate Businessmans Rooftop 1",
+                        "ref": "(LVL 2)/WASP/Legitimate Businessmans Rooftop 1"
+                    },
+                    {
+                        "name": "WASP - Legitimate Businessmans Rooftop 2",
+                        "ref": "(LVL 2)/WASP/Legitimate Businessmans Rooftop 2"
+                    },
+                    {
+                        "name": "WASP - Roof Next to Moes",
+                        "ref": "(LVL 2)/WASP/Roof Next to Moes"
+                    },
+                    {
+                        "name": "WASP - Lard Lads Roof",
+                        "ref": "(LVL 2)/WASP/Lard Lads Roof"
+                    },
+                    {
+                        "name": "GAG - CATapult",
+                        "ref": "(LVL 2)/GAG/CATapult"
+                    },
+                    {
+                        "name": "GAG - Cement Truck",
+                        "ref": "(LVL 2)/GAG/Cement Truck"
+                    },
+                    {
+                        "name": "GAG - Pickled Egg Jar at Moes",
+                        "ref": "(LVL 2)/GAG/Pickled Egg Jar at Moes"
+                    },
+                    {
+                        "name": "GAG - Slot Machine at Moes",
+                        "ref": "(LVL 2)/GAG/Slot Machine at Moes"
+                    },
+                    {
+                        "name": "GAG - Love Tester as Moes",
+                        "ref": "(LVL 2)/GAG/Love Tester as Moes"
+                    },
+                    {
+                        "name": "GAG - Light up Drinks at Moes",
+                        "ref": "(LVL 2)/GAG/Light up Drinks at Moes"
+                    },
+                    {
+                        "name": "GAG - Rats Milk Machine atop Legitimate Businessmans Roof",
+                        "ref": "(LVL 2)/GAG/Rats Milk Machine atop Legitimate Businessmans Roof"
+                    },
+                    {
+                        "name": "GAG - Blinding Hans Moleman at the DMV",
+                        "ref": "(LVL 2)/GAG/Blinding Hans Moleman at the DMV"
+                    },
+                    {
+                        "name": "GAG - Car Ride at Try-N-Save",
+                        "ref": "(LVL 2)/GAG/Car Ride at Try-N-Save"
+                    },
+                    {
+                        "name": "GAG - Missile Behind Military Antiques",
+                        "ref": "(LVL 2)/GAG/Missile Behind Military Antiques"
+                    },
+                    {
+                        "name": "GAG - Dumpster Behind Krusty Burger (Near Police Station)",
+                        "ref": "(LVL 2)/GAG/Dumpster Behind Krusty Burger (Near Police Station)"
+                    },
+                    {
+                        "name": "CARD - Statue",
+                        "ref": "(LVL 2)/CARD/Statue"
+                    },
+                    {
+                        "name": "CARD - Roof Across Monkey Building",
+                        "ref": "(LVL 2)/CARD/Roof Across Monkey Building"
+                    },
+                    {
+                        "name": "CARD - Legitimate Businessman\u2019s Roof 1",
+                        "ref": "(LVL 2)/CARD/Legitimate Businessman\u2019s Roof 1"
+                    },
+                    {
+                        "name": "CARD - Car Wash",
+                        "ref": "(LVL 2)/CARD/Car Wash"
+                    },
+                    {
+                        "name": "CARD - Train Wagon",
+                        "ref": "(LVL 2)/CARD/Train Wagon"
+                    },
+                    {
+                        "name": "CARD - Alleyway Behind Krusty Burger",
+                        "ref": "(LVL 2)/CARD/Alleyway Behind Krusty Burger"
+                    },
+                    {
+                        "name": "CARD - Fountain At Stadium",
+                        "ref": "(LVL 2)/CARD/Fountain At Stadium"
+                    },
+                    {
+                        "name": "CARD - Light Pole by Court House",
+                        "ref": "(LVL 2)/CARD/Light Pole by Court House"
+                    },
+                    {
+                        "name": "CARD - Behind Museum Sign",
+                        "ref": "(LVL 2)/CARD/Behind Museum Sign"
+                    },
+                    {
+                        "name": "CARD - Lion Statue",
+                        "ref": "(LVL 2)/CARD/Lion Statue"
+                    },
+                    {
+                        "name": "CARD - Fountain",
+                        "ref": "(LVL 2)/CARD/Fountain"
+                    },
+                    {
+                        "name": "CARD - Hospital Doors",
+                        "ref": "(LVL 2)/CARD/Hospital Doors"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Hospital Parking Lot",
+                        "ref": "(LVL 2)/CARD/Above Street Near Hospital Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Town Hall (Stadium Side)",
+                        "ref": "(LVL 2)/CARD/Town Hall (Stadium Side)"
+                    },
+                    {
+                        "name": "CARD - Stadium Behind Duff Mascot",
+                        "ref": "(LVL 2)/CARD/Stadium Behind Duff Mascot"
+                    },
+                    {
+                        "name": "CARD - Stadium Ledge Bench",
+                        "ref": "(LVL 2)/CARD/Stadium Ledge Bench"
+                    },
+                    {
+                        "name": "CARD - Tunnel Pillar Near Stadium",
+                        "ref": "(LVL 2)/CARD/Tunnel Pillar Near Stadium"
+                    },
+                    {
+                        "name": "CARD - Tunnel Pillar Near Downtown",
+                        "ref": "(LVL 2)/CARD/Tunnel Pillar Near Downtown"
+                    },
+                    {
+                        "name": "CARD - Stadium Billboard",
+                        "ref": "(LVL 2)/CARD/Stadium Billboard"
+                    },
+                    {
+                        "name": "CARD - Fire Truck Jump",
+                        "ref": "(LVL 2)/CARD/Fire Truck Jump"
+                    },
+                    {
+                        "name": "CARD - Tree By Krusty Burger Downtown",
+                        "ref": "(LVL 2)/CARD/Tree By Krusty Burger Downtown"
+                    },
+                    {
+                        "name": "CARD - Sit N Rotate",
+                        "ref": "(LVL 2)/CARD/Sit N Rotate"
+                    },
+                    {
+                        "name": "CARD - Downtown Bank",
+                        "ref": "(LVL 2)/CARD/Downtown Bank"
+                    },
+                    {
+                        "name": "CARD - Monorail",
+                        "ref": "(LVL 2)/CARD/Monorail"
+                    },
+                    {
+                        "name": "CARD - Corner of Monorail Station",
+                        "ref": "(LVL 2)/CARD/Corner of Monorail Station"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Downtown Krusty Float",
+                        "ref": "(LVL 2)/CARD/Above Street Near Downtown Krusty Float"
+                    },
+                    {
+                        "name": "CARD - Ramp Behind Downtown Krusty Burger",
+                        "ref": "(LVL 2)/CARD/Ramp Behind Downtown Krusty Burger"
+                    },
+                    {
+                        "name": "CARD - Deli Near Monorail",
+                        "ref": "(LVL 2)/CARD/Deli Near Monorail"
+                    },
+                    {
+                        "name": "CARD - Above Downtown Highway Exit",
+                        "ref": "(LVL 2)/CARD/Above Downtown Highway Exit"
+                    },
+                    {
+                        "name": "CARD - Closed Highway",
+                        "ref": "(LVL 2)/CARD/Closed Highway"
+                    },
+                    {
+                        "name": "CARD - Main Highway",
+                        "ref": "(LVL 2)/CARD/Main Highway"
+                    },
+                    {
+                        "name": "CARD - East Side Highway Exit",
+                        "ref": "(LVL 2)/CARD/East Side Highway Exit"
+                    },
+                    {
+                        "name": "CARD - Try N Save Parking Lot",
+                        "ref": "(LVL 2)/CARD/Try N Save Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Behind Hermans Military Antiques",
+                        "ref": "(LVL 2)/CARD/Behind Hermans Military Antiques"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Helter Shelter",
+                        "ref": "(LVL 2)/CARD/Above Street Near Helter Shelter"
+                    },
+                    {
+                        "name": "CARD - DMV Sign",
+                        "ref": "(LVL 2)/CARD/DMV Sign"
+                    },
+                    {
+                        "name": "CARD - DMV Light Pole",
+                        "ref": "(LVL 2)/CARD/DMV Light Pole"
+                    },
+                    {
+                        "name": "CARD - Above Street Between DMV and Trainyard",
+                        "ref": "(LVL 2)/CARD/Above Street Between DMV and Trainyard"
+                    },
+                    {
+                        "name": "CARD - Between Trains",
+                        "ref": "(LVL 2)/CARD/Between Trains"
+                    },
+                    {
+                        "name": "CARD - Above Train Crossing",
+                        "ref": "(LVL 2)/CARD/Above Train Crossing"
+                    },
+                    {
+                        "name": "CARD - Behind Moving Train",
+                        "ref": "(LVL 2)/CARD/Behind Moving Train"
+                    },
+                    {
+                        "name": "CARD - Train Stairs",
+                        "ref": "(LVL 2)/CARD/Train Stairs"
+                    },
+                    {
+                        "name": "CARD - Near Grease Recycling Plant",
+                        "ref": "(LVL 2)/CARD/Near Grease Recycling Plant"
+                    },
+                    {
+                        "name": "CARD - Outside Trainyard Parking Spot",
+                        "ref": "(LVL 2)/CARD/Outside Trainyard Parking Spot"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Car Wash",
+                        "ref": "(LVL 2)/CARD/Above Street Near Car Wash"
+                    },
+                    {
+                        "name": "CARD - On Top of Gas Station at Car Wash",
+                        "ref": "(LVL 2)/CARD/On Top of Gas Station at Car Wash"
+                    },
+                    {
+                        "name": "CARD - Inside Trainyard Parking Spot",
+                        "ref": "(LVL 2)/CARD/Inside Trainyard Parking Spot"
+                    },
+                    {
+                        "name": "CARD - Lexicon Bookstore Roof",
+                        "ref": "(LVL 2)/CARD/Lexicon Bookstore Roof"
+                    },
+                    {
+                        "name": "CARD - King Toots Music Store Roof",
+                        "ref": "(LVL 2)/CARD/King Toots Music Store Roof"
+                    },
+                    {
+                        "name": "CARD - Alley Behind King Toots Music Store",
+                        "ref": "(LVL 2)/CARD/Alley Behind King Toots Music Store"
+                    },
+                    {
+                        "name": "CARD - Legitimate Businessmans Roof 2",
+                        "ref": "(LVL 2)/CARD/Legitimate Businessmans Roof 2"
+                    },
+                    {
+                        "name": "CARD - Glens Grocery Roof",
+                        "ref": "(LVL 2)/CARD/Glens Grocery Roof"
+                    },
+                    {
+                        "name": "CARD - Stop Sign Across From Moes",
+                        "ref": "(LVL 2)/CARD/Stop Sign Across From Moes"
+                    },
+                    {
+                        "name": "CARD - Platform behind Lard Lads",
+                        "ref": "(LVL 2)/CARD/Platform behind Lard Lads"
+                    },
+                    {
+                        "name": "CARD - Street Near Construction",
+                        "ref": "(LVL 2)/CARD/Street Near Construction"
+                    },
+                    {
+                        "name": "CARD - Under Construction Building Between Krusty Burger and Lard Lads",
+                        "ref": "(LVL 2)/CARD/Under Construction Building Between Krusty Burger and Lard Lads"
+                    },
+                    {
+                        "name": "CARD - Krusty Burger Sign",
+                        "ref": "(LVL 2)/CARD/Krusty Burger Sign"
+                    },
+                    {
+                        "name": "CARD - Near Concrete Mixer",
+                        "ref": "(LVL 2)/CARD/Near Concrete Mixer"
+                    },
+                    {
+                        "name": "CARD - Gazebo Between Museum & Court House",
+                        "ref": "(LVL 2)/CARD/Gazebo Between Museum & Court House"
+                    },
+                    {
+                        "name": "CARD - Monkey Box",
+                        "ref": "(LVL 2)/CARD/Monkey Box"
+                    },
+                    {
+                        "name": "CARD - Hospital Sign",
+                        "ref": "(LVL 2)/CARD/Hospital Sign"
+                    },
+                    {
+                        "name": "CARD - Magnifying Glass Parking Lot",
+                        "ref": "(LVL 2)/CARD/Magnifying Glass Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Police Station",
+                        "ref": "(LVL 2)/CARD/Police Station"
+                    },
+                    {
+                        "name": "CARD - Tree Outside Police Station",
+                        "ref": "(LVL 2)/CARD/Tree Outside Police Station"
+                    },
+                    {
+                        "name": "CARD - 50% Off Sign Near Monorail",
+                        "ref": "(LVL 2)/CARD/50% Off Sign Near Monorail"
+                    },
+                    {
+                        "name": "CARD - Wooden Tower",
+                        "ref": "(LVL 2)/CARD/Wooden Tower"
+                    },
+                    {
+                        "name": "CARD - Town Hall Front",
+                        "ref": "(LVL 2)/CARD/Town Hall Front"
+                    },
+                    {
+                        "name": "CARD - Coming Soon Construction Sign",
+                        "ref": "(LVL 2)/CARD/Coming Soon Construction Sign"
+                    },
+                    {
+                        "name": "CARD - Inside Moes",
+                        "ref": "(LVL 2)/CARD/Inside Moes"
+                    },
+                    {
+                        "name": "(LVL 2) - Time Trial Race",
+                        "ref": "(LVL 2)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 2) - Circuit Race",
+                        "ref": "(LVL 2)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 2) - Checkpoint Race",
+                        "ref": "(LVL 2)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 2) - Shop Check 1",
+                        "ref": "(LVL 2)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 2) - Shop Check 2",
+                        "ref": "(LVL 2)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 2) - Shop Check 3",
+                        "ref": "(LVL 2)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 2) - Shop Check 4",
+                        "ref": "(LVL 2)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 2) - Shop Check 5",
+                        "ref": "(LVL 2)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 2) - Shop Check 6",
+                        "ref": "(LVL 2)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 2) - Talk to Homer",
+                        "ref": "(LVL 2)/Talk to Homer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 779,
+                        "y": 1148,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "(LVL 3)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - Nerd Race Queen",
+                        "ref": "(LVL 3)/MISSION/Nerd Race Queen"
+                    },
+                    {
+                        "name": "MISSION - Clueless",
+                        "ref": "(LVL 3)/MISSION/Clueless"
+                    },
+                    {
+                        "name": "MISSION - Bonfire of the Manatees",
+                        "ref": "(LVL 3)/MISSION/Bonfire of the Manatees"
+                    },
+                    {
+                        "name": "MISSION - Operation Hellfish",
+                        "ref": "(LVL 3)/MISSION/Operation Hellfish"
+                    },
+                    {
+                        "name": "MISSION - Slithery Sleuthing",
+                        "ref": "(LVL 3)/MISSION/Slithery Sleuthing"
+                    },
+                    {
+                        "name": "MISSION - Fishy Deals",
+                        "ref": "(LVL 3)/MISSION/Fishy Deals"
+                    },
+                    {
+                        "name": "MISSION - The Old Pirate of the Sea",
+                        "ref": "(LVL 3)/MISSION/The Old Pirate of the Sea"
+                    },
+                    {
+                        "name": "BMISSION - Princi-Pal",
+                        "ref": "(LVL 3)/BMISSION/Princi-Pal"
+                    },
+                    {
+                        "name": "(Boat) - Front end of Boat",
+                        "ref": "(LVL 3)/WASP/(Boat)/Front end of Boat"
+                    },
+                    {
+                        "name": "(Boat) - Next to the Crane",
+                        "ref": "(LVL 3)/WASP/(Boat)/Next to the Crane"
+                    },
+                    {
+                        "name": "(Boat) - Stairs",
+                        "ref": "(LVL 3)/WASP/(Boat)/Stairs"
+                    },
+                    {
+                        "name": "WASP - Observatory",
+                        "ref": "(LVL 3)/WASP/Observatory"
+                    },
+                    {
+                        "name": "WASP - Broken Railing Below Dam",
+                        "ref": "(LVL 3)/WASP/Broken Railing Below Dam"
+                    },
+                    {
+                        "name": "WASP - Broken Railing Above Dam (Exit)",
+                        "ref": "(LVL 3)/WASP/Broken Railing Above Dam (Exit)"
+                    },
+                    {
+                        "name": "WASP - Kamp Krusty Near Stage",
+                        "ref": "(LVL 3)/WASP/Kamp Krusty Near Stage"
+                    },
+                    {
+                        "name": "WASP - Kamp Krusty Well",
+                        "ref": "(LVL 3)/WASP/Kamp Krusty Well"
+                    },
+                    {
+                        "name": "WASP - Exit of Kamp Krustys Well",
+                        "ref": "(LVL 3)/WASP/Exit of Kamp Krustys Well"
+                    },
+                    {
+                        "name": "WASP - Motel Complex",
+                        "ref": "(LVL 3)/WASP/Motel Complex"
+                    },
+                    {
+                        "name": "WASP - Duff Brewery Behind Krusty Glass",
+                        "ref": "(LVL 3)/WASP/Duff Brewery Behind Krusty Glass"
+                    },
+                    {
+                        "name": "WASP - Duff Blimp 1",
+                        "ref": "(LVL 3)/WASP/Duff Blimp 1"
+                    },
+                    {
+                        "name": "WASP - Duff Blimp 2",
+                        "ref": "(LVL 3)/WASP/Duff Blimp 2"
+                    },
+                    {
+                        "name": "WASP - Krusty Studio Left",
+                        "ref": "(LVL 3)/WASP/Krusty Studio Left"
+                    },
+                    {
+                        "name": "WASP - Krusty Studio Right",
+                        "ref": "(LVL 3)/WASP/Krusty Studio Right"
+                    },
+                    {
+                        "name": "WASP - LightHouse",
+                        "ref": "(LVL 3)/WASP/LightHouse"
+                    },
+                    {
+                        "name": "WASP - Planet Hype",
+                        "ref": "(LVL 3)/WASP/Planet Hype"
+                    },
+                    {
+                        "name": "WASP - Beach",
+                        "ref": "(LVL 3)/WASP/Beach"
+                    },
+                    {
+                        "name": "WASP - Bowling Rooftop",
+                        "ref": "(LVL 3)/WASP/Bowling Rooftop"
+                    },
+                    {
+                        "name": "WASP - Comic Book Guy Rooftop",
+                        "ref": "(LVL 3)/WASP/Comic Book Guy Rooftop"
+                    },
+                    {
+                        "name": "(Observatory) - Monkey",
+                        "ref": "(LVL 3)/GAG/(Observatory)/Monkey"
+                    },
+                    {
+                        "name": "GAG - Comic Book Guy Robot",
+                        "ref": "(LVL 3)/GAG/Comic Book Guy Robot"
+                    },
+                    {
+                        "name": "GAG - Comic Book Guy Radioactive Man",
+                        "ref": "(LVL 3)/GAG/Comic Book Guy Radioactive Man"
+                    },
+                    {
+                        "name": "GAG - Yellow Dumpster Across Krusty Burger",
+                        "ref": "(LVL 3)/GAG/Yellow Dumpster Across Krusty Burger"
+                    },
+                    {
+                        "name": "GAG - Kid Drowning in Ball Pit",
+                        "ref": "(LVL 3)/GAG/Kid Drowning in Ball Pit"
+                    },
+                    {
+                        "name": "GAG - Crane on Ship",
+                        "ref": "(LVL 3)/GAG/Crane on Ship"
+                    },
+                    {
+                        "name": "GAG - Observatory Alarm",
+                        "ref": "(LVL 3)/GAG/Observatory Alarm"
+                    },
+                    {
+                        "name": "GAG - Perpetual Motion Machine at Observatory",
+                        "ref": "(LVL 3)/GAG/Perpetual Motion Machine at Observatory"
+                    },
+                    {
+                        "name": "GAG - Telescope at Observatory",
+                        "ref": "(LVL 3)/GAG/Telescope at Observatory"
+                    },
+                    {
+                        "name": "GAG - Kamp Krusty Flag",
+                        "ref": "(LVL 3)/GAG/Kamp Krusty Flag"
+                    },
+                    {
+                        "name": "GAG - Boars Head at Kamp Krusty",
+                        "ref": "(LVL 3)/GAG/Boars Head at Kamp Krusty"
+                    },
+                    {
+                        "name": "CARD - Comic Book Guys Rooftop",
+                        "ref": "(LVL 3)/CARD/Comic Book Guys Rooftop"
+                    },
+                    {
+                        "name": "CARD - Above Bowling",
+                        "ref": "(LVL 3)/CARD/Above Bowling"
+                    },
+                    {
+                        "name": "CARD - Atop Lighthouse",
+                        "ref": "(LVL 3)/CARD/Atop Lighthouse"
+                    },
+                    {
+                        "name": "CARD - Edge of C-Spanker",
+                        "ref": "(LVL 3)/CARD/Edge of C-Spanker"
+                    },
+                    {
+                        "name": "CARD - Balcony of Krusty Studio",
+                        "ref": "(LVL 3)/CARD/Balcony of Krusty Studio"
+                    },
+                    {
+                        "name": "CARD - Platforming Below Dam Railing",
+                        "ref": "(LVL 3)/CARD/Platforming Below Dam Railing"
+                    },
+                    {
+                        "name": "CARD - Beside Broken Bridge ",
+                        "ref": "(LVL 3)/CARD/Beside Broken Bridge "
+                    },
+                    {
+                        "name": "CARD - Behind Lighthouse",
+                        "ref": "(LVL 3)/CARD/Behind Lighthouse"
+                    },
+                    {
+                        "name": "CARD - Pelican Behind Planet Hype 1",
+                        "ref": "(LVL 3)/CARD/Pelican Behind Planet Hype 1"
+                    },
+                    {
+                        "name": "CARD - Pelican Behind Planet Hype 2",
+                        "ref": "(LVL 3)/CARD/Pelican Behind Planet Hype 2"
+                    },
+                    {
+                        "name": "CARD - Planet Hype Outdoor Seating",
+                        "ref": "(LVL 3)/CARD/Planet Hype Outdoor Seating"
+                    },
+                    {
+                        "name": "CARD - Pelican in Front of Planet Hype 1",
+                        "ref": "(LVL 3)/CARD/Pelican in Front of Planet Hype 1"
+                    },
+                    {
+                        "name": "CARD - Pelican in Front of Planet Hype 2",
+                        "ref": "(LVL 3)/CARD/Pelican in Front of Planet Hype 2"
+                    },
+                    {
+                        "name": "CARD - Pelican Near Squidport Arch",
+                        "ref": "(LVL 3)/CARD/Pelican Near Squidport Arch"
+                    },
+                    {
+                        "name": "CARD - Little Boats on Beach",
+                        "ref": "(LVL 3)/CARD/Little Boats on Beach"
+                    },
+                    {
+                        "name": "CARD - Big Boat on Beach",
+                        "ref": "(LVL 3)/CARD/Big Boat on Beach"
+                    },
+                    {
+                        "name": "CARD - Deck by Squidport Pedestrian Entrance 1",
+                        "ref": "(LVL 3)/CARD/Deck by Squidport Pedestrian Entrance 1"
+                    },
+                    {
+                        "name": "CARD - Deck by Squidport Pedestrian Entrance 2",
+                        "ref": "(LVL 3)/CARD/Deck by Squidport Pedestrian Entrance 2"
+                    },
+                    {
+                        "name": "CARD - Casino Bushes Near Squidport",
+                        "ref": "(LVL 3)/CARD/Casino Bushes Near Squidport"
+                    },
+                    {
+                        "name": "CARD - Lower Casino Entrance",
+                        "ref": "(LVL 3)/CARD/Lower Casino Entrance"
+                    },
+                    {
+                        "name": "CARD - Sidewalk Near Casino Ramp 1",
+                        "ref": "(LVL 3)/CARD/Sidewalk Near Casino Ramp 1"
+                    },
+                    {
+                        "name": "CARD - Behind Casino Ramp",
+                        "ref": "(LVL 3)/CARD/Behind Casino Ramp"
+                    },
+                    {
+                        "name": "CARD - Sidewalk Near Casino Ramp 2",
+                        "ref": "(LVL 3)/CARD/Sidewalk Near Casino Ramp 2"
+                    },
+                    {
+                        "name": "CARD - Houses Near Bowl-a-Rama",
+                        "ref": "(LVL 3)/CARD/Houses Near Bowl-a-Rama"
+                    },
+                    {
+                        "name": "CARD - Jazz Hole",
+                        "ref": "(LVL 3)/CARD/Jazz Hole"
+                    },
+                    {
+                        "name": "CARD - Krusty Burger Parking Lot",
+                        "ref": "(LVL 3)/CARD/Krusty Burger Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Gated Houses Near Aztec Theater",
+                        "ref": "(LVL 3)/CARD/Gated Houses Near Aztec Theater"
+                    },
+                    {
+                        "name": "CARD - Boulevard Near Krusty and Friends Billboard",
+                        "ref": "(LVL 3)/CARD/Boulevard Near Krusty and Friends Billboard"
+                    },
+                    {
+                        "name": "CARD - Stairs Near Krusty and Friends Billboard",
+                        "ref": "(LVL 3)/CARD/Stairs Near Krusty and Friends Billboard"
+                    },
+                    {
+                        "name": "CARD - Short Wall Down the Street from Gas Station",
+                        "ref": "(LVL 3)/CARD/Short Wall Down the Street from Gas Station"
+                    },
+                    {
+                        "name": "CARD - Concrete Mixer at Gas Station",
+                        "ref": "(LVL 3)/CARD/Concrete Mixer at Gas Station"
+                    },
+                    {
+                        "name": "CARD - Green Building Across From Principal Skinner",
+                        "ref": "(LVL 3)/CARD/Green Building Across From Principal Skinner"
+                    },
+                    {
+                        "name": "CARD - Lumber King Billboard",
+                        "ref": "(LVL 3)/CARD/Lumber King Billboard"
+                    },
+                    {
+                        "name": "CARD - Park Across From Androids Dungeon",
+                        "ref": "(LVL 3)/CARD/Park Across From Androids Dungeon"
+                    },
+                    {
+                        "name": "CARD - Behind Krusty Burger Across From Androids Dungeon",
+                        "ref": "(LVL 3)/CARD/Behind Krusty Burger Across From Androids Dungeon"
+                    },
+                    {
+                        "name": "CARD - Wall E Weasels Roof",
+                        "ref": "(LVL 3)/CARD/Wall E Weasels Roof"
+                    },
+                    {
+                        "name": "CARD - Spaghetti Laboratory",
+                        "ref": "(LVL 3)/CARD/Spaghetti Laboratory"
+                    },
+                    {
+                        "name": "CARD - Malaria Zone",
+                        "ref": "(LVL 3)/CARD/Malaria Zone"
+                    },
+                    {
+                        "name": "CARD - Barrels Near Gil",
+                        "ref": "(LVL 3)/CARD/Barrels Near Gil"
+                    },
+                    {
+                        "name": "CARD - Box Near Gil",
+                        "ref": "(LVL 3)/CARD/Box Near Gil"
+                    },
+                    {
+                        "name": "CARD - Squidport Undercover Police Dumpster",
+                        "ref": "(LVL 3)/CARD/Squidport Undercover Police Dumpster"
+                    },
+                    {
+                        "name": "CARD - Davey Jones Hamper",
+                        "ref": "(LVL 3)/CARD/Davey Jones Hamper"
+                    },
+                    {
+                        "name": "CARD - Rail Near C-Spanker",
+                        "ref": "(LVL 3)/CARD/Rail Near C-Spanker"
+                    },
+                    {
+                        "name": "CARD - Hidden Behind C-Spanker Cargo Containers 1",
+                        "ref": "(LVL 3)/CARD/Hidden Behind C-Spanker Cargo Containers 1"
+                    },
+                    {
+                        "name": "CARD - C-Spanker Crane",
+                        "ref": "(LVL 3)/CARD/C-Spanker Crane"
+                    },
+                    {
+                        "name": "CARD - Hidden Behind C-Spanker Cargo Containers 2",
+                        "ref": "(LVL 3)/CARD/Hidden Behind C-Spanker Cargo Containers 2"
+                    },
+                    {
+                        "name": "CARD - C-Spanker Inside Cargo Container",
+                        "ref": "(LVL 3)/CARD/C-Spanker Inside Cargo Container"
+                    },
+                    {
+                        "name": "CARD - C-Spanker Upstairs Rail",
+                        "ref": "(LVL 3)/CARD/C-Spanker Upstairs Rail"
+                    },
+                    {
+                        "name": "CARD - Taffy Shop",
+                        "ref": "(LVL 3)/CARD/Taffy Shop"
+                    },
+                    {
+                        "name": "CARD - Across From Taffy Shop",
+                        "ref": "(LVL 3)/CARD/Across From Taffy Shop"
+                    },
+                    {
+                        "name": "CARD - KrustyLu Studios Sign",
+                        "ref": "(LVL 3)/CARD/KrustyLu Studios Sign"
+                    },
+                    {
+                        "name": "CARD - Behind KrustyLu Studios Sign",
+                        "ref": "(LVL 3)/CARD/Behind KrustyLu Studios Sign"
+                    },
+                    {
+                        "name": "CARD - News Studio",
+                        "ref": "(LVL 3)/CARD/News Studio"
+                    },
+                    {
+                        "name": "CARD - Bridge Near Giant SPRINGFIELD Sign",
+                        "ref": "(LVL 3)/CARD/Bridge Near Giant SPRINGFIELD Sign"
+                    },
+                    {
+                        "name": "CARD - Motel Balcony",
+                        "ref": "(LVL 3)/CARD/Motel Balcony"
+                    },
+                    {
+                        "name": "CARD - Motel Awning",
+                        "ref": "(LVL 3)/CARD/Motel Awning"
+                    },
+                    {
+                        "name": "CARD - Observatory 1",
+                        "ref": "(LVL 3)/CARD/Observatory 1"
+                    },
+                    {
+                        "name": "CARD - Observatory 2",
+                        "ref": "(LVL 3)/CARD/Observatory 2"
+                    },
+                    {
+                        "name": "CARD - Kamp Krusty Weight Loss Center",
+                        "ref": "(LVL 3)/CARD/Kamp Krusty Weight Loss Center"
+                    },
+                    {
+                        "name": "CARD - Boars Head at Kamp Krusty",
+                        "ref": "(LVL 3)/CARD/Boars Head at Kamp Krusty"
+                    },
+                    {
+                        "name": "CARD - Dam",
+                        "ref": "(LVL 3)/CARD/Dam"
+                    },
+                    {
+                        "name": "CARD - Parking Spot Across From Androids Dungeon",
+                        "ref": "(LVL 3)/CARD/Parking Spot Across From Androids Dungeon"
+                    },
+                    {
+                        "name": "CARD - Above Road Near Drain Pipe",
+                        "ref": "(LVL 3)/CARD/Above Road Near Drain Pipe"
+                    },
+                    {
+                        "name": "CARD - Behind Truck",
+                        "ref": "(LVL 3)/CARD/Behind Truck"
+                    },
+                    {
+                        "name": "CARD - Duff Brewery Landing Pad",
+                        "ref": "(LVL 3)/CARD/Duff Brewery Landing Pad"
+                    },
+                    {
+                        "name": "CARD - Captain Chum N Stuff",
+                        "ref": "(LVL 3)/CARD/Captain Chum N Stuff"
+                    },
+                    {
+                        "name": "CARD - Upper Casino Entrance",
+                        "ref": "(LVL 3)/CARD/Upper Casino Entrance"
+                    },
+                    {
+                        "name": "(LVL 3) - Time Trial Race",
+                        "ref": "(LVL 3)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 3) - Circuit Race",
+                        "ref": "(LVL 3)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 3) - Checkpoint Race",
+                        "ref": "(LVL 3)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 3) - Shop Check 1",
+                        "ref": "(LVL 3)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 3) - Shop Check 2",
+                        "ref": "(LVL 3)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 3) - Shop Check 3",
+                        "ref": "(LVL 3)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 3) - Shop Check 4",
+                        "ref": "(LVL 3)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 3) - Shop Check 5",
+                        "ref": "(LVL 3)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 3) - Shop Check 6",
+                        "ref": "(LVL 3)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 3) - Talk to Otto",
+                        "ref": "(LVL 3)/Talk to Otto"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 80,
+                        "y": 1672,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "(LVL 4)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - For a Few Donuts More",
+                        "ref": "(LVL 4)/MISSION/For a Few Donuts More"
+                    },
+                    {
+                        "name": "MISSION - Redneck Roundup",
+                        "ref": "(LVL 4)/MISSION/Redneck Roundup"
+                    },
+                    {
+                        "name": "MISSION - Ketchup Logic",
+                        "ref": "(LVL 4)/MISSION/Ketchup Logic"
+                    },
+                    {
+                        "name": "MISSION - Return of the Nearly-Dead",
+                        "ref": "(LVL 4)/MISSION/Return of the Nearly-Dead"
+                    },
+                    {
+                        "name": "MISSION - Wolves Stole My Pills",
+                        "ref": "(LVL 4)/MISSION/Wolves Stole My Pills"
+                    },
+                    {
+                        "name": "MISSION - The Cola Wars",
+                        "ref": "(LVL 4)/MISSION/The Cola Wars"
+                    },
+                    {
+                        "name": "MISSION - From Outer Space",
+                        "ref": "(LVL 4)/MISSION/From Outer Space"
+                    },
+                    {
+                        "name": "BMISSION - Beached Love",
+                        "ref": "(LVL 4)/BMISSION/Beached Love"
+                    },
+                    {
+                        "name": "WASP - Blue House Before Krusty Glass 1",
+                        "ref": "(LVL 4)/WASP/Blue House Before Krusty Glass 1"
+                    },
+                    {
+                        "name": "WASP - Blue House Before Krusty Glass 2",
+                        "ref": "(LVL 4)/WASP/Blue House Before Krusty Glass 2"
+                    },
+                    {
+                        "name": "WASP - Flanders Backyard",
+                        "ref": "(LVL 4)/WASP/Flanders Backyard"
+                    },
+                    {
+                        "name": "WASP - Wiggums Backyard 1",
+                        "ref": "(LVL 4)/WASP/Wiggums Backyard 1"
+                    },
+                    {
+                        "name": "WASP - Wiggums Backyard 2",
+                        "ref": "(LVL 4)/WASP/Wiggums Backyard 2"
+                    },
+                    {
+                        "name": "WASP - Kwik-E-Mart Rooftop",
+                        "ref": "(LVL 4)/WASP/Kwik-E-Mart Rooftop"
+                    },
+                    {
+                        "name": "WASP - Gas Station Rooftop",
+                        "ref": "(LVL 4)/WASP/Gas Station Rooftop"
+                    },
+                    {
+                        "name": "WASP - Atop Gasoline Pump",
+                        "ref": "(LVL 4)/WASP/Atop Gasoline Pump"
+                    },
+                    {
+                        "name": "WASP - Mr. Burns Giant ChessBoard 1",
+                        "ref": "(LVL 4)/WASP/Mr. Burns Giant ChessBoard 1"
+                    },
+                    {
+                        "name": "WASP - Mr. Burns Giant ChessBoard 2",
+                        "ref": "(LVL 4)/WASP/Mr. Burns Giant ChessBoard 2"
+                    },
+                    {
+                        "name": "WASP - Mr. Burns StairCase",
+                        "ref": "(LVL 4)/WASP/Mr. Burns StairCase"
+                    },
+                    {
+                        "name": "WASP - Mr. Burns Library",
+                        "ref": "(LVL 4)/WASP/Mr. Burns Library"
+                    },
+                    {
+                        "name": "WASP - Outside of Homers Workstation",
+                        "ref": "(LVL 4)/WASP/Outside of Homers Workstation"
+                    },
+                    {
+                        "name": "WASP - Atop Trailer Park",
+                        "ref": "(LVL 4)/WASP/Atop Trailer Park"
+                    },
+                    {
+                        "name": "WASP - In Trailer Park",
+                        "ref": "(LVL 4)/WASP/In Trailer Park"
+                    },
+                    {
+                        "name": "WASP - Barn",
+                        "ref": "(LVL 4)/WASP/Barn"
+                    },
+                    {
+                        "name": "WASP - Behind School Steps",
+                        "ref": "(LVL 4)/WASP/Behind School Steps"
+                    },
+                    {
+                        "name": "WASP - School Rooftop 1",
+                        "ref": "(LVL 4)/WASP/School Rooftop 1"
+                    },
+                    {
+                        "name": "WASP - School Rooftop 2",
+                        "ref": "(LVL 4)/WASP/School Rooftop 2"
+                    },
+                    {
+                        "name": "WASP - Atop Tower Before Broken Bridge",
+                        "ref": "(LVL 4)/WASP/Atop Tower Before Broken Bridge"
+                    },
+                    {
+                        "name": "GAG - Simpson TV",
+                        "ref": "(LVL 4)/GAG/Simpson TV"
+                    },
+                    {
+                        "name": "GAG - Simpsons Swings",
+                        "ref": "(LVL 4)/GAG/Simpsons Swings"
+                    },
+                    {
+                        "name": "GAG - Simpsons Grill",
+                        "ref": "(LVL 4)/GAG/Simpsons Grill"
+                    },
+                    {
+                        "name": "GAG - Simpsons Fire Breathing Tiki",
+                        "ref": "(LVL 4)/GAG/Simpsons Fire Breathing Tiki"
+                    },
+                    {
+                        "name": "GAG - Krusty Lamp (Barts Room)",
+                        "ref": "(LVL 4)/GAG/Krusty Lamp (Barts Room)"
+                    },
+                    {
+                        "name": "GAG - Flanders Bomb Shelter",
+                        "ref": "(LVL 4)/GAG/Flanders Bomb Shelter"
+                    },
+                    {
+                        "name": "GAG - Tank Outside Power Plant",
+                        "ref": "(LVL 4)/GAG/Tank Outside Power Plant"
+                    },
+                    {
+                        "name": "GAG - Homers Workstation Meltdown",
+                        "ref": "(LVL 4)/GAG/Homers Workstation Meltdown"
+                    },
+                    {
+                        "name": "GAG - School Fire Extinguisher ",
+                        "ref": "(LVL 4)/GAG/School Fire Extinguisher "
+                    },
+                    {
+                        "name": "GAG - School Fire Alarm",
+                        "ref": "(LVL 4)/GAG/School Fire Alarm"
+                    },
+                    {
+                        "name": "GAG - Frozen man in Kwik-E-Mart",
+                        "ref": "(LVL 4)/GAG/Frozen man in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Silent Alarm in Kwik-E-Mart",
+                        "ref": "(LVL 4)/GAG/Silent Alarm in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - ATM in Kwik-E-Mart",
+                        "ref": "(LVL 4)/GAG/ATM in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Arcade Cabinet in Kwik-E-Mart",
+                        "ref": "(LVL 4)/GAG/Arcade Cabinet in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Squishee Machine in Kwik-E-Mart",
+                        "ref": "(LVL 4)/GAG/Squishee Machine in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Gas Station Roof 1",
+                        "ref": "(LVL 4)/CARD/Gas Station Roof 1"
+                    },
+                    {
+                        "name": "CARD - Burns Mansion Secret",
+                        "ref": "(LVL 4)/CARD/Burns Mansion Secret"
+                    },
+                    {
+                        "name": "CARD - Big Bridge",
+                        "ref": "(LVL 4)/CARD/Big Bridge"
+                    },
+                    {
+                        "name": "CARD - Atop Tower Before Broken Bridge",
+                        "ref": "(LVL 4)/CARD/Atop Tower Before Broken Bridge"
+                    },
+                    {
+                        "name": "CARD - Roof of House Across From Gold Mansion",
+                        "ref": "(LVL 4)/CARD/Roof of House Across From Gold Mansion"
+                    },
+                    {
+                        "name": "CARD - Simpsons Tree House",
+                        "ref": "(LVL 4)/CARD/Simpsons Tree House"
+                    },
+                    {
+                        "name": "CARD - End of Trailer Park",
+                        "ref": "(LVL 4)/CARD/End of Trailer Park"
+                    },
+                    {
+                        "name": "CARD - neighbors Carport",
+                        "ref": "(LVL 4)/CARD/neighbors Carport"
+                    },
+                    {
+                        "name": "CARD - Behind Flanders Tree",
+                        "ref": "(LVL 4)/CARD/Behind Flanders Tree"
+                    },
+                    {
+                        "name": "CARD - Jump Past neighbors Playground",
+                        "ref": "(LVL 4)/CARD/Jump Past neighbors Playground"
+                    },
+                    {
+                        "name": "CARD - Above Kwik-E-Mart",
+                        "ref": "(LVL 4)/CARD/Above Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Kwik-E-Marts Dumpster",
+                        "ref": "(LVL 4)/CARD/Kwik-E-Marts Dumpster"
+                    },
+                    {
+                        "name": "CARD - Krusty Burger Dumpster",
+                        "ref": "(LVL 4)/CARD/Krusty Burger Dumpster"
+                    },
+                    {
+                        "name": "CARD - Gas Station Roof 2",
+                        "ref": "(LVL 4)/CARD/Gas Station Roof 2"
+                    },
+                    {
+                        "name": "CARD - Above Street Between Simpsons House and Kwik-E-Mart",
+                        "ref": "(LVL 4)/CARD/Above Street Between Simpsons House and Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - House Between Simpsons House and Kwik-E-Mart",
+                        "ref": "(LVL 4)/CARD/House Between Simpsons House and Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Top of Krusty Burger Near Kwik-E-Mart",
+                        "ref": "(LVL 4)/CARD/Top of Krusty Burger Near Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Retirement Castle",
+                        "ref": "(LVL 4)/CARD/Retirement Castle"
+                    },
+                    {
+                        "name": "CARD - Casa Nova",
+                        "ref": "(LVL 4)/CARD/Casa Nova"
+                    },
+                    {
+                        "name": "CARD - Shortcut Between Church and Lard Lad",
+                        "ref": "(LVL 4)/CARD/Shortcut Between Church and Lard Lad"
+                    },
+                    {
+                        "name": "CARD - Church Sign",
+                        "ref": "(LVL 4)/CARD/Church Sign"
+                    },
+                    {
+                        "name": "CARD - Church Dumpster",
+                        "ref": "(LVL 4)/CARD/Church Dumpster"
+                    },
+                    {
+                        "name": "CARD - Dumpster Behind Krusty Burger Near School",
+                        "ref": "(LVL 4)/CARD/Dumpster Behind Krusty Burger Near School"
+                    },
+                    {
+                        "name": "CARD - Deli Near School",
+                        "ref": "(LVL 4)/CARD/Deli Near School"
+                    },
+                    {
+                        "name": "CARD - Back of School Roof",
+                        "ref": "(LVL 4)/CARD/Back of School Roof"
+                    },
+                    {
+                        "name": "CARD - Willies Shack",
+                        "ref": "(LVL 4)/CARD/Willies Shack"
+                    },
+                    {
+                        "name": "CARD - Grocery Store Dumpster",
+                        "ref": "(LVL 4)/CARD/Grocery Store Dumpster"
+                    },
+                    {
+                        "name": "CARD - Lard Lad Doorbell",
+                        "ref": "(LVL 4)/CARD/Lard Lad Doorbell"
+                    },
+                    {
+                        "name": "CARD - House Across From Simpsons House 1",
+                        "ref": "(LVL 4)/CARD/House Across From Simpsons House 1"
+                    },
+                    {
+                        "name": "CARD - House Across From Simpsons House 2",
+                        "ref": "(LVL 4)/CARD/House Across From Simpsons House 2"
+                    },
+                    {
+                        "name": "CARD - Above Wiggums",
+                        "ref": "(LVL 4)/CARD/Above Wiggums"
+                    },
+                    {
+                        "name": "CARD - House on Corner Near Graveyard",
+                        "ref": "(LVL 4)/CARD/House on Corner Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - House Next to Krusty Burger Near Graveyard",
+                        "ref": "(LVL 4)/CARD/House Next to Krusty Burger Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - Cletus House",
+                        "ref": "(LVL 4)/CARD/Cletus House"
+                    },
+                    {
+                        "name": "CARD - Big Bridge 2",
+                        "ref": "(LVL 4)/CARD/Big Bridge 2"
+                    },
+                    {
+                        "name": "CARD - Flanders House",
+                        "ref": "(LVL 4)/CARD/Flanders House"
+                    },
+                    {
+                        "name": "CARD - Moes House",
+                        "ref": "(LVL 4)/CARD/Moes House"
+                    },
+                    {
+                        "name": "CARD - Nelsons House",
+                        "ref": "(LVL 4)/CARD/Nelsons House"
+                    },
+                    {
+                        "name": "CARD - Tire Fire",
+                        "ref": "(LVL 4)/CARD/Tire Fire"
+                    },
+                    {
+                        "name": "CARD - Power Plant",
+                        "ref": "(LVL 4)/CARD/Power Plant"
+                    },
+                    {
+                        "name": "CARD - Across From Gil",
+                        "ref": "(LVL 4)/CARD/Across From Gil"
+                    },
+                    {
+                        "name": "CARD - Back of Cletus Shack",
+                        "ref": "(LVL 4)/CARD/Back of Cletus Shack"
+                    },
+                    {
+                        "name": "CARD - Tree on Corner Near Graveyard",
+                        "ref": "(LVL 4)/CARD/Tree on Corner Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - Above Trailer Park",
+                        "ref": "(LVL 4)/CARD/Above Trailer Park"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Barn",
+                        "ref": "(LVL 4)/CARD/Above Street Near Barn"
+                    },
+                    {
+                        "name": "CARD - Corner of Tomacco Field",
+                        "ref": "(LVL 4)/CARD/Corner of Tomacco Field"
+                    },
+                    {
+                        "name": "CARD - Beside School",
+                        "ref": "(LVL 4)/CARD/Beside School"
+                    },
+                    {
+                        "name": "CARD - Power Plant Parking Lot 1",
+                        "ref": "(LVL 4)/CARD/Power Plant Parking Lot 1"
+                    },
+                    {
+                        "name": "CARD - Power Plant Parking Lot 2",
+                        "ref": "(LVL 4)/CARD/Power Plant Parking Lot 2"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Simpsons House",
+                        "ref": "(LVL 4)/CARD/Above Street Near Simpsons House"
+                    },
+                    {
+                        "name": "CARD - Power Plant Platforming 1",
+                        "ref": "(LVL 4)/CARD/Power Plant Platforming 1"
+                    },
+                    {
+                        "name": "CARD - Power Plant Platforming 2",
+                        "ref": "(LVL 4)/CARD/Power Plant Platforming 2"
+                    },
+                    {
+                        "name": "CARD - Homers Workstation",
+                        "ref": "(LVL 4)/CARD/Homers Workstation"
+                    },
+                    {
+                        "name": "CARD - Above Nuclear Waste Bridge",
+                        "ref": "(LVL 4)/CARD/Above Nuclear Waste Bridge"
+                    },
+                    {
+                        "name": "CARD - Outside Stonecutter Tunnel",
+                        "ref": "(LVL 4)/CARD/Outside Stonecutter Tunnel"
+                    },
+                    {
+                        "name": "CARD - Rich Side Gas Stations Dumpster",
+                        "ref": "(LVL 4)/CARD/Rich Side Gas Stations Dumpster"
+                    },
+                    {
+                        "name": "CARD - Roof Across of House Across From Gold Mansion",
+                        "ref": "(LVL 4)/CARD/Roof Across of House Across From Gold Mansion"
+                    },
+                    {
+                        "name": "CARD - Outside Burns Mansion Gate",
+                        "ref": "(LVL 4)/CARD/Outside Burns Mansion Gate"
+                    },
+                    {
+                        "name": "CARD - Broken Bridge",
+                        "ref": "(LVL 4)/CARD/Broken Bridge"
+                    },
+                    {
+                        "name": "CARD - Rocket Car",
+                        "ref": "(LVL 4)/CARD/Rocket Car"
+                    },
+                    {
+                        "name": "CARD - Burns Mansion Backyard",
+                        "ref": "(LVL 4)/CARD/Burns Mansion Backyard"
+                    },
+                    {
+                        "name": "CARD - Burns Mansion",
+                        "ref": "(LVL 4)/CARD/Burns Mansion"
+                    },
+                    {
+                        "name": "CARD - Chessboard",
+                        "ref": "(LVL 4)/CARD/Chessboard"
+                    },
+                    {
+                        "name": "(LVL 4) - Checkpoint Race",
+                        "ref": "(LVL 4)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 4) - Circuit Race",
+                        "ref": "(LVL 4)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 4) - Time Trial Race",
+                        "ref": "(LVL 4)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 4) - Shop Check 1",
+                        "ref": "(LVL 4)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 4) - Shop Check 2",
+                        "ref": "(LVL 4)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 4) - Shop Check 3",
+                        "ref": "(LVL 4)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 4) - Shop Check 4",
+                        "ref": "(LVL 4)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 4) - Shop Check 5",
+                        "ref": "(LVL 4)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 4) - Shop Check 6",
+                        "ref": "(LVL 4)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 4) - Talk to Willie",
+                        "ref": "(LVL 4)/Talk to Willie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 424,
+                        "y": 480,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "(LVL 5)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - Incriminating Caffeine",
+                        "ref": "(LVL 5)/MISSION/Incriminating Caffeine"
+                    },
+                    {
+                        "name": "MISSION - ...and Baby Makes 8",
+                        "ref": "(LVL 5)/MISSION/...and Baby Makes 8"
+                    },
+                    {
+                        "name": "MISSION - Eight is Too Much",
+                        "ref": "(LVL 5)/MISSION/Eight is Too Much"
+                    },
+                    {
+                        "name": "MISSION - This Little Piggy",
+                        "ref": "(LVL 5)/MISSION/This Little Piggy"
+                    },
+                    {
+                        "name": "MISSION - Never Trust a Snake",
+                        "ref": "(LVL 5)/MISSION/Never Trust a Snake"
+                    },
+                    {
+                        "name": "MISSION - Kwik Cash",
+                        "ref": "(LVL 5)/MISSION/Kwik Cash"
+                    },
+                    {
+                        "name": "MISSION - Curious Curator",
+                        "ref": "(LVL 5)/MISSION/Curious Curator"
+                    },
+                    {
+                        "name": "BMISSION - Kinky Frinky",
+                        "ref": "(LVL 5)/BMISSION/Kinky Frinky"
+                    },
+                    {
+                        "name": "WASP - Front of Hospital",
+                        "ref": "(LVL 5)/WASP/Front of Hospital"
+                    },
+                    {
+                        "name": "WASP - Gazebo Between Museum & Court House",
+                        "ref": "(LVL 5)/WASP/Gazebo Between Museum & Court House"
+                    },
+                    {
+                        "name": "WASP - Steps of Town Hall",
+                        "ref": "(LVL 5)/WASP/Steps of Town Hall"
+                    },
+                    {
+                        "name": "WASP - Museum Steps",
+                        "ref": "(LVL 5)/WASP/Museum Steps"
+                    },
+                    {
+                        "name": "WASP - Rooftop Next to Moes",
+                        "ref": "(LVL 5)/WASP/Rooftop Next to Moes"
+                    },
+                    {
+                        "name": "WASP - Legitimate Businessmans Rooftop 1",
+                        "ref": "(LVL 5)/WASP/Legitimate Businessmans Rooftop 1"
+                    },
+                    {
+                        "name": "WASP - Legitimate Businessmans Rooftop 2",
+                        "ref": "(LVL 5)/WASP/Legitimate Businessmans Rooftop 2"
+                    },
+                    {
+                        "name": "WASP - Trainyard Stairs",
+                        "ref": "(LVL 5)/WASP/Trainyard Stairs"
+                    },
+                    {
+                        "name": "WASP - Other Side of Moving Train",
+                        "ref": "(LVL 5)/WASP/Other Side of Moving Train"
+                    },
+                    {
+                        "name": "WASP - Watertower 1",
+                        "ref": "(LVL 5)/WASP/Watertower 1"
+                    },
+                    {
+                        "name": "WASP - Watertower 2",
+                        "ref": "(LVL 5)/WASP/Watertower 2"
+                    },
+                    {
+                        "name": "WASP - Police Station Steps",
+                        "ref": "(LVL 5)/WASP/Police Station Steps"
+                    },
+                    {
+                        "name": "WASP - Monorail Stairs",
+                        "ref": "(LVL 5)/WASP/Monorail Stairs"
+                    },
+                    {
+                        "name": "WASP - Monorail",
+                        "ref": "(LVL 5)/WASP/Monorail"
+                    },
+                    {
+                        "name": "WASP - Otherside of Monorail 1",
+                        "ref": "(LVL 5)/WASP/Otherside of Monorail 1"
+                    },
+                    {
+                        "name": "WASP - Otherside of Monorail 2",
+                        "ref": "(LVL 5)/WASP/Otherside of Monorail 2"
+                    },
+                    {
+                        "name": "WASP - Under Giant Purple Beams 1",
+                        "ref": "(LVL 5)/WASP/Under Giant Purple Beams 1"
+                    },
+                    {
+                        "name": "WASP - Under Giant Purple Beams 2",
+                        "ref": "(LVL 5)/WASP/Under Giant Purple Beams 2"
+                    },
+                    {
+                        "name": "WASP - Alleyway Rooftop",
+                        "ref": "(LVL 5)/WASP/Alleyway Rooftop"
+                    },
+                    {
+                        "name": "WASP - Fountain in from Stadium",
+                        "ref": "(LVL 5)/WASP/Fountain in from Stadium"
+                    },
+                    {
+                        "name": "GAG - Pickled Egg in Moes",
+                        "ref": "(LVL 5)/GAG/Pickled Egg in Moes"
+                    },
+                    {
+                        "name": "GAG - Slot Machine in Moes",
+                        "ref": "(LVL 5)/GAG/Slot Machine in Moes"
+                    },
+                    {
+                        "name": "GAG - Love Tester in Moes",
+                        "ref": "(LVL 5)/GAG/Love Tester in Moes"
+                    },
+                    {
+                        "name": "GAG - Blind Hans Moleman at the DMV",
+                        "ref": "(LVL 5)/GAG/Blind Hans Moleman at the DMV"
+                    },
+                    {
+                        "name": "GAG - Dumpster Behind Behind Krusty Burger (Near Police Station)",
+                        "ref": "(LVL 5)/GAG/Dumpster Behind Behind Krusty Burger (Near Police Station)"
+                    },
+                    {
+                        "name": "GAG - Light Up Drinks in Moes",
+                        "ref": "(LVL 5)/GAG/Light Up Drinks in Moes"
+                    },
+                    {
+                        "name": "CARD - Construction Crane Platforming",
+                        "ref": "(LVL 5)/CARD/Construction Crane Platforming"
+                    },
+                    {
+                        "name": "CARD - The Legitimate Businessmans Social Club",
+                        "ref": "(LVL 5)/CARD/The Legitimate Businessmans Social Club"
+                    },
+                    {
+                        "name": "CARD - Moes Roof",
+                        "ref": "(LVL 5)/CARD/Moes Roof"
+                    },
+                    {
+                        "name": "CARD - On Top of Train Across Water Tower",
+                        "ref": "(LVL 5)/CARD/On Top of Train Across Water Tower"
+                    },
+                    {
+                        "name": "CARD - Closed Highway Jump",
+                        "ref": "(LVL 5)/CARD/Closed Highway Jump"
+                    },
+                    {
+                        "name": "CARD - Downtown Billboard Platforming",
+                        "ref": "(LVL 5)/CARD/Downtown Billboard Platforming"
+                    },
+                    {
+                        "name": "CARD - Monorail Track",
+                        "ref": "(LVL 5)/CARD/Monorail Track"
+                    },
+                    {
+                        "name": "CARD - Courthouse Light Pole",
+                        "ref": "(LVL 5)/CARD/Courthouse Light Pole"
+                    },
+                    {
+                        "name": "CARD - Behind Museum Sign",
+                        "ref": "(LVL 5)/CARD/Behind Museum Sign"
+                    },
+                    {
+                        "name": "CARD - Lion Statue",
+                        "ref": "(LVL 5)/CARD/Lion Statue"
+                    },
+                    {
+                        "name": "CARD - Fountain",
+                        "ref": "(LVL 5)/CARD/Fountain"
+                    },
+                    {
+                        "name": "CARD - Hospital Doors",
+                        "ref": "(LVL 5)/CARD/Hospital Doors"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Hospital Parking Lot",
+                        "ref": "(LVL 5)/CARD/Above Street Near Hospital Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Town Hall (Stadium Side)",
+                        "ref": "(LVL 5)/CARD/Town Hall (Stadium Side)"
+                    },
+                    {
+                        "name": "CARD - Stadium Behind Duff Mascot",
+                        "ref": "(LVL 5)/CARD/Stadium Behind Duff Mascot"
+                    },
+                    {
+                        "name": "CARD - Stadium Ledge Bench",
+                        "ref": "(LVL 5)/CARD/Stadium Ledge Bench"
+                    },
+                    {
+                        "name": "CARD - Tunnel Pillar Near Stadium",
+                        "ref": "(LVL 5)/CARD/Tunnel Pillar Near Stadium"
+                    },
+                    {
+                        "name": "CARD - Tunnel Pillar Near Downtown",
+                        "ref": "(LVL 5)/CARD/Tunnel Pillar Near Downtown"
+                    },
+                    {
+                        "name": "CARD - Stadium Billboard",
+                        "ref": "(LVL 5)/CARD/Stadium Billboard"
+                    },
+                    {
+                        "name": "CARD - Fire Truck Jump",
+                        "ref": "(LVL 5)/CARD/Fire Truck Jump"
+                    },
+                    {
+                        "name": "CARD - Tree By Krusty Burger Downtown",
+                        "ref": "(LVL 5)/CARD/Tree By Krusty Burger Downtown"
+                    },
+                    {
+                        "name": "CARD - Sit N Rotate",
+                        "ref": "(LVL 5)/CARD/Sit N Rotate"
+                    },
+                    {
+                        "name": "CARD - Downtown Bank",
+                        "ref": "(LVL 5)/CARD/Downtown Bank"
+                    },
+                    {
+                        "name": "CARD - Monorail",
+                        "ref": "(LVL 5)/CARD/Monorail"
+                    },
+                    {
+                        "name": "CARD - Corner of Monorail Station",
+                        "ref": "(LVL 5)/CARD/Corner of Monorail Station"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Downtown Krusty Float",
+                        "ref": "(LVL 5)/CARD/Above Street Near Downtown Krusty Float"
+                    },
+                    {
+                        "name": "CARD - Ramp Behind Downtown Krusty Burger",
+                        "ref": "(LVL 5)/CARD/Ramp Behind Downtown Krusty Burger"
+                    },
+                    {
+                        "name": "CARD - Deli Near Monorail",
+                        "ref": "(LVL 5)/CARD/Deli Near Monorail"
+                    },
+                    {
+                        "name": "CARD - Above Downtown Highway Exit",
+                        "ref": "(LVL 5)/CARD/Above Downtown Highway Exit"
+                    },
+                    {
+                        "name": "CARD - Closed Highway",
+                        "ref": "(LVL 5)/CARD/Closed Highway"
+                    },
+                    {
+                        "name": "CARD - Main Highway",
+                        "ref": "(LVL 5)/CARD/Main Highway"
+                    },
+                    {
+                        "name": "CARD - East Side Highway Exit",
+                        "ref": "(LVL 5)/CARD/East Side Highway Exit"
+                    },
+                    {
+                        "name": "CARD - Try N Save Parking Lot",
+                        "ref": "(LVL 5)/CARD/Try N Save Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Behind Hermans Military Antiques",
+                        "ref": "(LVL 5)/CARD/Behind Hermans Military Antiques"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Helter Shelter",
+                        "ref": "(LVL 5)/CARD/Above Street Near Helter Shelter"
+                    },
+                    {
+                        "name": "CARD - DMV Sign",
+                        "ref": "(LVL 5)/CARD/DMV Sign"
+                    },
+                    {
+                        "name": "CARD - DMV Light Pole",
+                        "ref": "(LVL 5)/CARD/DMV Light Pole"
+                    },
+                    {
+                        "name": "CARD - Inside DMV",
+                        "ref": "(LVL 5)/CARD/Inside DMV"
+                    },
+                    {
+                        "name": "CARD - Above Street Between DMV and Trainyard",
+                        "ref": "(LVL 5)/CARD/Above Street Between DMV and Trainyard"
+                    },
+                    {
+                        "name": "CARD - Between Trains",
+                        "ref": "(LVL 5)/CARD/Between Trains"
+                    },
+                    {
+                        "name": "CARD - Above Train Crossing",
+                        "ref": "(LVL 5)/CARD/Above Train Crossing"
+                    },
+                    {
+                        "name": "CARD - Behind Moving Train",
+                        "ref": "(LVL 5)/CARD/Behind Moving Train"
+                    },
+                    {
+                        "name": "CARD - Train Stairs",
+                        "ref": "(LVL 5)/CARD/Train Stairs"
+                    },
+                    {
+                        "name": "CARD - Near Grease Recycling Plant",
+                        "ref": "(LVL 5)/CARD/Near Grease Recycling Plant"
+                    },
+                    {
+                        "name": "CARD - Outside Trainyard Parking Spot",
+                        "ref": "(LVL 5)/CARD/Outside Trainyard Parking Spot"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Car Wash",
+                        "ref": "(LVL 5)/CARD/Above Street Near Car Wash"
+                    },
+                    {
+                        "name": "CARD - On Top of Gas Station at Car Wash",
+                        "ref": "(LVL 5)/CARD/On Top of Gas Station at Car Wash"
+                    },
+                    {
+                        "name": "CARD - Inside Trainyard Parking Spot",
+                        "ref": "(LVL 5)/CARD/Inside Trainyard Parking Spot"
+                    },
+                    {
+                        "name": "CARD - Lexicon Bookstore Roof",
+                        "ref": "(LVL 5)/CARD/Lexicon Bookstore Roof"
+                    },
+                    {
+                        "name": "CARD - King Toots Music Store Roof",
+                        "ref": "(LVL 5)/CARD/King Toots Music Store Roof"
+                    },
+                    {
+                        "name": "CARD - Alley Behind King Toots Music Store",
+                        "ref": "(LVL 5)/CARD/Alley Behind King Toots Music Store"
+                    },
+                    {
+                        "name": "CARD - Legitimate Businessmans Roof 2",
+                        "ref": "(LVL 5)/CARD/Legitimate Businessmans Roof 2"
+                    },
+                    {
+                        "name": "CARD - Glens Grocery Roof",
+                        "ref": "(LVL 5)/CARD/Glens Grocery Roof"
+                    },
+                    {
+                        "name": "CARD - Stop Sign Across From Moes",
+                        "ref": "(LVL 5)/CARD/Stop Sign Across From Moes"
+                    },
+                    {
+                        "name": "CARD - Platform Behind Lard Lads",
+                        "ref": "(LVL 5)/CARD/Platform Behind Lard Lads"
+                    },
+                    {
+                        "name": "CARD - Street Near Construction",
+                        "ref": "(LVL 5)/CARD/Street Near Construction"
+                    },
+                    {
+                        "name": "CARD - Under Construction Building Between Krusty Burger and Lard Lads",
+                        "ref": "(LVL 5)/CARD/Under Construction Building Between Krusty Burger and Lard Lads"
+                    },
+                    {
+                        "name": "CARD - Krusty Burger Sign",
+                        "ref": "(LVL 5)/CARD/Krusty Burger Sign"
+                    },
+                    {
+                        "name": "CARD - Near Concrete Mixer",
+                        "ref": "(LVL 5)/CARD/Near Concrete Mixer"
+                    },
+                    {
+                        "name": "CARD - Gazebo Between Museum & Court House",
+                        "ref": "(LVL 5)/CARD/Gazebo Between Museum & Court House"
+                    },
+                    {
+                        "name": "CARD - Monkey Box",
+                        "ref": "(LVL 5)/CARD/Monkey Box"
+                    },
+                    {
+                        "name": "CARD - Hospital Sign",
+                        "ref": "(LVL 5)/CARD/Hospital Sign"
+                    },
+                    {
+                        "name": "CARD - Magnifying Glass Parking Lot",
+                        "ref": "(LVL 5)/CARD/Magnifying Glass Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Police Station",
+                        "ref": "(LVL 5)/CARD/Police Station"
+                    },
+                    {
+                        "name": "CARD - Tree Outside Police Station",
+                        "ref": "(LVL 5)/CARD/Tree Outside Police Station"
+                    },
+                    {
+                        "name": "CARD - 50% Off Sign Near Monorail",
+                        "ref": "(LVL 5)/CARD/50% Off Sign Near Monorail"
+                    },
+                    {
+                        "name": "CARD - Wooden Tower",
+                        "ref": "(LVL 5)/CARD/Wooden Tower"
+                    },
+                    {
+                        "name": "CARD - Town Hall Front",
+                        "ref": "(LVL 5)/CARD/Town Hall Front"
+                    },
+                    {
+                        "name": "CARD - Coming Soon Construction",
+                        "ref": "(LVL 5)/CARD/Coming Soon Construction"
+                    },
+                    {
+                        "name": "(LVL 5) - Checkpoint Race",
+                        "ref": "(LVL 5)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 5) - Circuit Race",
+                        "ref": "(LVL 5)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 5) - Time Trial Race",
+                        "ref": "(LVL 5)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 5) - Shop Check 1",
+                        "ref": "(LVL 5)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 5) - Shop Check 2",
+                        "ref": "(LVL 5)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 5) - Shop Check 3",
+                        "ref": "(LVL 5)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 5) - Shop Check 4",
+                        "ref": "(LVL 5)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 5) - Shop Check 5",
+                        "ref": "(LVL 5)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 5) - Shop Check 6",
+                        "ref": "(LVL 5)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 5) - Talk to Homer",
+                        "ref": "(LVL 5)/Talk to Homer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 958,
+                        "y": 2002,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "(LVL 6)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - Going to the Lu",
+                        "ref": "(LVL 6)/MISSION/Going to the Lu"
+                    },
+                    {
+                        "name": "MISSION - Getting Down with the Clown",
+                        "ref": "(LVL 6)/MISSION/Getting Down with the Clown"
+                    },
+                    {
+                        "name": "MISSION - Lab Coat Caper",
+                        "ref": "(LVL 6)/MISSION/Lab Coat Caper"
+                    },
+                    {
+                        "name": "MISSION - Duff for Me, Duff for You",
+                        "ref": "(LVL 6)/MISSION/Duff for Me, Duff for You"
+                    },
+                    {
+                        "name": "MISSION - Full Metal Jackass",
+                        "ref": "(LVL 6)/MISSION/Full Metal Jackass"
+                    },
+                    {
+                        "name": "MISSION - Set to Kill",
+                        "ref": "(LVL 6)/MISSION/Set to Kill"
+                    },
+                    {
+                        "name": "MISSION - Kang and Kodos Strike Back",
+                        "ref": "(LVL 6)/MISSION/Kang and Kodos Strike Back"
+                    },
+                    {
+                        "name": "BMISSION - Milking The Pigs",
+                        "ref": "(LVL 6)/BMISSION/Milking The Pigs"
+                    },
+                    {
+                        "name": "(Boat) - Crane",
+                        "ref": "(LVL 6)/WASP/(Boat)/Crane"
+                    },
+                    {
+                        "name": "(Boat) - Staircase 1",
+                        "ref": "(LVL 6)/WASP/(Boat)/Staircase 1"
+                    },
+                    {
+                        "name": "(Boat) - Staircase 2",
+                        "ref": "(LVL 6)/WASP/(Boat)/Staircase 2"
+                    },
+                    {
+                        "name": "WASP - Observatory 1",
+                        "ref": "(LVL 6)/WASP/Observatory 1"
+                    },
+                    {
+                        "name": "WASP - Observatory 2",
+                        "ref": "(LVL 6)/WASP/Observatory 2"
+                    },
+                    {
+                        "name": "WASP - Kamp Krusty 1",
+                        "ref": "(LVL 6)/WASP/Kamp Krusty 1"
+                    },
+                    {
+                        "name": "WASP - Kamp Krusty 2",
+                        "ref": "(LVL 6)/WASP/Kamp Krusty 2"
+                    },
+                    {
+                        "name": "WASP - Broken Railing Below Dam",
+                        "ref": "(LVL 6)/WASP/Broken Railing Below Dam"
+                    },
+                    {
+                        "name": "WASP - Broken Railing Exit",
+                        "ref": "(LVL 6)/WASP/Broken Railing Exit"
+                    },
+                    {
+                        "name": "WASP - Motel",
+                        "ref": "(LVL 6)/WASP/Motel"
+                    },
+                    {
+                        "name": "WASP - Duff Brewery Krusty Glass",
+                        "ref": "(LVL 6)/WASP/Duff Brewery Krusty Glass"
+                    },
+                    {
+                        "name": "WASP - Under Duff Blimp",
+                        "ref": "(LVL 6)/WASP/Under Duff Blimp"
+                    },
+                    {
+                        "name": "WASP - Krusty Studio Left",
+                        "ref": "(LVL 6)/WASP/Krusty Studio Left"
+                    },
+                    {
+                        "name": "WASP - Krusty Studio Right",
+                        "ref": "(LVL 6)/WASP/Krusty Studio Right"
+                    },
+                    {
+                        "name": "WASP - Krusty Studio Balcony",
+                        "ref": "(LVL 6)/WASP/Krusty Studio Balcony"
+                    },
+                    {
+                        "name": "WASP - Lighthouse",
+                        "ref": "(LVL 6)/WASP/Lighthouse"
+                    },
+                    {
+                        "name": "WASP - Planet Hype Rooftop",
+                        "ref": "(LVL 6)/WASP/Planet Hype Rooftop"
+                    },
+                    {
+                        "name": "WASP - Bowling Rooftop",
+                        "ref": "(LVL 6)/WASP/Bowling Rooftop"
+                    },
+                    {
+                        "name": "WASP - Comic Book Guy Rooftop 1",
+                        "ref": "(LVL 6)/WASP/Comic Book Guy Rooftop 1"
+                    },
+                    {
+                        "name": "WASP - Comic Book Guy Rooftop 2",
+                        "ref": "(LVL 6)/WASP/Comic Book Guy Rooftop 2"
+                    },
+                    {
+                        "name": "(Observatory) - Monkey",
+                        "ref": "(LVL 6)/GAG/(Observatory)/Monkey"
+                    },
+                    {
+                        "name": "GAG - Comic Book Guy Robot",
+                        "ref": "(LVL 6)/GAG/Comic Book Guy Robot"
+                    },
+                    {
+                        "name": "GAG - Comic Book Guy Radioactive Man",
+                        "ref": "(LVL 6)/GAG/Comic Book Guy Radioactive Man"
+                    },
+                    {
+                        "name": "GAG - Yellow Dumpster Across Krusty Burger",
+                        "ref": "(LVL 6)/GAG/Yellow Dumpster Across Krusty Burger"
+                    },
+                    {
+                        "name": "GAG - Kid Drowning in Ball Pit",
+                        "ref": "(LVL 6)/GAG/Kid Drowning in Ball Pit"
+                    },
+                    {
+                        "name": "GAG - Crane on Ship",
+                        "ref": "(LVL 6)/GAG/Crane on Ship"
+                    },
+                    {
+                        "name": "GAG - Observatory Alarm",
+                        "ref": "(LVL 6)/GAG/Observatory Alarm"
+                    },
+                    {
+                        "name": "GAG - Perpetual Motion Machine at Observatory",
+                        "ref": "(LVL 6)/GAG/Perpetual Motion Machine at Observatory"
+                    },
+                    {
+                        "name": "GAG - Telescope at Observatory",
+                        "ref": "(LVL 6)/GAG/Telescope at Observatory"
+                    },
+                    {
+                        "name": "GAG - Kamp Krusty Flag",
+                        "ref": "(LVL 6)/GAG/Kamp Krusty Flag"
+                    },
+                    {
+                        "name": "GAG - Boars Head at Kamp Krusty",
+                        "ref": "(LVL 6)/GAG/Boars Head at Kamp Krusty"
+                    },
+                    {
+                        "name": "CARD - Above Street BallPit House",
+                        "ref": "(LVL 6)/CARD/Above Street BallPit House"
+                    },
+                    {
+                        "name": "CARD - Casino Ramp",
+                        "ref": "(LVL 6)/CARD/Casino Ramp"
+                    },
+                    {
+                        "name": "CARD - Planet Hype Sign",
+                        "ref": "(LVL 6)/CARD/Planet Hype Sign"
+                    },
+                    {
+                        "name": "CARD - Atop Front of Boat",
+                        "ref": "(LVL 6)/CARD/Atop Front of Boat"
+                    },
+                    {
+                        "name": "CARD - Duff Blimp",
+                        "ref": "(LVL 6)/CARD/Duff Blimp"
+                    },
+                    {
+                        "name": "CARD - Hidden in Bush Next to Kamp Krusty Well Exit",
+                        "ref": "(LVL 6)/CARD/Hidden in Bush Next to Kamp Krusty Well Exit"
+                    },
+                    {
+                        "name": "CARD - Broken Bridge",
+                        "ref": "(LVL 6)/CARD/Broken Bridge"
+                    },
+                    {
+                        "name": "CARD - Behind Lighthouse",
+                        "ref": "(LVL 6)/CARD/Behind Lighthouse"
+                    },
+                    {
+                        "name": "CARD - Pelican Behind Planet Hype 1",
+                        "ref": "(LVL 6)/CARD/Pelican Behind Planet Hype 1"
+                    },
+                    {
+                        "name": "CARD - Pelican in Front of Planet Hype 1",
+                        "ref": "(LVL 6)/CARD/Pelican in Front of Planet Hype 1"
+                    },
+                    {
+                        "name": "CARD - Pelican in Front of Planet Hype 2",
+                        "ref": "(LVL 6)/CARD/Pelican in Front of Planet Hype 2"
+                    },
+                    {
+                        "name": "CARD - Pelican Near Squidport Arch",
+                        "ref": "(LVL 6)/CARD/Pelican Near Squidport Arch"
+                    },
+                    {
+                        "name": "CARD - Little Boats on Beach",
+                        "ref": "(LVL 6)/CARD/Little Boats on Beach"
+                    },
+                    {
+                        "name": "CARD - Big Boat on Beach",
+                        "ref": "(LVL 6)/CARD/Big Boat on Beach"
+                    },
+                    {
+                        "name": "CARD - Deck by Squidport Pedestrian Entrance 1",
+                        "ref": "(LVL 6)/CARD/Deck by Squidport Pedestrian Entrance 1"
+                    },
+                    {
+                        "name": "CARD - Deck by Squidport Pedestrian Entrance",
+                        "ref": "(LVL 6)/CARD/Deck by Squidport Pedestrian Entrance"
+                    },
+                    {
+                        "name": "CARD - Casino Bushes Near Squidport",
+                        "ref": "(LVL 6)/CARD/Casino Bushes Near Squidport"
+                    },
+                    {
+                        "name": "CARD - Lower Casino Entrance",
+                        "ref": "(LVL 6)/CARD/Lower Casino Entrance"
+                    },
+                    {
+                        "name": "CARD - Sidewalk Near Casino Ramp 1",
+                        "ref": "(LVL 6)/CARD/Sidewalk Near Casino Ramp 1"
+                    },
+                    {
+                        "name": "CARD - Behind Casino Ramp",
+                        "ref": "(LVL 6)/CARD/Behind Casino Ramp"
+                    },
+                    {
+                        "name": "CARD - Sidewalk Near Casino Ramp 2",
+                        "ref": "(LVL 6)/CARD/Sidewalk Near Casino Ramp 2"
+                    },
+                    {
+                        "name": "CARD - Houses Near Bowl-a-Rama",
+                        "ref": "(LVL 6)/CARD/Houses Near Bowl-a-Rama"
+                    },
+                    {
+                        "name": "CARD - Jazz Hole",
+                        "ref": "(LVL 6)/CARD/Jazz Hole"
+                    },
+                    {
+                        "name": "CARD - Krusty Burger Parking Lot",
+                        "ref": "(LVL 6)/CARD/Krusty Burger Parking Lot"
+                    },
+                    {
+                        "name": "CARD - Gated Houses Near Aztec Theater",
+                        "ref": "(LVL 6)/CARD/Gated Houses Near Aztec Theater"
+                    },
+                    {
+                        "name": "CARD - Boulevard Near Krusty and Friends Billboard",
+                        "ref": "(LVL 6)/CARD/Boulevard Near Krusty and Friends Billboard"
+                    },
+                    {
+                        "name": "CARD - Stairs Near Krusty and Friends Billboard",
+                        "ref": "(LVL 6)/CARD/Stairs Near Krusty and Friends Billboard"
+                    },
+                    {
+                        "name": "CARD - Short Wall Down the Street from Gas Station",
+                        "ref": "(LVL 6)/CARD/Short Wall Down the Street from Gas Station"
+                    },
+                    {
+                        "name": "CARD - Concrete Mixer at Gas Station",
+                        "ref": "(LVL 6)/CARD/Concrete Mixer at Gas Station"
+                    },
+                    {
+                        "name": "CARD - Green Building Across from Skinner",
+                        "ref": "(LVL 6)/CARD/Green Building Across from Skinner"
+                    },
+                    {
+                        "name": "CARD - Lumber King Billboard",
+                        "ref": "(LVL 6)/CARD/Lumber King Billboard"
+                    },
+                    {
+                        "name": "CARD - Park Across From Androids Dungeon",
+                        "ref": "(LVL 6)/CARD/Park Across From Androids Dungeon"
+                    },
+                    {
+                        "name": "CARD - Behind Krusty BUrger Across From Androids Dungeon",
+                        "ref": "(LVL 6)/CARD/Behind Krusty BUrger Across From Androids Dungeon"
+                    },
+                    {
+                        "name": "CARD - Wall E Weasels Roof",
+                        "ref": "(LVL 6)/CARD/Wall E Weasels Roof"
+                    },
+                    {
+                        "name": "CARD - Spaghetti Laboratory",
+                        "ref": "(LVL 6)/CARD/Spaghetti Laboratory"
+                    },
+                    {
+                        "name": "CARD - Malaria Zone",
+                        "ref": "(LVL 6)/CARD/Malaria Zone"
+                    },
+                    {
+                        "name": "CARD - Barrels Near Gil",
+                        "ref": "(LVL 6)/CARD/Barrels Near Gil"
+                    },
+                    {
+                        "name": "CARD - Box Near Gil",
+                        "ref": "(LVL 6)/CARD/Box Near Gil"
+                    },
+                    {
+                        "name": "CARD - Squidport Undercover Police Dumpster",
+                        "ref": "(LVL 6)/CARD/Squidport Undercover Police Dumpster"
+                    },
+                    {
+                        "name": "CARD - Davey Jones Hamper",
+                        "ref": "(LVL 6)/CARD/Davey Jones Hamper"
+                    },
+                    {
+                        "name": "CARD - Rail Near C-Spanker",
+                        "ref": "(LVL 6)/CARD/Rail Near C-Spanker"
+                    },
+                    {
+                        "name": "CARD - Hidden Behind C-Spanker Cargo Containers 1",
+                        "ref": "(LVL 6)/CARD/Hidden Behind C-Spanker Cargo Containers 1"
+                    },
+                    {
+                        "name": "CARD - C-Spanker Crane",
+                        "ref": "(LVL 6)/CARD/C-Spanker Crane"
+                    },
+                    {
+                        "name": "CARD - Hidden Behind C-Spanker Cargo Containers 2",
+                        "ref": "(LVL 6)/CARD/Hidden Behind C-Spanker Cargo Containers 2"
+                    },
+                    {
+                        "name": "CARD - C-Spanker Inside Cargo Container",
+                        "ref": "(LVL 6)/CARD/C-Spanker Inside Cargo Container"
+                    },
+                    {
+                        "name": "CARD - C-Spanker Upstairs Rail",
+                        "ref": "(LVL 6)/CARD/C-Spanker Upstairs Rail"
+                    },
+                    {
+                        "name": "CARD - Taffy Shop",
+                        "ref": "(LVL 6)/CARD/Taffy Shop"
+                    },
+                    {
+                        "name": "CARD - Across From Taffy Shop",
+                        "ref": "(LVL 6)/CARD/Across From Taffy Shop"
+                    },
+                    {
+                        "name": "CARD - KrustyLu Studios Sign",
+                        "ref": "(LVL 6)/CARD/KrustyLu Studios Sign"
+                    },
+                    {
+                        "name": "CARD - Behind KrustyLu Studios Sign",
+                        "ref": "(LVL 6)/CARD/Behind KrustyLu Studios Sign"
+                    },
+                    {
+                        "name": "CARD - News Studio",
+                        "ref": "(LVL 6)/CARD/News Studio"
+                    },
+                    {
+                        "name": "CARD - Bridge Near Giant SPRINGFIELD Sign",
+                        "ref": "(LVL 6)/CARD/Bridge Near Giant SPRINGFIELD Sign"
+                    },
+                    {
+                        "name": "CARD - Motel Balcony",
+                        "ref": "(LVL 6)/CARD/Motel Balcony"
+                    },
+                    {
+                        "name": "CARD - Motel Awning",
+                        "ref": "(LVL 6)/CARD/Motel Awning"
+                    },
+                    {
+                        "name": "CARD - Observatory 1",
+                        "ref": "(LVL 6)/CARD/Observatory 1"
+                    },
+                    {
+                        "name": "CARD - Observatory 2",
+                        "ref": "(LVL 6)/CARD/Observatory 2"
+                    },
+                    {
+                        "name": "CARD - Kamp Krusty Weight Loss Center",
+                        "ref": "(LVL 6)/CARD/Kamp Krusty Weight Loss Center"
+                    },
+                    {
+                        "name": "CARD - Boars Head at Kamp Krusty ",
+                        "ref": "(LVL 6)/CARD/Boars Head at Kamp Krusty "
+                    },
+                    {
+                        "name": "CARD - Dam",
+                        "ref": "(LVL 6)/CARD/Dam"
+                    },
+                    {
+                        "name": "CARD - Parking Spot Across From Androids Dungeon",
+                        "ref": "(LVL 6)/CARD/Parking Spot Across From Androids Dungeon"
+                    },
+                    {
+                        "name": "CARD - Above Road Near Drain Pipe",
+                        "ref": "(LVL 6)/CARD/Above Road Near Drain Pipe"
+                    },
+                    {
+                        "name": "CARD - Behind Truck",
+                        "ref": "(LVL 6)/CARD/Behind Truck"
+                    },
+                    {
+                        "name": "CARD - Duff Brewery Landing Pad",
+                        "ref": "(LVL 6)/CARD/Duff Brewery Landing Pad"
+                    },
+                    {
+                        "name": "CARD - Captain Chum N Stuff",
+                        "ref": "(LVL 6)/CARD/Captain Chum N Stuff"
+                    },
+                    {
+                        "name": "CARD - Upper Casino Entrance",
+                        "ref": "(LVL 6)/CARD/Upper Casino Entrance"
+                    },
+                    {
+                        "name": "(LVL 6) - Checkpoint Race",
+                        "ref": "(LVL 6)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 6) - Time Trial Race",
+                        "ref": "(LVL 6)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 6) - Circuit Race",
+                        "ref": "(LVL 6)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 6) - Shop Check 1",
+                        "ref": "(LVL 6)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 6) - Shop Check 2",
+                        "ref": "(LVL 6)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 6) - Shop Check 3",
+                        "ref": "(LVL 6)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 6) - Shop Check 4",
+                        "ref": "(LVL 6)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 6) - Shop Check 5",
+                        "ref": "(LVL 6)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 6) - Shop Check 6",
+                        "ref": "(LVL 6)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 6) - Talk to Kearney",
+                        "ref": "(LVL 6)/Talk to Kearney"
+                    },
+                    {
+                        "name": "(LVL 6) - CARD -Pelican Behind Planet Hype 2",
+                        "ref": "(LVL 6)/CARD -Pelican Behind Planet Hype 2"
+                    },
+                    {
+                        "name": "(LVL 6) - CARD -Planet Hype Outdoor Seating",
+                        "ref": "(LVL 6)/CARD -Planet Hype Outdoor Seating"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1157,
+                        "y": 480,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "(LVL 7)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "MISSION - Rigor Motors",
+                        "ref": "(LVL 7)/MISSION/Rigor Motors"
+                    },
+                    {
+                        "name": "MISSION - Long Black Probes",
+                        "ref": "(LVL 7)/MISSION/Long Black Probes"
+                    },
+                    {
+                        "name": "MISSION - Pocket Protector",
+                        "ref": "(LVL 7)/MISSION/Pocket Protector"
+                    },
+                    {
+                        "name": "MISSION - Theres Something About Monty",
+                        "ref": "(LVL 7)/MISSION/Theres Something About Monty"
+                    },
+                    {
+                        "name": "MISSION - Alien Autotopsy Part 1",
+                        "ref": "(LVL 7)/MISSION/Alien Autotopsy Part 1"
+                    },
+                    {
+                        "name": "MISSION - Alien Autotopsy Part 2",
+                        "ref": "(LVL 7)/MISSION/Alien Autotopsy Part 2"
+                    },
+                    {
+                        "name": "MISSION - Alien Autotopsy Part 3",
+                        "ref": "(LVL 7)/MISSION/Alien Autotopsy Part 3"
+                    },
+                    {
+                        "name": "BMISSION - Flaming Tires",
+                        "ref": "(LVL 7)/BMISSION/Flaming Tires"
+                    },
+                    {
+                        "name": "WASP - Blue House Haunted Playground",
+                        "ref": "(LVL 7)/WASP/Blue House Haunted Playground"
+                    },
+                    {
+                        "name": "WASP - Blue House Backyard",
+                        "ref": "(LVL 7)/WASP/Blue House Backyard"
+                    },
+                    {
+                        "name": "WASP - Simpsons Backyard",
+                        "ref": "(LVL 7)/WASP/Simpsons Backyard"
+                    },
+                    {
+                        "name": "WASP - Flanders Backyard",
+                        "ref": "(LVL 7)/WASP/Flanders Backyard"
+                    },
+                    {
+                        "name": "WASP - Wiggums Backyard",
+                        "ref": "(LVL 7)/WASP/Wiggums Backyard"
+                    },
+                    {
+                        "name": "WASP - Atop of Kwik-E-Mart",
+                        "ref": "(LVL 7)/WASP/Atop of Kwik-E-Mart"
+                    },
+                    {
+                        "name": "WASP - Atop of Gasoline",
+                        "ref": "(LVL 7)/WASP/Atop of Gasoline"
+                    },
+                    {
+                        "name": "WASP - Lard Lad Rooftop",
+                        "ref": "(LVL 7)/WASP/Lard Lad Rooftop"
+                    },
+                    {
+                        "name": "WASP - Krusty Burger Rooftop",
+                        "ref": "(LVL 7)/WASP/Krusty Burger Rooftop"
+                    },
+                    {
+                        "name": "WASP - School playground",
+                        "ref": "(LVL 7)/WASP/School playground"
+                    },
+                    {
+                        "name": "WASP - The One Being Abducted",
+                        "ref": "(LVL 7)/WASP/The One Being Abducted"
+                    },
+                    {
+                        "name": "WASP - School Roof 1",
+                        "ref": "(LVL 7)/WASP/School Roof 1"
+                    },
+                    {
+                        "name": "WASP - School Roof 2",
+                        "ref": "(LVL 7)/WASP/School Roof 2"
+                    },
+                    {
+                        "name": "WASP - Bridge Barricade",
+                        "ref": "(LVL 7)/WASP/Bridge Barricade"
+                    },
+                    {
+                        "name": "WASP - Bridge Frame by Cletus",
+                        "ref": "(LVL 7)/WASP/Bridge Frame by Cletus"
+                    },
+                    {
+                        "name": "WASP - TrailerPark 1",
+                        "ref": "(LVL 7)/WASP/TrailerPark 1"
+                    },
+                    {
+                        "name": "WASP - TrailerPark 2",
+                        "ref": "(LVL 7)/WASP/TrailerPark 2"
+                    },
+                    {
+                        "name": "WASP - Barn Silo",
+                        "ref": "(LVL 7)/WASP/Barn Silo"
+                    },
+                    {
+                        "name": "WASP - Power Plant Parking lot",
+                        "ref": "(LVL 7)/WASP/Power Plant Parking lot"
+                    },
+                    {
+                        "name": "WASP - Mr. Burns Office",
+                        "ref": "(LVL 7)/WASP/Mr. Burns Office"
+                    },
+                    {
+                        "name": "GAG - Simpsons TV",
+                        "ref": "(LVL 7)/GAG/Simpsons TV"
+                    },
+                    {
+                        "name": "GAG - Simpsons Swing",
+                        "ref": "(LVL 7)/GAG/Simpsons Swing"
+                    },
+                    {
+                        "name": "GAG - Simpsons Fire Breathing Tiki",
+                        "ref": "(LVL 7)/GAG/Simpsons Fire Breathing Tiki"
+                    },
+                    {
+                        "name": "GAG - Krusty Lamp (Barts Room)",
+                        "ref": "(LVL 7)/GAG/Krusty Lamp (Barts Room)"
+                    },
+                    {
+                        "name": "GAG - Clown Bed (Barts Room)",
+                        "ref": "(LVL 7)/GAG/Clown Bed (Barts Room)"
+                    },
+                    {
+                        "name": "GAG - Flanders Bomb Shelter",
+                        "ref": "(LVL 7)/GAG/Flanders Bomb Shelter"
+                    },
+                    {
+                        "name": "GAG - Blue House Haunted Swing",
+                        "ref": "(LVL 7)/GAG/Blue House Haunted Swing"
+                    },
+                    {
+                        "name": "GAG - Tank in Power Plant Parking lot",
+                        "ref": "(LVL 7)/GAG/Tank in Power Plant Parking lot"
+                    },
+                    {
+                        "name": "GAG - Frozen Man in Kwik-E-Mart",
+                        "ref": "(LVL 7)/GAG/Frozen Man in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Silent Alarm in Kwik-E-Mart",
+                        "ref": "(LVL 7)/GAG/Silent Alarm in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Squishee Machine in Kwik-E-Mart",
+                        "ref": "(LVL 7)/GAG/Squishee Machine in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - ATM in Kwik-E-Mart",
+                        "ref": "(LVL 7)/GAG/ATM in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - Arcade Cabinet in Kwik-E-Mart",
+                        "ref": "(LVL 7)/GAG/Arcade Cabinet in Kwik-E-Mart"
+                    },
+                    {
+                        "name": "GAG - School Fire Extinguisher",
+                        "ref": "(LVL 7)/GAG/School Fire Extinguisher"
+                    },
+                    {
+                        "name": "GAG - School Fire Alarm",
+                        "ref": "(LVL 7)/GAG/School Fire Alarm"
+                    },
+                    {
+                        "name": "CARD - Flanders\u2019 Bomb Shelter",
+                        "ref": "(LVL 7)/CARD/Flanders\u2019 Bomb Shelter"
+                    },
+                    {
+                        "name": "CARD - Blue House Haunted Playground",
+                        "ref": "(LVL 7)/CARD/Blue House Haunted Playground"
+                    },
+                    {
+                        "name": "CARD - School Playground",
+                        "ref": "(LVL 7)/CARD/School Playground"
+                    },
+                    {
+                        "name": "CARD - Atop of Lard Lad",
+                        "ref": "(LVL 7)/CARD/Atop of Lard Lad"
+                    },
+                    {
+                        "name": "CARD - Cemetery Moat",
+                        "ref": "(LVL 7)/CARD/Cemetery Moat"
+                    },
+                    {
+                        "name": "CARD - Barn Silo",
+                        "ref": "(LVL 7)/CARD/Barn Silo"
+                    },
+                    {
+                        "name": "CARD - Mr. Burns Office",
+                        "ref": "(LVL 7)/CARD/Mr. Burns Office"
+                    },
+                    {
+                        "name": "CARD - Neighbors Carport",
+                        "ref": "(LVL 7)/CARD/Neighbors Carport"
+                    },
+                    {
+                        "name": "CARD - Behind Flanders Tree",
+                        "ref": "(LVL 7)/CARD/Behind Flanders Tree"
+                    },
+                    {
+                        "name": "CARD - Jump Past Neighbors Playground",
+                        "ref": "(LVL 7)/CARD/Jump Past Neighbors Playground"
+                    },
+                    {
+                        "name": "CARD - Above Kwik-E-Mart",
+                        "ref": "(LVL 7)/CARD/Above Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Kwik-E-Marts Dumpster",
+                        "ref": "(LVL 7)/CARD/Kwik-E-Marts Dumpster"
+                    },
+                    {
+                        "name": "CARD - Krusty Burgers Dumpster",
+                        "ref": "(LVL 7)/CARD/Krusty Burgers Dumpster"
+                    },
+                    {
+                        "name": "CARD - Gas Station Roof",
+                        "ref": "(LVL 7)/CARD/Gas Station Roof"
+                    },
+                    {
+                        "name": "CARD - Above Street Between Simpsons House and Kwik-E-Mart",
+                        "ref": "(LVL 7)/CARD/Above Street Between Simpsons House and Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - House Between Simpsons House and Kwik-E-Mart",
+                        "ref": "(LVL 7)/CARD/House Between Simpsons House and Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Top of Krusty Burger Near Kwik-E-Mart",
+                        "ref": "(LVL 7)/CARD/Top of Krusty Burger Near Kwik-E-Mart"
+                    },
+                    {
+                        "name": "CARD - Retirement Castle",
+                        "ref": "(LVL 7)/CARD/Retirement Castle"
+                    },
+                    {
+                        "name": "CARD - Casa Nova",
+                        "ref": "(LVL 7)/CARD/Casa Nova"
+                    },
+                    {
+                        "name": "CARD - Shortcut Between Church and Lard Lad",
+                        "ref": "(LVL 7)/CARD/Shortcut Between Church and Lard Lad"
+                    },
+                    {
+                        "name": "CARD - Church Sign",
+                        "ref": "(LVL 7)/CARD/Church Sign"
+                    },
+                    {
+                        "name": "CARD - Church Dumpster",
+                        "ref": "(LVL 7)/CARD/Church Dumpster"
+                    },
+                    {
+                        "name": "CARD - Dumpster Behind Krusty Burger Near School",
+                        "ref": "(LVL 7)/CARD/Dumpster Behind Krusty Burger Near School"
+                    },
+                    {
+                        "name": "CARD - Deli Near School",
+                        "ref": "(LVL 7)/CARD/Deli Near School"
+                    },
+                    {
+                        "name": "CARD - Back of School Roof",
+                        "ref": "(LVL 7)/CARD/Back of School Roof"
+                    },
+                    {
+                        "name": "CARD - Willies Shack",
+                        "ref": "(LVL 7)/CARD/Willies Shack"
+                    },
+                    {
+                        "name": "CARD - Grocery Stores Dumpster",
+                        "ref": "(LVL 7)/CARD/Grocery Stores Dumpster"
+                    },
+                    {
+                        "name": "CARD - Lard Lad Doorbell",
+                        "ref": "(LVL 7)/CARD/Lard Lad Doorbell"
+                    },
+                    {
+                        "name": "CARD - House Across From Simpsons House 1",
+                        "ref": "(LVL 7)/CARD/House Across From Simpsons House 1"
+                    },
+                    {
+                        "name": "CARD - House Across From Simpsons House 2",
+                        "ref": "(LVL 7)/CARD/House Across From Simpsons House 2"
+                    },
+                    {
+                        "name": "CARD - Above Wiggums",
+                        "ref": "(LVL 7)/CARD/Above Wiggums"
+                    },
+                    {
+                        "name": "CARD - House on Corner Near Graveyard",
+                        "ref": "(LVL 7)/CARD/House on Corner Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - House Next to Krusty Burger Near Graveyard",
+                        "ref": "(LVL 7)/CARD/House Next to Krusty Burger Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - Cletus House",
+                        "ref": "(LVL 7)/CARD/Cletus House"
+                    },
+                    {
+                        "name": "CARD - Big Bridge",
+                        "ref": "(LVL 7)/CARD/Big Bridge"
+                    },
+                    {
+                        "name": "CARD - Flanders House",
+                        "ref": "(LVL 7)/CARD/Flanders House"
+                    },
+                    {
+                        "name": "CARD - Moes House",
+                        "ref": "(LVL 7)/CARD/Moes House"
+                    },
+                    {
+                        "name": "CARD - Nelsons House",
+                        "ref": "(LVL 7)/CARD/Nelsons House"
+                    },
+                    {
+                        "name": "CARD - Tire Fire",
+                        "ref": "(LVL 7)/CARD/Tire Fire"
+                    },
+                    {
+                        "name": "CARD - Power Plant",
+                        "ref": "(LVL 7)/CARD/Power Plant"
+                    },
+                    {
+                        "name": "CARD - Across From Gil",
+                        "ref": "(LVL 7)/CARD/Across From Gil"
+                    },
+                    {
+                        "name": "CARD - Back of Cletus Shack",
+                        "ref": "(LVL 7)/CARD/Back of Cletus Shack"
+                    },
+                    {
+                        "name": "CARD - Tree on Corner Near Graveyard",
+                        "ref": "(LVL 7)/CARD/Tree on Corner Near Graveyard"
+                    },
+                    {
+                        "name": "CARD - Above Trailer Park",
+                        "ref": "(LVL 7)/CARD/Above Trailer Park"
+                    },
+                    {
+                        "name": "CARD - Above Street Near Barn",
+                        "ref": "(LVL 7)/CARD/Above Street Near Barn"
+                    },
+                    {
+                        "name": "CARD - Corner of Tomacco Field",
+                        "ref": "(LVL 7)/CARD/Corner of Tomacco Field"
+                    },
+                    {
+                        "name": "CARD - Beside School",
+                        "ref": "(LVL 7)/CARD/Beside School"
+                    },
+                    {
+                        "name": "CARD - Power Plant Parking Lot 1",
+                        "ref": "(LVL 7)/CARD/Power Plant Parking Lot 1"
+                    },
+                    {
+                        "name": "CARD - Power Plant Parking Lot 2",
+                        "ref": "(LVL 7)/CARD/Power Plant Parking Lot 2"
+                    },
+                    {
+                        "name": "CARD - Power Plant Wreckage 1",
+                        "ref": "(LVL 7)/CARD/Power Plant Wreckage 1"
+                    },
+                    {
+                        "name": "CARD - Power Plant Wreckage 2",
+                        "ref": "(LVL 7)/CARD/Power Plant Wreckage 2"
+                    },
+                    {
+                        "name": "CARD - Power Plant Wreckage 3",
+                        "ref": "(LVL 7)/CARD/Power Plant Wreckage 3"
+                    },
+                    {
+                        "name": "CARD - Burns Office Chair",
+                        "ref": "(LVL 7)/CARD/Burns Office Chair"
+                    },
+                    {
+                        "name": "CARD - Cemetery Skeleton",
+                        "ref": "(LVL 7)/CARD/Cemetery Skeleton"
+                    },
+                    {
+                        "name": "CARD - Cemetery Crypt",
+                        "ref": "(LVL 7)/CARD/Cemetery Crypt"
+                    },
+                    {
+                        "name": "CARD - Cemetery Tree",
+                        "ref": "(LVL 7)/CARD/Cemetery Tree"
+                    },
+                    {
+                        "name": "CARD - Cemetery",
+                        "ref": "(LVL 7)/CARD/Cemetery"
+                    },
+                    {
+                        "name": "CARD - Ghost",
+                        "ref": "(LVL 7)/CARD/Ghost"
+                    },
+                    {
+                        "name": "(LVL 7) - Time Trial Race",
+                        "ref": "(LVL 7)/Time Trial Race"
+                    },
+                    {
+                        "name": "(LVL 7) - Circuit Race",
+                        "ref": "(LVL 7)/Circuit Race"
+                    },
+                    {
+                        "name": "(LVL 7) - Checkpoint Race",
+                        "ref": "(LVL 7)/Checkpoint Race"
+                    },
+                    {
+                        "name": "(LVL 7) - Shop Check 1",
+                        "ref": "(LVL 7)/Shop Check 1"
+                    },
+                    {
+                        "name": "(LVL 7) - Shop Check 2",
+                        "ref": "(LVL 7)/Shop Check 2"
+                    },
+                    {
+                        "name": "(LVL 7) - Shop Check 3",
+                        "ref": "(LVL 7)/Shop Check 3"
+                    },
+                    {
+                        "name": "(LVL 7) - Shop Check 4",
+                        "ref": "(LVL 7)/Shop Check 4"
+                    },
+                    {
+                        "name": "(LVL 7) - Shop Check 5",
+                        "ref": "(LVL 7)/Shop Check 5"
+                    },
+                    {
+                        "name": "(LVL 7) - Shop Check 6",
+                        "ref": "(LVL 7)/Shop Check 6"
+                    },
+                    {
+                        "name": "(LVL 7) - Talk to Graveyard Zombie",
+                        "ref": "(LVL 7)/Talk to Graveyard Zombie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1100,
+                        "y": 693,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Goal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Goal - All Missions Complete!",
+                        "ref": "Goal/All Missions Complete!"
+                    },
+                    {
+                        "name": "Goal - All Story Missions Complete!",
+                        "ref": "Goal/All Story Missions Complete!"
+                    },
+                    {
+                        "name": "Goal - Final Mission(L7M7)",
+                        "ref": "Goal/Final Mission(L7M7)"
+                    },
+                    {
+                        "name": "Goal - Wasps and Cards Collected!",
+                        "ref": "Goal/Wasps and Cards Collected!"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1319,
+                        "y": 568,
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

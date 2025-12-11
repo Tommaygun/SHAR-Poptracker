@@ -1,0 +1,524 @@
+[
+    {
+        "name": "Level 1",
+        "type": "toggle",
+        "img": "images/items/level1.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level1"
+    },
+    {
+        "name": "Level 2",
+        "type": "toggle",
+        "img": "images/items/level2.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level2"
+    },
+    {
+        "name": "Level 3",
+        "type": "toggle",
+        "img": "images/items/level3.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level3"
+    },
+    {
+        "name": "Level 4",
+        "type": "toggle",
+        "img": "images/items/level4.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level4"
+    },
+    {
+        "name": "Level 5",
+        "type": "toggle",
+        "img": "images/items/level5.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level5"
+    },
+    {
+        "name": "Level 6",
+        "type": "toggle",
+        "img": "images/items/level6.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level6"
+    },
+    {
+        "name": "Level 7",
+        "type": "toggle",
+        "img": "images/items/level7.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "level7"
+    },
+    {
+        "name": "Progressive Wallet Upgrade",
+        "type": "consumable",
+        "img": "images/items/progressivewalletupgrade.png",
+        "img_mods": "",
+        "min_quantity": 0,
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "overlay_font_size": 20,
+        "overlay_background": "#000000",
+        "codes": "progressivewalletupgrade"
+    },
+    {
+        "name": "Homer Progressive Jump",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/abilities/jump/homersinglejump.png",
+                "img_mods": "",
+                "codes": "homerprogressivejump,hsj"
+            },
+            {
+                "img": "images/abilities/jump/homerdoublejump.png",
+                "img_mods": "",
+                "codes": "homerprogressivejump,hdj"
+            }
+        ]
+    },
+    {
+        "name": "Homer Attack",
+        "type": "toggle",
+        "img": "images/abilities/homerattack.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homerattack"
+    },
+    {
+        "name": "Homer E-Brake",
+        "type": "toggle",
+        "img": "images/abilities/homere-brake.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homere-brake"
+    },
+    {
+        "name": "Homer Gagfinder",
+        "type": "toggle",
+        "img": "images/abilities/homergagfinder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homergagfinder"
+    },
+    {
+        "name": "Homer Frink-o-Matic Wasp Bumper",
+        "type": "toggle",
+        "img": "images/abilities/homerfrink-o-maticwaspbumper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homerfrink-o-maticwaspbumper"
+    },
+    {
+        "name": "Homer Checkered Flag",
+        "type": "toggle",
+        "img": "images/abilities/homercheckeredflag.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "homercheckeredflag"
+    },
+    {
+        "name": "Bart Progressive Jump",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/abilities/jump/bartsinglejump.png",
+                "img_mods": "",
+                "codes": "bartprogressivejump,bsj"
+            },
+            {
+                "img": "images/abilities/jump/bartdoublejump.png",
+                "img_mods": "",
+                "codes": "bartprogressivejump,bdj"
+            }
+        ]
+    },
+    {
+        "name": "Bart Attack",
+        "type": "toggle",
+        "img": "images/abilities/bartattack.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bartattack"
+    },
+    {
+        "name": "Bart E-Brake",
+        "type": "toggle",
+        "img": "images/abilities/barte-brake.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "barte-brake"
+    },
+    {
+        "name": "Bart Gagfinder",
+        "type": "toggle",
+        "img": "images/abilities/bartgagfinder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bartgagfinder"
+    },
+    {
+        "name": "Bart Frink-o-Matic Wasp Bumper",
+        "type": "toggle",
+        "img": "images/abilities/bartfrink-o-maticwaspbumper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bartfrink-o-maticwaspbumper"
+    },
+    {
+        "name": "Bart Checkered Flag",
+        "type": "toggle",
+        "img": "images/abilities/bartcheckeredflag.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bartcheckeredflag"
+    },
+    {
+        "name": "Lisa Progressive Jump",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/abilities/jump/lisasinglejump.png",
+                "img_mods": "",
+                "codes": "lisaprogressivejump,lsj"
+            },
+            {
+                "img": "images/abilities/jump/lisadoublejump.png",
+                "img_mods": "",
+                "codes": "lisaprogressivejump,ldj"
+            }
+        ]
+    },
+    {
+        "name": "Lisa Attack",
+        "type": "toggle",
+        "img": "images/abilities/lisaattack.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisaattack"
+    },
+    {
+        "name": "Lisa E-Brake",
+        "type": "toggle",
+        "img": "images/abilities/lisae-brake.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisae-brake"
+    },
+    {
+        "name": "Lisa Gagfinder",
+        "type": "toggle",
+        "img": "images/abilities/lisagagfinder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisagagfinder"
+    },
+    {
+        "name": "Lisa Frink-o-Matic Wasp Bumper",
+        "type": "toggle",
+        "img": "images/abilities/lisafrink-o-maticwaspbumper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisafrink-o-maticwaspbumper"
+    },
+    {
+        "name": "Lisa Checkered Flag",
+        "type": "toggle",
+        "img": "images/abilities/lisacheckeredflag.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisacheckeredflag"
+    },
+    {
+        "name": "Marge Progressive Jump",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/abilities/jump/margesinglejump.png",
+                "img_mods": "",
+                "codes": "margeprogressivejump,msj"
+            },
+            {
+                "img": "images/abilities/jump/margedoublejump.png",
+                "img_mods": "",
+                "codes": "margeprogressivejump,mdj"
+            }
+        ]
+    },
+    {
+        "name": "Marge Attack",
+        "type": "toggle",
+        "img": "images/abilities/margeattack.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "margeattack"
+    },
+    {
+        "name": "Marge E-Brake",
+        "type": "toggle",
+        "img": "images/abilities/margee-brake.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "margee-brake"
+    },
+    {
+        "name": "Marge Gagfinder",
+        "type": "toggle",
+        "img": "images/abilities/margegagfinder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "margegagfinder"
+    },
+    {
+        "name": "Marge Frink-o-Matic Wasp Bumper",
+        "type": "toggle",
+        "img": "images/abilities/margefrink-o-maticwaspbumper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "margefrink-o-maticwaspbumper"
+    },
+    {
+        "name": "Marge Checkered Flag",
+        "type": "toggle",
+        "img": "images/abilities/margecheckeredflag.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "margecheckeredflag"
+    },
+    {
+        "name": "Apu Progressive Jump",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Single Jump",
+                "img": "images/abilities/jump/apusinglejump.png",
+                "codes": "apuprogressivejump,asj",
+                "inherit_codes": true
+            },
+            {
+                "name": "Double Jump",
+                "img": "images/abilities/jump/apudoublejump.png",
+                "codes": "apuprogressivejump,adj",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Apu Attack",
+        "type": "toggle",
+        "img": "images/abilities/apuattack.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apuattack"
+    },
+    {
+        "name": "Apu E-Brake",
+        "type": "toggle",
+        "img": "images/abilities/apue-brake.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apue-brake"
+    },
+    {
+        "name": "Apu Gagfinder",
+        "type": "toggle",
+        "img": "images/abilities/apugagfinder.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apugagfinder"
+    },
+    {
+        "name": "Apu Frink-o-Matic Wasp Bumper",
+        "type": "toggle",
+        "img": "images/abilities/apufrink-o-maticwaspbumper.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apufrink-o-maticwaspbumper"
+    },
+    {
+        "name": "Apu Checkered Flag",
+        "type": "toggle",
+        "img": "images/abilities/apucheckeredflag.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apucheckeredflag"
+    },
+    {
+        "name": "Lisa - Cool",
+        "type": "toggle",
+        "img": "images/clothes/lisa-cool.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisa-cool"
+    },
+    {
+        "name": "Marge - Inmate",
+        "type": "toggle",
+        "img": "images/clothes/marge-inmate.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marge-inmate"
+    },
+    {
+        "name": "Marge - Police",
+        "type": "toggle",
+        "img": "images/clothes/marge-police.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marge-police"
+    },
+    {
+        "name": "Apu - American",
+        "type": "toggle",
+        "img": "images/clothes/apu-american.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apu-american"
+    },
+    {
+        "name": "Hit N Run Reset",
+        "type": "consumable",
+        "img": "images/items/hitnrunreset.png",
+        "img_mods": "",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_align": "right",
+        "overlay_font_size": 10,
+        "overlay_background": "#000000",
+        "codes": "hitnrunreset"
+    },
+    {
+        "name": "Wrench",
+        "type": "consumable",
+        "img": "images/items/wrench.png",
+        "img_mods": "",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_align": "right",
+        "overlay_font_size": 10,
+        "overlay_background": "#000000",
+        "codes": "wrench"
+    },
+    {
+        "name": "Progressive Level",
+        "type": "consumable",
+        "img": "images/items/progressivelevel.png",
+        "img_mods": "",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_align": "right",
+        "overlay_font_size": 10,
+        "overlay_background": "#000000",
+        "codes": "progressivelevel"
+    },
+    {
+        "name": "Update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "img_mods": "",
+        "disabled_img": "",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

@@ -1,0 +1,97 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_size": 6,
+                        "rows": [
+                            [
+                                "level1",
+                                "level2",
+                                "level3",
+                                "level4",
+                                "level5",
+                                "level6",
+                                "level7",
+                                "progressivewalletupgrade"
+                            ],
+                            [
+                                "familysedan",
+                                "honorroller",
+                                "malibustacycar",
+                                "canyonero",
+                                "longhorn",
+                                "ferrini-red",
+                                "70ssportscar"
+                            ],
+                            [
+                                "plowking",
+                                "mr.plow",
+                                "schoolbus",
+                                "carbuiltforhomer",
+                                "globexsupervillaincar",
+                                "zombiecar"
+                            ],
+                            [
+                                "lisa-cool",
+                                "marge-inmate",
+                                "marge-police",
+                                "apu-american"
+                            ],
+                            [
+                                "homerprogressivejump",
+                                "homerattack",
+                                "homere-brake",
+                                "homergagfinder",
+                                "homerfrink-o-maticwaspbumper",
+                                "homercheckeredflag"
+                            ],
+                            [
+                                "bartprogressivejump",
+                                "bartattack",
+                                "barte-brake",
+                                "bartgagfinder",
+                                "bartfrink-o-maticwaspbumper",
+                                "bartcheckeredflag"
+                            ],
+                            [
+                                "lisaprogressivejump",
+                                "lisaattack",
+                                "lisae-brake",
+                                "lisagagfinder",
+                                "lisafrink-o-maticwaspbumper",
+                                "lisacheckeredflag"
+                            ],
+                            [
+                                "margeprogressivejump",
+                                "margeattack",
+                                "margee-brake",
+                                "margegagfinder",
+                                "margefrink-o-maticwaspbumper",
+                                "margecheckeredflag"
+                            ],
+                            [
+                                "apuprogressivejump",
+                                "apuattack",
+                                "apue-brake",
+                                "apugagfinder",
+                                "apufrink-o-maticwaspbumper",
+                                "apucheckeredflag"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
