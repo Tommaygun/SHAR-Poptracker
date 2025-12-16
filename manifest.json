@@ -12,5 +12,6 @@
             ]
         }
     },
+    "versions_url": "https://raw.githubusercontent.com/Tommaygun/SHAR-Poptracker/refs/heads/main/versions.json",
     "min_poptracker_version": "0.31.0"
 }
