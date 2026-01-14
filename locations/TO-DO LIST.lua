@@ -4,3 +4,5 @@
 //"Add forward item to tracker"
 //"Forward logic"
 //"Mission logic for randomized vehicles"
+//"Attach size logic to vehicles"
+//"Check for specific cars on car-wasp logic"
