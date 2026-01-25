@@ -1,29 +1,4 @@
 SLOT_CODES = {
-    -- Set up setting images
-    shufflecheckeredflag = {
-        code = "race_setting",
-        type = "progressive",
-        mapping = {
-            [0] = 0, -- false
-            [1] = 1 -- true
-        }
-    },
-    moverandomizer = {
-        code = "move_setting",
-        type = "progressive",
-        mapping = {
-            [0] = 0, -- false
-            [1] = 1 -- true
-        }
-    },
-    shufflegagfinder = {
-        code = "gag_setting",
-        type = "progressive",
-        mapping = {
-            [0] = 0, -- false
-            [1] = 1 -- true
-        }
-    },
     shufflecards = {
         code = "card_setting",
         type = "progressive",
