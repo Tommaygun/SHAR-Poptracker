@@ -13,8 +13,17 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "h_alignment": "center",
-                        "item_size": 6,
+                        "item_size": 4,
                         "rows": [
+                            [
+                                "lisa-cool",
+                                "marge-inmate",
+                                "marge-police",
+                                "apu-american",
+                                "progressivewalletupgrade",
+                                "card_setting",
+                                "goal_setting"
+                            ],
                             [
                                 "level1",
                                 "level2",
@@ -22,8 +31,7 @@
                                 "level4",
                                 "level5",
                                 "level6",
-                                "level7",
-                                "progressivewalletupgrade"
+                                "level7"
                             ],
                             [
                                 "familysedan",
@@ -41,12 +49,6 @@
                                 "carbuiltforhomer",
                                 "globexsupervillaincar",
                                 "zombiecar"
-                            ],
-                            [
-                                "lisa-cool",
-                                "marge-inmate",
-                                "marge-police",
-                                "apu-american"
                             ],
                             [
                                 "homerprogressivejump",

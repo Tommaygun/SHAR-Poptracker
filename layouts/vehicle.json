@@ -15,7 +15,7 @@
                         "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_size": 55,
+                        "item_size": 4,
                         "rows": [
                             [
                                 "36stutzbearcat",
@@ -30,10 +30,10 @@
                                 "burnsarmoredtruck",
                                 "canyonero",
                                 "carbuiltforhomer",
-                                "cellphonecar",
-                                "chasesedan"
+                                "cellphonecar"
                             ],
                             [
+                                "chasesedan",
                                 "clowncar",
                                 "coffincar",
                                 "colatruck",
@@ -45,11 +45,11 @@
                                 "elcarroloco",
                                 "electaurus",
                                 "familysedan",
-                                "ferrini-black",
-                                "ferrini-red",
-                                "firetruck"
+                                "ferrini-black"
                             ],
                             [
+                                "ferrini-red",
+                                "firetruck",
                                 "fishvan",
                                 "garbagetruck",
                                 "ghostship",
@@ -60,12 +60,12 @@
                                 "honorroller",
                                 "hoverbike",
                                 "hovercar",
-                                "icecreamtruck",
-                                "itchyandscratchymovietruck",
-                                "knightboat",
-                                "kremlin"
+                                "icecreamtruck"
                             ],
                             [
+                                "itchyandscratchymovietruck",
+                                "knightboat",
+                                "kremlin",
                                 "krustyslimo",
                                 "limo",
                                 "longhorn",
@@ -75,13 +75,13 @@
                                 "minivan",
                                 "moessedan",
                                 "monorailcar",
-                                "mr.burnslimo",
+                                "mr.burnslimo"
+                            ],
+                            [
                                 "mr.plow",
                                 "nerdcar",
                                 "nonupletsminivan",
-                                "nuclearwastetruck"
-                            ],
-                            [
+                                "nuclearwastetruck",
                                 "obliteratatronbigwheeltruck",
                                 "openwheelracecar",
                                 "pickup",
@@ -90,14 +90,14 @@
                                 "planethype50scar",
                                 "plowking",
                                 "policecar",
-                                "r/cbuggy",
+                                "r/cbuggy"
+                            ],
+                            [
                                 "schoolbus",
                                 "sedana",
                                 "sedanb",
                                 "skinnerssedan",
-                                "speedrocket"
-                            ],
-                            [
+                                "speedrocket",
                                 "sportscara",
                                 "sportscarb",
                                 "stationwagon",
@@ -105,7 +105,9 @@
                                 "suv",
                                 "taxi",
                                 "tractor",
-                                "votequimbytruck",
+                                "votequimbytruck"
+                            ],
+                            [
                                 "witchsbroom",
                                 "wwiivehicle",
                                 "wwiivehiclew/rocket",
