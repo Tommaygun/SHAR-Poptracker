@@ -1,79 +1,20 @@
 [
     {
-        "name": "Races",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/settings/races_off.png",
-                "codes": "race_setting,races_off",
-                "inherit_codes": false,
-                "name": "Vanilla checkered flags"
-            },
-            {
-                "img": "images/settings/races_on.png",
-                "codes": "race_setting,races_on",
-                "inherit_codes": false,
-                "name": "Shuffle checkered flags"
-            }
-        ]
-    },
-    {
-        "name": "Moves",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/settings/moves_off.png",
-                "codes": "move_setting,moves_off",
-                "inherit_codes": false,
-                "name": "Vanilla moveset"
-            },
-            {
-                "img": "images/settings/moves_on.png",
-                "codes": "move_setting,moves_on",
-                "inherit_codes": false,
-                "name": "Shuffled moveset"
-            }
-        ]
-    },
-    {
-        "name": "Gags",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/settings/gags_off.png",
-                "codes": "gag_setting,gags_off",
-                "inherit_codes": false,
-                "name": "Vanilla gags"
-            },
-            {
-                "img": "images/settings/gags_on.png",
-                "codes": "gag_setting,gags_on",
-                "inherit_codes": false,
-                "name": "Shuffled gags"
-            }
-        ]
-    },
-    {
         "name": "Cards",
         "type": "progressive",
         "allow_disabled": false,
+        "initial_stage_idx": 0,
         "loop": true,
         "stages": [
             {
-                "img": "images/settings/cards_off.png",
-                "codes": "card_setting,cards_off",
+                "img": "images/settings/cards_v.png",
+                "codes": "card_setting,cards_v",
                 "inherit_codes": false,
                 "name": "Vanilla cards"
             },
             {
-                "img": "images/settings/cards_on.png",
-                "codes": "card_setting,cards_on",
+                "img": "images/settings/cards_s.png",
+                "codes": "card_setting,cards_s",
                 "inherit_codes": false,
                 "name": "Shuffled cards"
             }
@@ -83,6 +24,7 @@
         "name": "Goal",
         "type": "progressive",
         "allow_disabled": false,
+        "initial_stage_idx": 0,
         "loop": true,
         "stages": [
             {
@@ -98,14 +40,14 @@
                 "name": "Goal - All Story Missions"
             },
             {
-                "img": "images/settings/races_off.png",
+                "img": "images/settings/goal_fm.png",
                 "codes": "goal_setting,goal_l7m7",
                 "inherit_codes": false,
                 "name": "Goal - Final Mission (L7M7)"
             },
             {
-                "img": "images/settings/goal_awc.png",
-                "codes": "goal_setting,goal_awc",
+                "img": "images/settings/goal_wc.png",
+                "codes": "goal_setting,goal_wc",
                 "inherit_codes": false,
                 "name": "Goal - Wasps and Cards"
             }
