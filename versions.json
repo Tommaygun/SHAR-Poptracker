@@ -1,5 +1,13 @@
 {
     "versions": [
+		{
+			"package_version": "0.1.1",
+			"download_url": "https://github.com/Tommaygun/SHAR-Poptracker/releases/download/v0.1.1/SHAR-Poptracker-v0.1.1.zip",
+			"sha256": "ef6c0131d67b863d9418636970cd2a7373a0b7356385b844315cb224df169c49",
+			"changelog": [
+				"Sizes and Settings"
+			]
+		},
         {
             "package_version": "0.1.0",
             "download_url": "https://github.com/Tommaygun/SHAR-Poptracker/releases/download/Alpha/SHAR_poptracker_v0.1.0.zip",
