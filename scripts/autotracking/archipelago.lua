@@ -169,9 +169,11 @@ function onClear(slot_data)
         end
     end
 
-    print(dump_table(slot_data.card_locations))
+    --print(dump_table(slot_data.card_locations))
+    --print(dump_table(CARD_CHECK))
     print(dump_table(slot_data.missionlocks))
-    print(dump_table(CARD_CHECK))
+    --print(dump_table(slot_data.goal))
+    --print(dump_table(slot_data.shufflecards))
 
     MANUAL_CHECKED = false
     local storage_item = Tracker:FindObjectForCode("manual_location_storage")
@@ -242,6 +244,21 @@ function onClear(slot_data)
                 end
             end
         end
+    end
+    -- reset settings
+    for key, value in pairs(slot_data) do
+        if SLOT_CODES[key] then
+            local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
+                if object then
+                    if SLOT_CODES[key].type == "toggle" then
+                        object.Active = value
+                    elseif SLOT_CODES[key].type == "progressive" then
+                        object.CurrentStage = SLOT_CODES[key].mapping[value]
+                    elseif SLOT_CODES[key].type == "consumable" then
+                        object.AcquiredCount = value
+                    end
+                end
+        end    
     end
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
