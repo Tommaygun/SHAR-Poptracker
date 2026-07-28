@@ -86,7 +86,7 @@
                 "sections": [
                     {
                         "name": "CourtHouse Steps",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -111,7 +111,7 @@
                 "sections": [
                     {
                         "name": "Gazebo Between Museum and Courthouse",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -136,7 +136,7 @@
                 "sections": [
                     {
                         "name": "Museum Steps",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -161,7 +161,7 @@
                 "sections": [
                     {
                         "name": "Hospital Front Yard",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -186,7 +186,7 @@
                 "sections": [
                     {
                         "name": "Roof Across Monkey Building",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -211,7 +211,7 @@
                 "sections": [
                     {
                         "name": "Town Hall (Front)",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -236,7 +236,7 @@
                 "sections": [
                     {
                         "name": "Town Hall (Back)",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -261,7 +261,7 @@
                 "sections": [
                     {
                         "name": "Behind Downtown Krusty Burger",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -286,7 +286,7 @@
                 "sections": [
                     {
                         "name": "Monorail Stairs",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -311,7 +311,7 @@
                 "sections": [
                     {
                         "name": "Upstair Beside Monorail",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -331,12 +331,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack"
+                    "level2"
                 ],
                 "sections": [
                     {
                         "name": "Roof Across Monorail",
-                        "access_rules": ["bartprogressivejump:2"],
+                        "access_rules": ["bdj, bartattack"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -361,7 +361,7 @@
                 "sections": [
                     {
                         "name": "Stairs Leading atop Trains",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -381,12 +381,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack"
+                    "level2"
                 ],
                 "sections": [
                     {
                         "name": "Across Moving Train",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bartattack, bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -411,7 +411,7 @@
                 "sections": [
                     {
                         "name": "On Train Past Water Tank",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -436,7 +436,7 @@
                 "sections": [
                     {
                         "name": "Inside Trainyard Parking Spot",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -456,12 +456,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack","bartfrink-o-maticwaspbumper"
+                    "bartattack,bdj"
                 ],
                 "sections": [
                     {
                         "name": "Car Wash",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -486,7 +486,7 @@
                 "sections": [
                     {
                         "name": "Legitimate Businessmans Rooftop 1",
-                        "access_rules": [""],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -511,7 +511,7 @@
                 "sections": [
                     {
                         "name": "Legitimate Businessmans Rooftop 2",
-                        "access_rules": [""],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -531,12 +531,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack"
+                    "level2"
                 ],
                 "sections": [
                     {
                         "name": "Roof Next to Moes",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bartattack,bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -556,12 +556,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack"
+                                        "level2"
                 ],
                 "sections": [
                     {
                         "name": "Lard Lads Roof",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bartattack,bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -586,7 +586,7 @@
                 "sections": [
                     {
                         "name": "CATapult",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -611,7 +611,7 @@
                 "sections": [
                     {
                         "name": "Cement Truck",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -636,25 +636,25 @@
                 "sections": [
                     {
                         "name": "Pickled Egg Jar at Moes",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Slot Machine at Moes",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Love Tester as Moes",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Light up Drinks at Moes",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -679,7 +679,7 @@
                 "sections": [
                     {
                         "name": "Rats Milk Machine atop Legitimate Businessmans Roof",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -704,7 +704,7 @@
                 "sections": [
                     {
                         "name": "Blinding Hans Moleman at the DMV",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -729,7 +729,7 @@
                 "sections": [
                     {
                         "name": "Car Ride at Try-N-Save",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -754,7 +754,7 @@
                 "sections": [
                     {
                         "name": "Missile Behind Military Antiques",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -779,7 +779,7 @@
                 "sections": [
                     {
                         "name": "Dumpster Behind Krusty Burger (Near Police Station)",
-                        "access_rules": [],
+                        "access_rules": ["level2"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -798,7 +798,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [],
+                "access_rules": ["level2"],
                 "visibility_rules": [],
                 "sections": [
                     {
@@ -1276,7 +1276,7 @@
                 ]
             },
 			{
-                "name": "Time Trial Race",
+                "name": "Checkpoint Race",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1306,7 +1306,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "progressivewalletupgrade:1"
+                    "level2"
                 ],
                 "sections": [
             {

@@ -81,12 +81,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
 					"name": "[WASP] Blue House Haunted Playground",
-                        "access_rules": [],
+                        "access_rules": ["homerattack"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -112,12 +112,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Blue House Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -137,12 +137,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Simpsons Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -162,12 +162,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Flanders Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -187,12 +187,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Wiggums Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -212,12 +212,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Atop of Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -237,12 +237,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Atop of Gasoline",
-                        "access_rules": [""],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -262,12 +262,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack"
                 ],
                 "sections": [
                     {
                         "name": "Lard Lad Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -292,7 +292,7 @@
                 "sections": [
                     {
                         "name": "Krusty Burger Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -317,7 +317,7 @@
                 "sections": [
                     {
                         "name": "School Playground",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -342,7 +342,7 @@
                 "sections": [
                     {
                         "name": "The One Being Abducted",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -362,12 +362,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
                         "name": "School Roof 1",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -387,12 +387,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
                         "name": "School Roof 2",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -417,7 +417,7 @@
                 "sections": [
                     {
                         "name": "Bridge Barricade",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -437,12 +437,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
                         "name": "Bridge Frame by Cletus",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -462,12 +462,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
                         "name": "TrailerPark 1",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -487,12 +487,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
                         "name": "TrailerPark 2",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -512,12 +512,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "homerattack, hdj"
                 ],
                 "sections": [
                     {
                         "name": "Barn Silo",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -542,7 +542,7 @@
                 "sections": [
                     {
                         "name": "Power Plant Parking lot",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -562,12 +562,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack","homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
                         "name": "Mr. Burns Office",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -592,7 +592,7 @@
                 "sections": [
                     {
                         "name": "Simpsons TV",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -617,13 +617,13 @@
                 "sections": [
                     {
                         "name": "Simpsons Swing",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Simpsons Fire Breathing Tiki",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -648,13 +648,13 @@
                 "sections": [
                     {
                         "name": "Krusty Lamp (Barts Room)",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Bed (Barts Room)",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -679,7 +679,7 @@
                 "sections": [
                     {
                         "name": "Flanders Bomb Shelter",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -704,7 +704,7 @@
                 "sections": [
                     {
                         "name": "Tank in Power Plant Parking lot",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -729,31 +729,31 @@
                 "sections": [
                     {
                         "name": "Frozen Man in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silent Alarm in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Squishee Machine in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "ATM in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Arcade Cabinet in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -778,13 +778,13 @@
                 "sections": [
                     {
                         "name": "School Fire Extinguisher",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "School Fire Alarm",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1171,7 +1171,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "level7"
                 ],
                 "sections": [
             {
@@ -1196,7 +1196,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "level7"
                 ],
                 "sections": [
             {
@@ -1221,7 +1221,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "level7"
                 ],
                 "sections": [
             {
@@ -1246,7 +1246,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "progressivewalletupgrade:6"
+                    "level7"
                 ],
                 "sections": [
             {
