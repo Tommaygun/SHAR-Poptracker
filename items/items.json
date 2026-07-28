@@ -4,7 +4,6 @@
         "type": "toggle",
         "img": "images/items/level1.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level1"
@@ -14,7 +13,6 @@
         "type": "toggle",
         "img": "images/items/level2.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level2"
@@ -24,7 +22,6 @@
         "type": "toggle",
         "img": "images/items/level3.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level3"
@@ -34,7 +31,6 @@
         "type": "toggle",
         "img": "images/items/level4.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level4"
@@ -44,7 +40,6 @@
         "type": "toggle",
         "img": "images/items/level5.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level5"
@@ -54,7 +49,6 @@
         "type": "toggle",
         "img": "images/items/level6.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level6"
@@ -64,7 +58,6 @@
         "type": "toggle",
         "img": "images/items/level7.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "level7"
@@ -107,7 +100,6 @@
         "type": "toggle",
         "img": "images/abilities/homerattack.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "homerattack"
@@ -117,7 +109,6 @@
         "type": "toggle",
         "img": "images/abilities/homere-brake.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "homere-brake"
@@ -127,7 +118,6 @@
         "type": "toggle",
         "img": "images/abilities/homergagfinder.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "homergagfinder"
@@ -137,7 +127,6 @@
         "type": "toggle",
         "img": "images/abilities/homerfrink-o-maticwaspbumper.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "homerfrink-o-maticwaspbumper"
@@ -147,7 +136,6 @@
         "type": "toggle",
         "img": "images/abilities/homercheckeredflag.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "homercheckeredflag"
@@ -175,7 +163,6 @@
         "type": "toggle",
         "img": "images/abilities/bartattack.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "bartattack"
@@ -185,7 +172,6 @@
         "type": "toggle",
         "img": "images/abilities/barte-brake.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "barte-brake"
@@ -195,7 +181,6 @@
         "type": "toggle",
         "img": "images/abilities/bartgagfinder.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "bartgagfinder"
@@ -205,7 +190,6 @@
         "type": "toggle",
         "img": "images/abilities/bartfrink-o-maticwaspbumper.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "bartfrink-o-maticwaspbumper"
@@ -215,7 +199,6 @@
         "type": "toggle",
         "img": "images/abilities/bartcheckeredflag.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "bartcheckeredflag"
@@ -243,7 +226,6 @@
         "type": "toggle",
         "img": "images/abilities/lisaattack.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "lisaattack"
@@ -253,7 +235,6 @@
         "type": "toggle",
         "img": "images/abilities/lisae-brake.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "lisae-brake"
@@ -263,7 +244,6 @@
         "type": "toggle",
         "img": "images/abilities/lisagagfinder.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "lisagagfinder"
@@ -273,7 +253,6 @@
         "type": "toggle",
         "img": "images/abilities/lisafrink-o-maticwaspbumper.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "lisafrink-o-maticwaspbumper"
@@ -283,7 +262,6 @@
         "type": "toggle",
         "img": "images/abilities/lisacheckeredflag.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "lisacheckeredflag"
@@ -311,7 +289,6 @@
         "type": "toggle",
         "img": "images/abilities/margeattack.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "margeattack"
@@ -321,7 +298,6 @@
         "type": "toggle",
         "img": "images/abilities/margee-brake.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "margee-brake"
@@ -331,7 +307,6 @@
         "type": "toggle",
         "img": "images/abilities/margegagfinder.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "margegagfinder"
@@ -341,7 +316,6 @@
         "type": "toggle",
         "img": "images/abilities/margefrink-o-maticwaspbumper.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "margefrink-o-maticwaspbumper"
@@ -351,7 +325,6 @@
         "type": "toggle",
         "img": "images/abilities/margecheckeredflag.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "margecheckeredflag"
@@ -381,7 +354,6 @@
         "type": "toggle",
         "img": "images/abilities/apuattack.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "apuattack"
@@ -391,7 +363,6 @@
         "type": "toggle",
         "img": "images/abilities/apue-brake.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "apue-brake"
@@ -401,7 +372,6 @@
         "type": "toggle",
         "img": "images/abilities/apugagfinder.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "apugagfinder"
@@ -411,7 +381,6 @@
         "type": "toggle",
         "img": "images/abilities/apufrink-o-maticwaspbumper.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "apufrink-o-maticwaspbumper"
@@ -421,7 +390,6 @@
         "type": "toggle",
         "img": "images/abilities/apucheckeredflag.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "apucheckeredflag"
@@ -431,7 +399,6 @@
         "type": "toggle",
         "img": "images/clothes/lisa-cool.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "lisa-cool"
@@ -441,7 +408,6 @@
         "type": "toggle",
         "img": "images/clothes/marge-inmate.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "marge-inmate"
@@ -451,7 +417,6 @@
         "type": "toggle",
         "img": "images/clothes/marge-police.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "marge-police"
@@ -461,7 +426,6 @@
         "type": "toggle",
         "img": "images/clothes/apu-american.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "apu-american"
@@ -516,7 +480,6 @@
         "type": "toggle",
         "img": "images/items/update.png",
         "img_mods": "",
-        "disabled_img": "",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "update"
