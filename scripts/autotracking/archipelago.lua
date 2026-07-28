@@ -1,3 +1,4 @@
+---@diagnostic disable: need-check-nil
 
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
@@ -16,12 +17,20 @@ MANUAL_CHECKED = true
 ROOM_SEED = "default"
 
 if Highlight then
-    HIGHTLIGHT_LEVEL= {
+    HIGHLIGHT_LEVEL= {
         [0] = Highlight.Unspecified,
         [10] = Highlight.NoPriority,
         [20] = Highlight.Avoid,
         [30] = Highlight.Priority,
         [40] = Highlight.None,
+        [100] = Highlight.Unspecified, --Filler
+        [101] = Highlight.Priority, --Progression
+        [102] = Highlight.NoPriority, --Useful
+        [103] = Highlight.Priority, -- Prog + Useful
+        [104] = Highlight.Avoid, --Trap
+        [105] = Highlight.Priority, -- Prog + Trap
+        [106] = Highlight.NoPriority, -- Useful + Trap
+        [107] = Highlight.Priority, -- Prog + Useful + Trap
     }
 end
 
@@ -47,28 +56,31 @@ end
 
 function LocationHandler(location)
     if MANUAL_CHECKED then
-        local storage_item = Tracker:FindObjectForCode("manual_location_storage")
+        local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+        if not custom_storage_item then
+            return
+        end
         if Archipelago.PlayerNumber == -1 then -- not connected
             if ROOM_SEED ~= "default" then -- seed is from previous connection
                 ROOM_SEED = "default"
-                storage_item.ItemState.MANUAL_LOCATIONS["default"] = {}
+                custom_storage_item.ItemState.MANUAL_LOCATIONS["default"] = {}
             else -- seed is default
             end
         end
         local full_path = location.FullID
-        if storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED][full_path] then --not in list for curretn seed
-            if location.AvailableChestCount < location.ChestCount then --add to list
-                storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED][full_path] = location.AvailableChestCount
-            else --remove from list of set back to max chestcount
-                storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED][full_path] = nil
-            end
-        elseif location.AvailableChestCount < location.ChestCount then -- not in list and not set back to its max chest count
-            storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED][full_path] = location.AvailableChestCount
-        else
+        if not custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED] then
+            custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED] = {}
+        end
+        if location.AvailableChestCount < location.ChestCount then --add to list
+            -- print("add to list")
+            custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][full_path] = location.AvailableChestCount
+        else --remove from list of set back to max chestcount
+            -- print("remove from list")
+            custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][full_path] = nil
         end
     end
-    local storage_item = Tracker:FindObjectForCode("manual_location_storage")
-    -- print(dump_table(storage_item.ItemState.MANUAL_LOCATIONS))
+    -- local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+    -- print(dump_table(custom_storage_item.ItemState.MANUAL_LOCATIONS))
     ForceUpdate() -- 
 end
 
@@ -122,26 +134,29 @@ function preOnClear()
         for _, value in pairs(Archipelago.CheckedLocations) do
             table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
         end
-        -- HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        -- Archipelago:SetNotify({HINTS_ID})
-        -- Archipelago:Get({HINTS_ID})
+        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINTS_ID})
+        Archipelago:Get({HINTS_ID})
     end
 
 
     -- print(Archipelago.Seed)
-    local storage_item = Tracker:FindObjectForCode("manual_location_storage")
-    local SEED_BASE = (Archipelago.Seed or tostring(#ALL_LOCATIONS)).."_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
+    local seed_base = (Archipelago.Seed or tostring(#ALL_LOCATIONS)).."_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
+    if ROOM_SEED == "default" or ROOM_SEED ~= seed_base then -- seed is default or from previous connection
 
-    if ROOM_SEED == "default" or ROOM_SEED ~= SEED_BASE then -- seed is default or from previous connection
-
-        ROOM_SEED = SEED_BASE
-        if #storage_item.ItemState.MANUAL_LOCATIONS > 10 then
-            storage_item.ItemState.MANUAL_LOCATIONS[storage_item.ItemState.MANUAL_LOCATIONS_ORDER[1]] = nil
-            table.remove(storage_item.ItemState.MANUAL_LOCATIONS_ORDER, 1)
-        end
-        if storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED] == nil then
-            storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED] = {}
-            table.insert(storage_item.ItemState.MANUAL_LOCATIONS_ORDER, ROOM_SEED)
+        ROOM_SEED = seed_base
+        for _, custom_item_code in pairs({"manual_location_storage"}) do -- add more to the table if you created more storage cache items
+            local custom_storage_item = Tracker:FindObjectForCode(custom_item_code).ItemState
+            if custom_storage_item then
+                if #custom_storage_item.MANUAL_LOCATIONS > 10 then
+                    custom_storage_item.MANUAL_LOCATIONS[custom_storage_item.MANUAL_LOCATIONS_ORDER[1]] = nil
+                    table.remove(custom_storage_item.MANUAL_LOCATIONS_ORDER, 1)
+                end
+                if custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED] == nil then
+                    custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED] = {}
+                    table.insert(custom_storage_item.MANUAL_LOCATIONS_ORDER, ROOM_SEED)
+                end
+            end
         end
     else -- seed is from previous connection
     end
@@ -176,12 +191,14 @@ function onClear(slot_data)
     --print(dump_table(slot_data.shufflecards))
 
     MANUAL_CHECKED = false
-    local storage_item = Tracker:FindObjectForCode("manual_location_storage")
-    if storage_item == nil then
+    local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+    if custom_storage_item == nil then
         CreateLuaManualLocationStorage("manual_location_storage")
-        storage_item = Tracker:FindObjectForCode("manual_location_storage")
+        custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     end
+
     preOnClear()
+
     ScriptHost:RemoveWatchForCode("StateChanged")
     ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
     --SLOT_DATA = slot_data
@@ -193,8 +210,8 @@ function onClear(slot_data)
                 local location_obj = Tracker:FindObjectForCode(location)
                 if location_obj then
                     if location:sub(1, 1) == "@" then
-                        if storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID] then
-                            location_obj.AvailableChestCount = storage_item.ItemState.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID]
+                        if custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID] then
+                            location_obj.AvailableChestCount = custom_storage_item.MANUAL_LOCATIONS[ROOM_SEED][location_obj.FullID]
                         else
                             location_obj.AvailableChestCount = location_obj.ChestCount
                         end
@@ -245,21 +262,23 @@ function onClear(slot_data)
             end
         end
     end
+    
     -- reset settings
     for key, value in pairs(slot_data) do
         if SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
-                if object then
-                    if SLOT_CODES[key].type == "toggle" then
-                        object.Active = value
-                    elseif SLOT_CODES[key].type == "progressive" then
-                        object.CurrentStage = SLOT_CODES[key].mapping[value]
-                    elseif SLOT_CODES[key].type == "consumable" then
-                        object.AcquiredCount = value
-                    end
+            if object then
+                if SLOT_CODES[key].type == "toggle" then
+                    object.Active = value
+                elseif SLOT_CODES[key].type == "progressive" then
+                    object.CurrentStage = SLOT_CODES[key].mapping[value]
+                elseif SLOT_CODES[key].type == "consumable" then
+                    object.AcquiredCount = value
                 end
-        end    
+            end
+        end
     end
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
@@ -308,7 +327,7 @@ function onItem(index, item_id, item_name, player_number)
                 item_obj.Active = true
             elseif item_obj.Type == "progressive" then
                 -- print("progressive")
-                if item_obj.Active then
+                if item_obj.Active == true then
                     item_obj.CurrentStage = item_obj.CurrentStage + 1
                 else
                     item_obj.Active = true
@@ -338,7 +357,7 @@ function onLocation(location_id, location_name)
     end
 
     MANUAL_CHECKED = false
-    
+
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
@@ -368,14 +387,6 @@ function onCardLocation(locationID)
     if card_obj then
         card_obj.AvailableChestCount = card_obj.AvailableChestCount - 1
     end
-end
-
-function onEvent(key, value, old_value)
-    updateEvents(value)
-end
-
-function onEventsLaunch(key, value)
-    updateEvents(value)
 end
 
 -- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to 
@@ -412,16 +423,16 @@ end
 --     end
 -- end
 
-function onNotify(key, value, old_value)
+function OnNotify(key, value, old_value)
     print("onNotify", key, value, old_value)
     if value ~= old_value and key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, hint.status)
-                elseif hint.found then
-                    updateHints(hint.location, hint.status)
+                if hint.status == 0 then
+                    UpdateHints(hint.location, 100+hint.item_flags)
+                else
+                    UpdateHints(hint.location, hint.status)
                 end
             end
         end
@@ -429,23 +440,23 @@ function onNotify(key, value, old_value)
     end
 end
 
-function onNotifyLaunch(key, value)
+function OnNotifyLaunch(key, value)
     if key == HINTS_ID then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, hint.status)
-                else if hint.found then
-                    updateHints(hint.location, hint.status)
-                end end
+                if hint.status == 0 then
+                    UpdateHints(hint.location, 100+hint.item_flags)
+                else
+                    UpdateHints(hint.location, hint.status)
+                end
             end
         end
         Tracker.BulkUpdate = false
     end
 end
 
-function updateHints(locationID, status) -->
+function UpdateHints(locationID, status)
     if Highlight then
         print(locationID, status)
         local location_table = LOCATION_MAPPING[locationID]
@@ -454,7 +465,7 @@ function updateHints(locationID, status) -->
                 local obj = Tracker:FindObjectForCode(location)
 
                 if obj then
-                    obj.Highlight = HIGHTLIGHT_LEVEL[status]
+                    obj.Highlight = HIGHLIGHT_LEVEL[status]
                 else
                     print(string.format("No object found for code: %s", location))
                 end
