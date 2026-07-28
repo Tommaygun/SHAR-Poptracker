@@ -76,131 +76,498 @@
                 ]
             },
             {
-                "name": "WASP",
+                "name": "WASP 1 GAG 7",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack,homerfrink-o-maticwaspbumper"
+                    "level7"
                 ],
                 "sections": [
                     {
-                        "name": "Blue House Haunted Playground",
-                        "access_rules": [],
+					"name": "[WASP] Blue House Haunted Playground",
+                        "access_rules": ["homerattack"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
+					                    {
+                        "name": "[GAG] Blue House Haunted Swing",
+                        "access_rules": ["homergagfinder"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+				],
+				                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1757,
+                        "y": 766,
+                        "size": 20
+                    }
+                ]
+            },
+			{
+                "name": "WASP 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Blue House Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+				                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1774,
+                        "y": 707,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Simpsons Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1740,
+                        "y": 585,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Flanders Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1765,
+                        "y": 529,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Wiggums Backyard",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1660,
+                        "y": 325,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 6",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Atop of Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1985,
+                        "y": 649,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 7",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Atop of Gasoline",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2011,
+                        "y": 591,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 8",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack"
+                ],
+                "sections": [
                     {
                         "name": "Lard Lad Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2053,
+                        "y": 579,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 9",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack","homerfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Krusty Burger Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2100,
+                        "y": 675,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 10",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack","homerfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "School Playground",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2586,
+                        "y": 1248,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 11",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack","homerfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "The One Being Abducted",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2581,
+                        "y": 1329,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 12",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
                     {
                         "name": "School Roof 1",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2493,
+                        "y": 1163,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 13",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
                     {
                         "name": "School Roof 2",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2590,
+                        "y": 1152,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 14",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack","homerfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Bridge Barricade",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 2320,
+                        "y": 1301,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 15",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
                     {
                         "name": "Bridge Frame by Cletus",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 897,
+                        "y": 401,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 16",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
                     {
                         "name": "TrailerPark 1",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+						        "map_locations": [
+            {
+                "map": "level7",
+                "x": 510,
+                "y": 254,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "WASP 17",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
                     {
                         "name": "TrailerPark 2",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+						        "map_locations": [
+            {
+                "map": "level7",
+                "x": 434,
+                "y": 257,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "WASP 18",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack, hdj"
+                ],
+                "sections": [
                     {
                         "name": "Barn Silo",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+						        "map_locations": [
+            {
+                "map": "level7",
+                "x": 449,
+                "y": 673,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "WASP 19",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homerattack","homerfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Power Plant Parking lot",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+						        "map_locations": [
+            {
+                "map": "level7",
+                "x": 867,
+                "y": 1069,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "WASP 20",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
                     {
                         "name": "Mr. Burns Office",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["homerattack,hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -208,14 +575,14 @@
                 "map_locations": [
                     {
                         "map": "level7",
-                        "x": 100,
-                        "y": 200,
+                        "x": 777,
+                        "y": 1186,
                         "size": 20
                     }
                 ]
             },
             {
-                "name": "GAG",
+                "name": "GAG 1",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -225,91 +592,199 @@
                 "sections": [
                     {
                         "name": "Simpsons TV",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+				                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1728,
+                        "y": 616,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 2-3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homergagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Simpsons Swing",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Simpsons Fire Breathing Tiki",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1768,
+                        "y": 603,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 4-5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homergagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Krusty Lamp (Barts Room)",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Bed (Barts Room)",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1757,
+                        "y": 607,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 6",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homergagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Flanders Bomb Shelter",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
                     {
-                        "name": "Blue House Haunted Swing",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
+                        "map": "level7",
+                        "x": 1776,
+                        "y": 551,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 8",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homergagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Tank in Power Plant Parking lot",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 693,
+                        "y": 1049,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 9-10-11-12-13",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homergagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Frozen Man in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silent Alarm in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Squishee Machine in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "ATM in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Arcade Cabinet in Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level7",
+                        "x": 1964,
+                        "y": 644,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 14-15",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "homergagfinder"
+                ],
+                "sections": [
                     {
                         "name": "School Fire Extinguisher",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "School Fire Alarm",
-                        "access_rules": [],
+                        "access_rules": ["level7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -317,8 +792,8 @@
                 "map_locations": [
                     {
                         "map": "level7",
-                        "x": 100,
-                        "y": 300,
+                        "x": 2534,
+                        "y": 1136,
                         "size": 20
                     }
                 ]
@@ -689,27 +1164,91 @@
                         "size": 20
                     }
                 ]
-            }
-        ],
-        "sections": [
+            },
+			{
+                "name": "Time Trial Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
             {
                 "name": "Time Trial Race",
                 "access_rules": ["homercheckeredflag"],
                 "visibility_rules": [],
                 "item_count": 1
-            },
+            }
+		],
+		        "map_locations": [
+            {
+                "map": "level7",
+                "x": 1881,
+                "y": 652,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "Circuit Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
             {
                 "name": "Circuit Race",
                 "access_rules": ["homercheckeredflag"],
                 "visibility_rules": [],
                 "item_count": 1
-            },
+            }
+		],
+				        "map_locations": [
+            {
+                "map": "level7",
+                "x": 2506,
+                "y": 686,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "Checkpoint Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
             {
                 "name": "Checkpoint Race",
                 "access_rules": ["homercheckeredflag"],
                 "visibility_rules": [],
                 "item_count": 1
-            },
+            }
+		],
+				        "map_locations": [
+            {
+                "map": "level7",
+                "x": 2536,
+                "y": 1108,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "Shop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level7"
+                ],
+                "sections": [
             {
                 "name": "Shop Check 1",
                 "access_rules": ["progressivewalletupgrade:6"],
@@ -745,7 +1284,26 @@
                 "access_rules": ["progressivewalletupgrade:6"],
                 "visibility_rules": [],
                 "item_count": 1
-            },
+            }
+		],
+				        "map_locations": [
+            {
+                "map": "level7",
+                "x": 2168,
+                "y": 536,
+                "size": 20
+            }
+        ]
+	},
+	            {
+                "name": "Bonus Mission",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
             {
                 "name": "Talk to Graveyard Zombie",
                 "access_rules": ["level7"],
@@ -756,10 +1314,12 @@
         "map_locations": [
             {
                 "map": "level7",
-                "x": 100,
-                "y": 500,
+                "x": 1414,
+                "y": 399,
                 "size": 20
-            }
-        ]
-    }
+					}
+				]
+			}
+		]
+	}
 ]

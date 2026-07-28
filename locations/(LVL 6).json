@@ -19,31 +19,31 @@
                 "sections": [
                     {
                         "name": "Going to the Lu",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Getting Down with the Clown",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lab Coat Caper",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Duff for Me, Duff for You",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Full Metal Jackass",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -55,13 +55,13 @@
                     },
                     {
                         "name": "Kang and Kodos Strike Back",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonus - Milking The Pigs",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -76,131 +76,479 @@
                 ]
             },
             {
-                "name": "WASP",
+                "name": "WASP 1",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack,bartfrink-o-maticwaspbumper"
+                    "bartattack"
                 ],
                 "sections": [
                     {
                         "name": "Observatory 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+				                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2417,
+                        "y": 225,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Observatory 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2343,
+                        "y": 220,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 3-4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Kamp Krusty 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kamp Krusty 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2216,
+                        "y": 610,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Broken Railing Below Dam",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2390,
+                        "y": 772,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 6",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Broken Railing Exit",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2463,
+                        "y": 725,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 7",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Motel",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2162,
+                        "y": 430,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 8",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack","bartfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Duff Brewery Krusty Glass",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1156,
+                        "y": 519,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 9",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack","bartfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Under Duff Blimp",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1318,
+                        "y": 491,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 10",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Krusty Studio Left",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1426,
+                        "y": 760,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 11",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Krusty Studio Right",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1414,
+                        "y": 881,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 12",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level6"
+                ],
+                "sections": [
                     {
                         "name": "Krusty Studio Balcony",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bartattack,bdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
                     {
-                        "name": "Globex Ship Crane",
-                        "access_rules": ["bdj"],
+                        "map": "level6",
+                        "x": 1502,
+                        "y": 758,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 13 GAG 5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "level6"
+                ],
+                "sections": [
+                    {
+                        "name": "[WASP] Globex Ship Crane",
+                        "access_rules": ["bartattack","bartfrink-o-maticwaspbumper"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
+					     {
+                        "name": "[GAG] Crane on Ship",
+                        "access_rules": ["bartgagfinder"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1199,
+                        "y": 1063,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 14",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack","bartfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Globex Ship Staircase 1",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 901,
+                        "y": 1079,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 15",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack","bartfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Globex Ship Staircase 2",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 901,
+                        "y": 1121,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 16",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack","bartfrink-o-maticwaspbumper"
+                ],
+                "sections": [
                     {
                         "name": "Lighthouse",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 819,
+                        "y": 1171,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 17",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Planet Hype Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 943,
+                        "y": 1399,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 18",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Bowling Rooftop",
                         "access_rules": ["bdj"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1624,
+                        "y": 1611,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 19",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Comic Book Guy Rooftop 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2075,
+                        "y": 1293,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "WASP 20",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartattack"
+                ],
+                "sections": [
                     {
                         "name": "Comic Book Guy Rooftop 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -208,14 +556,14 @@
                 "map_locations": [
                     {
                         "map": "level6",
-                        "x": 100,
-                        "y": 200,
+                        "x": 2075,
+                        "y": 1304,
                         "size": 20
                     }
                 ]
             },
             {
-                "name": "GAG",
+                "name": "GAG 1-2",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -225,67 +573,156 @@
                 "sections": [
                     {
                         "name": "Comic Book Guy Robot",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Comic Book Guy Radioactive Man",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+				                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2064,
+                        "y": 1280,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartgagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Yellow Dumpster Across Krusty Burger",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2159,
+                        "y": 1189,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartgagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Kid Drowning in Ball Pit",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
                     {
-                        "name": "Crane on Ship",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
+                        "map": "level6",
+                        "x": 2121,
+                        "y": 1322,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 6-7-8-9",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartgagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Observatory Alarm",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Perpetual Motion Machine at Observatory",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Telescope at Observatory",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monkey at Observatory",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2399,
+                        "y": 234,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 10",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartgagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Kamp Krusty Flag",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
-                    },
+                    }
+				],
+								                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2145,
+                        "y": 594,
+                        "size": 20
+                    }
+                ]
+            },
+			            {
+                "name": "GAG 11",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "bartgagfinder"
+                ],
+                "sections": [
                     {
                         "name": "Boars Head at Kamp Krusty",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -293,8 +730,8 @@
                 "map_locations": [
                     {
                         "map": "level6",
-                        "x": 100,
-                        "y": 300,
+                        "x": 2170,
+                        "y": 551,
                         "size": 20
                     }
                 ]
@@ -305,408 +742,408 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "level6"
                 ],
                 "sections": [
                     {
                         "name": "Above Street BallPit House",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Above Street BallPit House"],
                         "item_count": 1
                     },
                     {
                         "name": "Casino Ramp",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Casino Ramp"],
                         "item_count": 1
                     },
                     {
                         "name": "Planet Hype Sign",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Planet Hype Sign"],
                         "item_count": 1
                     },
                     {
                         "name": "Atop Front of Boat",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Atop Front of Boat"],
                         "item_count": 1
                     },
                     {
                         "name": "Duff Blimp",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Duff Blimp"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden in Bush Next to Kamp Krusty Well Exit",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Hidden in Bush Next to Kamp Krusty Well Exit"],
                         "item_count": 1
                     },
                     {
                         "name": "Broken Bridge",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Broken Bridge"],
                         "item_count": 1
                     },
                     {
                         "name": "Behind Lighthouse",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Behind Lighthouse"],
                         "item_count": 1
                     },
                     {
                         "name": "Pelican Behind Planet Hype 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Pelican Behind Planet Hype 1"],
                         "item_count": 1
                     },
                     {
                         "name": "Pelican Behind Planet Hype 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Pelican Behind Planet Hype 2"],
                         "item_count": 1
                     },
                     {
                         "name": "Planet Hype Outdoor Seating",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Planet Hype Outdoor Seating"],
                         "item_count": 1
                     },
                     {
                         "name": "Pelican in Front of Planet Hype 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Pelican in Front of Planet Hype 1"],
                         "item_count": 1
                     },
                     {
                         "name": "Pelican in Front of Planet Hype 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Pelican in Front of Planet Hype 2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pelican Near Squidport Arch",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Pelican Near Squidport Arch"],
                         "item_count": 1
                     },
                     {
                         "name": "Little Boats on Beach",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Little Boats on Beach"],
                         "item_count": 1
                     },
                     {
                         "name": "Big Boat on Beach",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Big Boat on Beach"],
                         "item_count": 1
                     },
                     {
                         "name": "Deck by Squidport Pedestrian Entrance 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Deck by Squidport Pedestrian Entrance 1"],
                         "item_count": 1
                     },
                     {
                         "name": "Deck by Squidport Pedestrian Entrance 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Deck by Squidport Pedestrian Entrance 2"],
                         "item_count": 1
                     },
                     {
                         "name": "Casino Bushes Near Squidport",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Casino Bushes Near Squidport"],
                         "item_count": 1
                     },
                     {
                         "name": "Lower Casino Entrance",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Lower Casino Entrance"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk Near Casino Ramp 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Sidewalk Near Casino Ramp 1"],
                         "item_count": 1
                     },
                     {
                         "name": "Behind Casino Ramp",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Behind Casino Ramp"],
                         "item_count": 1
                     },
                     {
                         "name": "Sidewalk Near Casino Ramp 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Sidewalk Near Casino Ramp 2"],
                         "item_count": 1
                     },
                     {
                         "name": "Houses Near Bowl-a-Rama",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Houses Near Bowl-a-Rama"],
                         "item_count": 1
                     },
                     {
                         "name": "Jazz Hole",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Jazz Hole"],
                         "item_count": 1
                     },
                     {
                         "name": "Krusty Burger Parking Lot",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Krusty Burger Parking Lot"],
                         "item_count": 1
                     },
                     {
                         "name": "Gated Houses Near Aztec Theater",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Gated Houses Near Aztec Theater"],
                         "item_count": 1
                     },
                     {
                         "name": "Boulevard Near Krusty and Friends Billboard",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Boulevard Near Krusty and Friends Billboard"],
                         "item_count": 1
                     },
                     {
                         "name": "Stairs Near Krusty and Friends Billboard",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Stairs Near Krusty and Friends Billboard"],
                         "item_count": 1
                     },
                     {
                         "name": "Short Wall Down the Street from Gas Station",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Short Wall Down the Street from Gas Station"],
                         "item_count": 1
                     },
                     {
                         "name": "Concrete Mixer at Gas Station",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Concrete Mixer at Gas Station"],
                         "item_count": 1
                     },
                     {
                         "name": "Green Building Across from Skinner",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Green Building Across from Skinner"],
                         "item_count": 1
                     },
                     {
                         "name": "Lumber King Billboard",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Lumber King Billboard"],
                         "item_count": 1
                     },
                     {
                         "name": "Park Across From Androids Dungeon",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Park Across From Androids Dungeon"],
                         "item_count": 1
                     },
                     {
                         "name": "Behind Krusty Burger Across From Androids Dungeon",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Behind Krusty BUrger Across From Androids Dungeon"],
                         "item_count": 1
                     },
                     {
                         "name": "Wall E Weasels Roof",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Wall E Weasels Roof"],
                         "item_count": 1
                     },
                     {
                         "name": "Spaghetti Laboratory",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Spaghetti Laboratory"],
                         "item_count": 1
                     },
                     {
                         "name": "Malaria Zone",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Malaria Zone"],
                         "item_count": 1
                     },
                     {
                         "name": "Barrels Near Gil",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Barrels Near Gil"],
                         "item_count": 1
                     },
                     {
                         "name": "Box Near Gil",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Box Near Gil"],
                         "item_count": 1
                     },
                     {
                         "name": "Squidport Undercover Police Dumpster",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Squidport Undercover Police Dumpster"],
                         "item_count": 1
                     },
                     {
                         "name": "Davey Jones Hamper",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Davey Jones Hamper"],
                         "item_count": 1
                     },
                     {
                         "name": "Rail Near Globex Ship",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Rail Near Globex Ship"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Behind Globex Ship Cargo Containers 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Hidden Behind Globex Ship Cargo Containers 1"],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Crane",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Globex Ship Crane"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Behind Globex Ship Cargo Containers 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Hidden Behind Globex Ship Cargo Containers 2"],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Inside Cargo Container",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Globex Ship Inside Cargo Container"],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Upstairs Rail",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Globex Ship Upstairs Rail"],
                         "item_count": 1
                     },
                     {
                         "name": "Taffy Shop",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Taffy Shop"],
                         "item_count": 1
                     },
                     {
                         "name": "Across From Taffy Shop",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Across From Taffy Shop"],
                         "item_count": 1
                     },
                     {
                         "name": "KrustyLu Studios Sign",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/KrustyLu Studios Sign"],
                         "item_count": 1
                     },
                     {
                         "name": "Behind KrustyLu Studios Sign",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Behind KrustyLu Studios Sign"],
                         "item_count": 1
                     },
                     {
                         "name": "News Studio",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/News Studio"],
                         "item_count": 1
                     },
                     {
                         "name": "Bridge Near Giant SPRINGFIELD Sign",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Bridge Near Giant SPRINGFIELD Sign"],
                         "item_count": 1
                     },
                     {
                         "name": "Motel Balcony",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Motel Balcony"],
                         "item_count": 1
                     },
                     {
                         "name": "Motel Awning",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Motel Awning"],
                         "item_count": 1
                     },
                     {
                         "name": "Observatory 1",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Observatory 1"],
                         "item_count": 1
                     },
                     {
                         "name": "Observatory 2",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Observatory 2"],
                         "item_count": 1
                     },
                     {
                         "name": "Kamp Krusty Weight Loss Center",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Kamp Krusty Weight Loss Center"],
                         "item_count": 1
                     },
                     {
                         "name": "Boars Head at Kamp Krusty",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Boars Head at Kamp Krusty"],
                         "item_count": 1
                     },
                     {
                         "name": "Dam",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Dam"],
                         "item_count": 1
                     },
                     {
                         "name": "Parking Spot Across From Androids Dungeon",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Parking Spot Across From Androids Dungeon"],
                         "item_count": 1
                     },
                     {
                         "name": "Above Road Near Drain Pipe",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Above Road Near Drain Pipe"],
                         "item_count": 1
                     },
                     {
                         "name": "Behind Truck",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Behind Truck"],
                         "item_count": 1
                     },
                     {
                         "name": "Duff Brewery Landing Pad",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Duff Brewery Landing Pad"],
                         "item_count": 1
                     },
                     {
                         "name": "Captain Chum N Stuff",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Captain Chum N Stuff"],
                         "item_count": 1
                     },
                     {
                         "name": "Upper Casino Entrance",
-                        "access_rules": [],
+                        "access_rules": ["level6"],
                         "visibility_rules": ["$locationEnabled|@(LVL 6)/CARD/Upper Casino Entrance"],
                         "item_count": 1
                     }
@@ -719,27 +1156,91 @@
                         "size": 20
                     }
                 ]
-            }
-        ],
-        "sections": [
+            },
+			{
+                "name": "Checkpoint Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
             {
                 "name": "Checkpoint Race",
                 "access_rules": ["bartcheckeredflag"],
                 "visibility_rules": [],
                 "item_count": 1
+            }
+		],
+							                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 2436,
+                        "y": 235,
+                        "size": 20
+                    }
+                ]
             },
+			            {
+                "name": "Time Trial Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
             {
                 "name": "Time Trial Race",
                 "access_rules": ["bartcheckeredflag"],
                 "visibility_rules": [],
                 "item_count": 1
+            }
+		],
+						                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1086,
+                        "y": 1826,
+                        "size": 20
+                    }
+                ]
             },
+			            {
+                "name": "Circuit Race",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
             {
                 "name": "Circuit Race",
                 "access_rules": ["bartcheckeredflag"],
                 "visibility_rules": [],
                 "item_count": 1
+            }
+		],
+						                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1744,
+                        "y": 1478,
+                        "size": 20
+                    }
+                ]
             },
+			            {
+                "name": "Shop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "progressivewalletupgrade:5"
+                ],
+                "sections": [
             {
                 "name": "Shop Check 1",
                 "access_rules": ["progressivewalletupgrade:5"],
@@ -775,7 +1276,26 @@
                 "access_rules": ["progressivewalletupgrade:5"],
                 "visibility_rules": [],
                 "item_count": 1
+            }
+		],
+						                "map_locations": [
+                    {
+                        "map": "level6",
+                        "x": 1202,
+                        "y": 1200,
+                        "size": 20
+                    }
+                ]
             },
+			            {
+                "name": "Bonus Mission",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
             {
                 "name": "Talk to Kearney",
                 "access_rules": ["level6"],
@@ -786,10 +1306,12 @@
         "map_locations": [
             {
                 "map": "level6",
-                "x": 100,
-                "y": 500,
+                "x": 1335,
+                "y": 820,
                 "size": 20
-            }
-        ]
-    }
+					}
+				]
+			}
+		]
+	}
 ]
