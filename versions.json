@@ -1,6 +1,14 @@
 {
     "versions": [
 		{
+			"package_version": "0.2.0",
+			"download_url": "https://github.com/Tommaygun/SHAR-Poptracker/releases/download/v0.2.0/SHAR-Poptracker-v0.2.0.zip"
+			"sha256": "4e6fdf09c7a0c3329218ee7024c38fe83120ca1365116a5f87c6329169a9442e",
+			"changelog": [
+				"Vehicles and logic"
+			]
+		},
+		{
 			"package_version": "0.1.1",
 			"download_url": "https://github.com/Tommaygun/SHAR-Poptracker/releases/download/v0.1.1/SHAR-Poptracker-v0.1.1.zip",
 			"sha256": "3d3d49ce5c5069f7d1cb5e5cf35bf8947a3533af79a997ad4157ae0171304dbe",
