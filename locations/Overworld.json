@@ -1599,8 +1599,8 @@
                         "ref": "(LVL 4)/GAG/Flanders Bomb Shelter"
                     },
                     {
-                        "name": "GAG - Tank Outside Power Plant",
-                        "ref": "(LVL 4)/GAG/Tank Outside Power Plant"
+                        "name": "GAG - Tank in Front of Power Plant",
+                        "ref": "(LVL 4)/GAG/Tank in Front of Power Plant"
                     },
                     {
                         "name": "GAG - Homers Workstation Meltdown",
@@ -3040,8 +3040,8 @@
                         "ref": "(LVL 7)/GAG/Blue House Haunted Swing"
                     },
                     {
-                        "name": "GAG - Tank in Power Plant Parking lot",
-                        "ref": "(LVL 7)/GAG/Tank in Power Plant Parking lot"
+                        "name": "GAG - Tank in Front of Power Plant",
+                        "ref": "(LVL 7)/GAG/Tank in Front of Power Plant"
                     },
                     {
                         "name": "GAG - Frozen Man in Kwik-E-Mart",
