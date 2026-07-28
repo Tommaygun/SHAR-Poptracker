@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            ""
+            "level2"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "level2"
+                    ""
                 ],
                 "sections": [
                     {
@@ -49,7 +49,7 @@
                     },
                     {
                         "name": "Monkey See Monkey Doh",
-                        "access_rules": ["mr.plow,bdj"],
+                        "access_rules": ["mr.plow,bsj","mr.plow,itchyandscratchymovietruck"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -76,71 +76,72 @@
                 ]
             },
             {
+                //bartfrink-o-maticwaspbumper
                 "name": "WASP",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack,bartfrink-o-maticwaspbumper"
+                    "bartattack","bartfrink-o-maticwaspbumper"
                 ],
                 "sections": [
                     {
                         "name": "CourtHouse Steps",
-                        "access_rules": [],
+                        "access_rules": ["$l2_courthouseSteps"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gazebo Between Museum and Courthouse",
-                        "access_rules": [],
+                        "access_rules": ["$l2_gazebo"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Museum Steps",
-                        "access_rules": [],
+                        "access_rules": ["$l2_museumSteps"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hospital Front Yard",
-                        "access_rules": [],
+                        "access_rules": ["$l2_hospitalFrontYard"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Roof Across Monkey Building",
-                        "access_rules": [],
+                        "access_rules": ["bsj,itchyandscratchymovietruck"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Town Hall (Front)",
-                        "access_rules": [],
+                        "access_rules": ["$l2_townHallFront"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Town Hall (Back)",
-                        "access_rules": [],
+                        "access_rules": ["$l2_townHallBack"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Behind Downtown Krusty Burger",
-                        "access_rules": [],
+                        "access_rules": ["$l2_downtownKrustyBurger"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monorail Stairs",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Upstair Beside Monorail",
-                        "access_rules": [],
+                        "access_rules": ["bsj","$mediumCars","$largeCars"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -152,7 +153,7 @@
                     },
                     {
                         "name": "Stairs Leading atop Trains",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -170,37 +171,37 @@
                     },
                     {
                         "name": "Inside Trainyard Parking Spot",
-                        "access_rules": [],
+                        "access_rules": ["$anyCarWasps"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Car Wash",
-                        "access_rules": [],
+                        "access_rules": ["$l2_carWash"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Legitimate Businessmans Rooftop 1",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bsj,$mediumCars","bsj,$largeCars","bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Legitimate Businessmans Rooftop 2",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bsj,$mediumCars","bsj,$largeCars","bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Roof Next to Moes",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lard Lads Roof",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bsj,$mediumCars","bsj,$largeCars","bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -261,7 +262,7 @@
                     },
                     {
                         "name": "Rats Milk Machine atop Legitimate Businessmans Roof",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },

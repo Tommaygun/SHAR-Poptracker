@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            ""
+            "level7"
         ],
         "children": [
             {
@@ -14,12 +14,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "level7"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Rigor Motors",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -43,7 +43,7 @@
                     },
                     {
                         "name": "Alien Autotopsy Part 1",
-                        "access_rules": [],
+                        "access_rules": ["hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -61,7 +61,7 @@
                     },
                     {
                         "name": "Bonus - Flaming Tires",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -76,29 +76,30 @@
                 ]
             },
             {
+                //homerfrink-o-maticwaspbumper
                 "name": "WASP",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "homerattack,homerfrink-o-maticwaspbumper"
+                    "homerattack","homerfrink-o-maticwaspbumper"
                 ],
                 "sections": [
                     {
                         "name": "Blue House Haunted Playground",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue House Backyard",
-                        "access_rules": [],
+                        "access_rules": ["$l7_blueHouseBackyard"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Simpsons Backyard",
-                        "access_rules": [],
+                        "access_rules": ["$mediumCars","$largeCars","hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -110,25 +111,25 @@
                     },
                     {
                         "name": "Wiggums Backyard",
-                        "access_rules": [],
+                        "access_rules": ["hsj","$mediumCars","$largeCars"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Atop of Kwik-E-Mart",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Atop of Gasoline",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lard Lad Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -140,7 +141,7 @@
                     },
                     {
                         "name": "School Playground",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -164,25 +165,25 @@
                     },
                     {
                         "name": "Bridge Barricade",
-                        "access_rules": [],
+                        "access_rules": ["$l7_bridgeBarricade"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bridge Frame by Cletus",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["hsj,$largeCars","hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "TrailerPark 1",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "TrailerPark 2",
-                        "access_rules": ["hdj"],
+                        "access_rules": ["hsj,$largeCars","hdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -194,7 +195,7 @@
                     },
                     {
                         "name": "Power Plant Parking lot",
-                        "access_rules": [],
+                        "access_rules": ["$l7_powerPlantParkingLot"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -243,13 +244,13 @@
                     },
                     {
                         "name": "Krusty Lamp (Barts Room)",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Bed (Barts Room)",
-                        "access_rules": [],
+                        "access_rules": ["hsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -266,8 +267,8 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Tank in Power Plant Parking lot",
-                        "access_rules": [],
+                        "name": "Tank in Front of Power Plant",
+                        "access_rules": ["hsj", "$mediumCars", "$largeCars"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -473,7 +474,7 @@
                     {
                         "name": "Deli Near School",
                         "access_rules": [],
-                        "visibility_rules": ["$locationEnabled|@(LVL 7)/CARD/Zombie Cafe Near School"],
+                        "visibility_rules": ["$locationEnabled|@(LVL 7)/CARD/Deli Near School"],
                         "item_count": 1
                     },
                     {

@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            ""
+            "level3"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "level3"
+                    ""
                 ],
                 "sections": [
                     {
@@ -55,7 +55,16 @@
                     },
                     {
                         "name": "The Old Pirate of the Sea",
-                        "access_rules": [],
+                        "access_rules": ["familysedan","electaurus","pickuptruck","plowking","dufftruck","surveillancevan",
+                    "honorroller","moessedan","wwiivehicle","mr.plow","limo","firetruck","malibustacycar","bookburningvan",
+                    "skinnerssedan","schoolbus","donuttruck","nerdcar","canyonero","clowncar","kremlin","tractor","krustyslimo",
+                    "curator","longhorn","elcarroloco","hovercar","carbuiltforhomer","policecar","colatruck","ferrini-red",
+                    "36stutzbearcat","bandit","globexsupervillaincar","chasesedan","70ssportscar","openwheelracecar","mr.burnslimo",
+                    "zombiecar","hoverbike","hearse","speedrocket","monorailcar","knightboat","atv","obliteratatronbigwheeltruck",
+                    "planethype50scar","minischoolbus","glasstruck","minivan","pizzavan","taxi","sedanb","fishvan","nuclearwastetruck",
+                    "ambulance","sportscarb","itchyandscratchymovietruck","sportscara","compactcar","suv","hallohearse",
+                    "coffincar","ghostship","sedana","stationwagon","icecreamtruck","cellphonecar","cubevan","milktruck",
+                    "nonupletsminivan","wwiivehiclew/rocket","ferrini-black"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -76,12 +85,13 @@
                 ]
             },
             {
+                //lisafrink-o-maticwaspbumper
                 "name": "WASP",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "lisaattack,lisafrink-o-maticwaspbumper"
+                    "lisaattack","lisafrink-o-maticwaspbumper"
                 ],
                 "sections": [
                     {
@@ -92,13 +102,13 @@
                     },
                     {
                         "name": "Broken Railing Below Dam",
-                        "access_rules": [],
+                        "access_rules": ["lsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Broken Railing Above Dam (Exit)",
-                        "access_rules": [],
+                        "access_rules": ["lsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -116,79 +126,79 @@
                     },
                     {
                         "name": "Exit of Kamp Krustys Well",
-                        "access_rules": [],
+                        "access_rules": ["$l3_wellExit"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Motel Complex",
-                        "access_rules": [],
+                        "access_rules": ["$l3_motelComplex"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Duff Brewery Behind Krusty Glass",
-                        "access_rules": [],
+                        "access_rules": ["$l3_duffBreweryKrustyGlass"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Duff Blimp 1",
-                        "access_rules": [],
+                        "access_rules": ["$l3_duffBlimp1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Duff Blimp 2",
-                        "access_rules": [],
+                        "access_rules": ["$l3_duffBlimp2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Krusty Studio Left",
-                        "access_rules": [],
+                        "access_rules": ["lsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Krusty Studio Right",
-                        "access_rules": [],
+                        "access_rules": ["lsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Front End",
-                        "access_rules": ["ldj"],
+                        "access_rules": ["$l3_globexShipFrontEnd"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Next to the Crane",
-                        "access_rules": ["ldj"],
+                        "access_rules": ["$l3_globexShipCrane"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Stairs",
-                        "access_rules": ["ldj"],
+                        "access_rules": ["$l3_globexShipStairs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "LightHouse",
-                        "access_rules": [],
+                        "access_rules": ["$l3_lighthouse"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Planet Hype",
-                        "access_rules": [],
+                        "access_rules": ["lsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Beach",
-                        "access_rules": [],
+                        "access_rules": ["$l3_beach"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -200,7 +210,7 @@
                     },
                     {
                         "name": "Comic Book Guy Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["lsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

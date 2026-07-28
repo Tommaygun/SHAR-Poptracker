@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            ""
+            "level5"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "level5"
+                    ""
                 ],
                 "sections": [
                     {
@@ -76,59 +76,60 @@
                 ]
             },
             {
+                //apufrink-o-maticwaspbumper
                 "name": "WASP",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "apuattack,apufrink-o-maticwaspbumper"
+                    "apuattack","apufrink-o-maticwaspbumper"
                 ],
                 "sections": [
                     {
                         "name": "Front of Hospital",
-                        "access_rules": [],
+                        "access_rules": ["$l5_hospitalFront"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gazebo Between Museum & Court House",
-                        "access_rules": [],
+                        "access_rules": ["$l5_gazebo"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Steps of Town Hall",
-                        "access_rules": [],
+                        "access_rules": ["$l5_stepsTownHall"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Museum Steps",
-                        "access_rules": [],
+                        "access_rules": ["$l5_museumSteps"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rooftop Next to Moes",
-                        "access_rules": ["adj"],
+                        "access_rules": ["asj,$mediumCars","asj,$largeCars","adj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Legitimate Businessmans Rooftop 1",
-                        "access_rules": ["adj"],
+                        "access_rules": ["asj,$mediumCars","asj,$largeCars","adj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Legitimate Businessmans Rooftop 2",
-                        "access_rules": ["adj"],
+                        "access_rules": ["asj,$mediumCars","asj,$largeCars","adj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Trainyard Stairs",
-                        "access_rules": [],
+                        "access_rules": ["asj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -140,25 +141,25 @@
                     },
                     {
                         "name": "Watertower 1",
-                        "access_rules": ["adj"],
+                        "access_rules": ["asj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Watertower 2",
-                        "access_rules": ["adj"],
+                        "access_rules": ["asj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Police Station Steps",
-                        "access_rules": [],
+                        "access_rules": ["$l5_policeStationSteps"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monorail Stairs",
-                        "access_rules": [],
+                        "access_rules": ["asj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -182,25 +183,25 @@
                     },
                     {
                         "name": "Under Giant Purple Beams 1",
-                        "access_rules": [],
+                        "access_rules": ["$l5_underGiantPurpleBeams1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Under Giant Purple Beams 2",
-                        "access_rules": [],
+                        "access_rules": ["$l5_underGiantPurpleBeams2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Alleyway Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["asj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fountain Near Stadium",
-                        "access_rules": ["adj"],
+                        "access_rules": ["asj,$largeCars","adj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

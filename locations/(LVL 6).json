@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            ""
+            "level6"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "level6"
+                    ""
                 ],
                 "sections": [
                     {
@@ -37,7 +37,7 @@
                     },
                     {
                         "name": "Duff for Me, Duff for You",
-                        "access_rules": [],
+                        "access_rules": ["bsj","itchyandscratchymovietruck"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -76,12 +76,13 @@
                 ]
             },
             {
+                //bartfrink-o-maticwaspbumper
                 "name": "WASP",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "bartattack,bartfrink-o-maticwaspbumper"
+                    "bartattack","bartfrink-o-maticwaspbumper"
                 ],
                 "sections": [
                     {
@@ -98,7 +99,7 @@
                     },
                     {
                         "name": "Kamp Krusty 1",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -110,97 +111,97 @@
                     },
                     {
                         "name": "Broken Railing Below Dam",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Broken Railing Exit",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Motel",
-                        "access_rules": [],
+                        "access_rules": ["$l6_motel"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Duff Brewery Krusty Glass",
-                        "access_rules": [],
+                        "access_rules": ["$l6_duffBreweryKrustyGlass"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Under Duff Blimp",
-                        "access_rules": [],
+                        "access_rules": ["$l6_underDuffBlimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Krusty Studio Left",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Krusty Studio Right",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Krusty Studio Balcony",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bsj,$largeCars","bdj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Crane",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["$l6_globexShipCrane"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Staircase 1",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["$l6_globexShipStairs1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globex Ship Staircase 2",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["$l6_globexShipStairs2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lighthouse",
-                        "access_rules": [],
+                        "access_rules": ["$l6_lighthouse"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Planet Hype Rooftop",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bowling Rooftop",
-                        "access_rules": ["bdj"],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Comic Book Guy Rooftop 1",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Comic Book Guy Rooftop 2",
-                        "access_rules": [],
+                        "access_rules": ["bsj"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
